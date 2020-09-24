@@ -1,11 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using FastFoodRestaurant.Views;
+using System;
 using System.Windows.Forms;
 
 namespace FastFoodRestaurant
@@ -44,14 +38,14 @@ namespace FastFoodRestaurant
 
         private void button6_Click(object sender, EventArgs e)
         {
-            MainView close = new MainView();
-
-            close.Close();
+           
         }
 
         private void HomeButton_Click(object sender, EventArgs e)
         {
-            HomeButton.Enabled = true;
+            
         }
+
+ 
     }
 }

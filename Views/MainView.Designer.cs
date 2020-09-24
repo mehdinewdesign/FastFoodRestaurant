@@ -50,6 +50,7 @@
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.homePromoControl1 = new FastFoodRestaurant.Views.HomePromoControl();
             this.MainPanel.SuspendLayout();
             this.MainLogoPainel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.MainLogo)).BeginInit();
@@ -345,11 +346,19 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Configurations";
             // 
+            // homePromoControl1
+            // 
+            this.homePromoControl1.Location = new System.Drawing.Point(177, 158);
+            this.homePromoControl1.Name = "homePromoControl1";
+            this.homePromoControl1.Size = new System.Drawing.Size(890, 433);
+            this.homePromoControl1.TabIndex = 5;
+            // 
             // MainView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 591);
+            this.Controls.Add(this.homePromoControl1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.MainLogoPainel);
             this.Controls.Add(this.TopPanel);
@@ -393,6 +402,7 @@
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.GroupBox groupBox1;
+        private Views.HomePromoControl homePromoControl1;
     }
 }
 

@@ -1,6 +1,6 @@
 ﻿namespace FastFoodRestaurant.Views
 {
-    partial class HomePromoControl
+    public  partial class HomePromoControl
     {
         /// <summary> 
         /// Required designer variable.
