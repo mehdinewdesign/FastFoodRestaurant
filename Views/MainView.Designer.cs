@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainView));
             this.MainPanel = new System.Windows.Forms.Panel();
+            this.CustomersButton = new System.Windows.Forms.Button();
             this.DriverPayButton = new System.Windows.Forms.Button();
             this.TakeButton = new System.Windows.Forms.Button();
             this.DeliveryButton = new System.Windows.Forms.Button();
@@ -41,7 +42,13 @@
             this.SubtitleMainView = new System.Windows.Forms.Label();
             this.MainTitle = new System.Windows.Forms.Label();
             this.MainLogo = new System.Windows.Forms.PictureBox();
-            this.CustomersButton = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
             this.MainPanel.SuspendLayout();
             this.MainLogoPainel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.MainLogo)).BeginInit();
@@ -50,9 +57,13 @@
             // MainPanel
             // 
             this.MainPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
+            this.MainPanel.Controls.Add(this.button2);
+            this.MainPanel.Controls.Add(this.panel1);
             this.MainPanel.Controls.Add(this.CustomersButton);
             this.MainPanel.Controls.Add(this.DriverPayButton);
+            this.MainPanel.Controls.Add(this.button3);
             this.MainPanel.Controls.Add(this.TakeButton);
+            this.MainPanel.Controls.Add(this.button1);
             this.MainPanel.Controls.Add(this.DeliveryButton);
             this.MainPanel.Controls.Add(this.CollectionButton);
             this.MainPanel.Controls.Add(this.EatButton);
@@ -64,6 +75,21 @@
             this.MainPanel.TabIndex = 0;
             this.MainPanel.TabStop = true;
             this.MainPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.MainPanel_Paint);
+            // 
+            // CustomersButton
+            // 
+            this.CustomersButton.FlatAppearance.BorderSize = 0;
+            this.CustomersButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.CustomersButton.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.CustomersButton.ForeColor = System.Drawing.Color.White;
+            this.CustomersButton.Image = ((System.Drawing.Image)(resources.GetObject("CustomersButton.Image")));
+            this.CustomersButton.Location = new System.Drawing.Point(12, 423);
+            this.CustomersButton.Name = "CustomersButton";
+            this.CustomersButton.Size = new System.Drawing.Size(165, 54);
+            this.CustomersButton.TabIndex = 3;
+            this.CustomersButton.Text = "      Customers";
+            this.CustomersButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.CustomersButton.UseVisualStyleBackColor = true;
             // 
             // DriverPayButton
             // 
@@ -210,26 +236,109 @@
             this.MainLogo.TabStop = false;
             this.MainLogo.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // CustomersButton
+            // panel1
             // 
-            this.CustomersButton.FlatAppearance.BorderSize = 0;
-            this.CustomersButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.CustomersButton.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.CustomersButton.ForeColor = System.Drawing.Color.White;
-            this.CustomersButton.Image = ((System.Drawing.Image)(resources.GetObject("CustomersButton.Image")));
-            this.CustomersButton.Location = new System.Drawing.Point(12, 423);
-            this.CustomersButton.Name = "CustomersButton";
-            this.CustomersButton.Size = new System.Drawing.Size(165, 54);
-            this.CustomersButton.TabIndex = 3;
-            this.CustomersButton.Text = "      Customers";
-            this.CustomersButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.CustomersButton.UseVisualStyleBackColor = true;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(41)))), ((int)(((byte)(28)))));
+            this.panel1.Location = new System.Drawing.Point(0, 62);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(10, 57);
+            this.panel1.TabIndex = 3;
+            // 
+            // button1
+            // 
+            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(31, 547);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(33, 32);
+            this.button1.TabIndex = 3;
+            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(70, 547);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(33, 32);
+            this.button2.TabIndex = 3;
+            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.Location = new System.Drawing.Point(109, 547);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(33, 32);
+            this.button3.TabIndex = 3;
+            this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.Red;
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button4.ForeColor = System.Drawing.Color.White;
+            this.button4.Location = new System.Drawing.Point(937, 16);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(33, 32);
+            this.button4.TabIndex = 3;
+            this.button4.Text = "      Customers";
+            this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button4.UseVisualStyleBackColor = false;
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.Red;
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button5.ForeColor = System.Drawing.Color.White;
+            this.button5.Location = new System.Drawing.Point(976, 16);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(33, 32);
+            this.button5.TabIndex = 3;
+            this.button5.Text = "      Customers";
+            this.button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button5.UseVisualStyleBackColor = false;
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.Red;
+            this.button6.FlatAppearance.BorderSize = 0;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button6.ForeColor = System.Drawing.Color.White;
+            this.button6.Location = new System.Drawing.Point(1015, 16);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(33, 32);
+            this.button6.TabIndex = 3;
+            this.button6.Text = "      Customers";
+            this.button6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button6.UseVisualStyleBackColor = false;
             // 
             // MainView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 591);
+            this.Controls.Add(this.button6);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.MainLogoPainel);
             this.Controls.Add(this.TopPanel);
             this.Controls.Add(this.MainPanel);
@@ -263,6 +372,13 @@
         private System.Windows.Forms.Button CollectionButton;
         private System.Windows.Forms.Button EatButton;
         private System.Windows.Forms.Button CustomersButton;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
     }
 }
 
