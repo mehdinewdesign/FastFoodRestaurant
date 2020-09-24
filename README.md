@@ -1,6 +1,6 @@
 # Fast Food Restaurant Management
 
-A flat managment software for fast food restaurant build using .NET Core and C# with Windows Forms.
+A flat management software for fast food restaurant build using .NET Core and C# with Windows Forms.
 
 # Technical and structural design #
 
