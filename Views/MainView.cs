@@ -48,5 +48,10 @@ namespace FastFoodRestaurant
 
             close.Close();
         }
+
+        private void HomeButton_Click(object sender, EventArgs e)
+        {
+            HomeButton.Enabled = true;
+        }
     }
 }
