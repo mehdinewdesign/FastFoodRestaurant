@@ -41,5 +41,12 @@ namespace FastFoodRestaurant
         {
 
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            MainView close = new MainView();
+
+            close.Close();
+        }
     }
 }
