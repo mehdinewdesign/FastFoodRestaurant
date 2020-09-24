@@ -34,6 +34,7 @@
             // 
             // MainPanel
             // 
+            this.MainPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
             this.MainPanel.Dock = System.Windows.Forms.DockStyle.Left;
             this.MainPanel.Location = new System.Drawing.Point(0, 0);
             this.MainPanel.Name = "MainPanel";
@@ -43,6 +44,7 @@
             // 
             // TopPanel
             // 
+            this.TopPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
             this.TopPanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.TopPanel.Location = new System.Drawing.Point(200, 0);
             this.TopPanel.Name = "TopPanel";
