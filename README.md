@@ -28,9 +28,7 @@ This project is written using MVC pattern for separations of concerns bacause yo
 
 - This project source code that which included all the parts written in C# by the author of this Github account is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-- **[MIT license - OpenSource dot org](http://opensource.org/licenses/mit-license.php)**
-
-[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+- **[MIT license - OpenSource dot org](http://opensource.org/licenses/mit-license.php)**  -  [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
 - <strong>Proprietary Library and Frameworks:</strong> Some frameworks and librarys may be protected by proprietary licenses, please check "Proprietary Code and Trademarks" before use.
 - <strong>Copyright Trademarks:</strong> Some logos and images may be protected by copyright,  please check "Proprietary Code and Trademarks" before use.
