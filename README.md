@@ -4,6 +4,11 @@ A flat software for fast food restaurant build using .NET Core and C# with Windo
 
 <strong>Observation:</strong> This software is under development.
 
+Download a UI Prototype:
+
+[Direct Download](https://github.com/viniciusmorgado/FastFoodRestaurant/raw/master/_Build/Setup_FastFoodRestaurant.exe) <br>
+[Google Drive](https://drive.google.com/file/d/1XgqtS1Pa0k4zcuhSXIZaGA6tZ1xMfWPk/view?usp=sharing)
+
 ## Screenshots
 
 ![alt text](https://i.imgur.com/1YbWVNu.png)
