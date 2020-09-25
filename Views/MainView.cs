@@ -1,4 +1,5 @@
 ﻿using FastFoodRestaurant.Views;
+using FastFoodRestaurant.Views.UserControls;
 using System;
 using System.Windows.Forms;
 
@@ -9,6 +10,10 @@ namespace FastFoodRestaurant
         public MainView()
         {
             InitializeComponent();
+            SidePanel.Height = HomeButton.Height;
+            SidePanel.Top = HomeButton.Top;
+            HomePromoControl promo = new HomePromoControl();
+            promo.BringToFront();
         }
 
         private void MainView_Load(object sender, EventArgs e)
@@ -43,9 +48,45 @@ namespace FastFoodRestaurant
 
         private void HomeButton_Click(object sender, EventArgs e)
         {
+           
+            SidePanel.Height = HomeButton.Height;
+            SidePanel.Top = HomeButton.Top;
+            HomePromoControl promo = new HomePromoControl();
+            promo.BringToFront();
             
         }
 
- 
+        private void EatButton_Click(object sender, EventArgs e)
+        {
+            SidePanel.Height = EatButton.Height;
+            SidePanel.Top = EatButton.Top;
+            EatControl eat = new EatControl();
+            eat.BringToFront();
+        }
+
+        private void CollectionButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void DeliveryButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TakeButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void DriverPayButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CustomersButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

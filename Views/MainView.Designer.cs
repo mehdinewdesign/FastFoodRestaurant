@@ -116,6 +116,7 @@
             this.CustomersButton.Text = "      Customers";
             this.CustomersButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.CustomersButton.UseVisualStyleBackColor = true;
+            this.CustomersButton.Click += new System.EventHandler(this.CustomersButton_Click);
             // 
             // DriverPayButton
             // 
@@ -131,6 +132,7 @@
             this.DriverPayButton.Text = "      Driver Pay";
             this.DriverPayButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.DriverPayButton.UseVisualStyleBackColor = true;
+            this.DriverPayButton.Click += new System.EventHandler(this.DriverPayButton_Click);
             // 
             // button3
             // 
@@ -160,6 +162,7 @@
             this.TakeButton.Text = "      Take Away";
             this.TakeButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.TakeButton.UseVisualStyleBackColor = true;
+            this.TakeButton.Click += new System.EventHandler(this.TakeButton_Click);
             // 
             // button1
             // 
@@ -189,6 +192,7 @@
             this.DeliveryButton.Text = "      Delivery";
             this.DeliveryButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.DeliveryButton.UseVisualStyleBackColor = true;
+            this.DeliveryButton.Click += new System.EventHandler(this.DeliveryButton_Click);
             // 
             // CollectionButton
             // 
@@ -204,6 +208,7 @@
             this.CollectionButton.Text = "      Collection";
             this.CollectionButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.CollectionButton.UseVisualStyleBackColor = true;
+            this.CollectionButton.Click += new System.EventHandler(this.CollectionButton_Click);
             // 
             // EatButton
             // 
@@ -219,9 +224,11 @@
             this.EatButton.Text = "      Eat-in";
             this.EatButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.EatButton.UseVisualStyleBackColor = true;
+            this.EatButton.Click += new System.EventHandler(this.EatButton_Click);
             // 
             // HomeButton
             // 
+            this.HomeButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.HomeButton.FlatAppearance.BorderSize = 0;
             this.HomeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.HomeButton.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -233,7 +240,9 @@
             this.HomeButton.TabIndex = 3;
             this.HomeButton.Text = "      Home";
             this.HomeButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.HomeButton.UseCompatibleTextRendering = true;
             this.HomeButton.UseVisualStyleBackColor = true;
+            this.HomeButton.UseWaitCursor = true;
             this.HomeButton.Click += new System.EventHandler(this.HomeButton_Click);
             // 
             // TopPanel
