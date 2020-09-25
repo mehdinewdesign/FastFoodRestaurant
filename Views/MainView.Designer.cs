@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainView));
             this.MainPanel = new System.Windows.Forms.Panel();
             this.button2 = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.SidePanel = new System.Windows.Forms.Panel();
             this.CustomersButton = new System.Windows.Forms.Button();
             this.DriverPayButton = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -51,6 +51,7 @@
             this.button6 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.homePromoControl1 = new FastFoodRestaurant.Views.HomePromoControl();
+            this.eatControl1 = new FastFoodRestaurant.Views.UserControls.EatControl();
             this.MainPanel.SuspendLayout();
             this.MainLogoPainel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.MainLogo)).BeginInit();
@@ -61,7 +62,7 @@
             // 
             this.MainPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
             this.MainPanel.Controls.Add(this.button2);
-            this.MainPanel.Controls.Add(this.panel1);
+            this.MainPanel.Controls.Add(this.SidePanel);
             this.MainPanel.Controls.Add(this.CustomersButton);
             this.MainPanel.Controls.Add(this.DriverPayButton);
             this.MainPanel.Controls.Add(this.button3);
@@ -93,13 +94,13 @@
             this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button2.UseVisualStyleBackColor = false;
             // 
-            // panel1
+            // SidePanel
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(41)))), ((int)(((byte)(28)))));
-            this.panel1.Location = new System.Drawing.Point(0, 62);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(10, 57);
-            this.panel1.TabIndex = 3;
+            this.SidePanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(41)))), ((int)(((byte)(28)))));
+            this.SidePanel.Location = new System.Drawing.Point(0, 62);
+            this.SidePanel.Name = "SidePanel";
+            this.SidePanel.Size = new System.Drawing.Size(10, 57);
+            this.SidePanel.TabIndex = 3;
             // 
             // CustomersButton
             // 
@@ -353,11 +354,19 @@
             this.homePromoControl1.Size = new System.Drawing.Size(890, 433);
             this.homePromoControl1.TabIndex = 5;
             // 
+            // eatControl1
+            // 
+            this.eatControl1.Location = new System.Drawing.Point(177, 158);
+            this.eatControl1.Name = "eatControl1";
+            this.eatControl1.Size = new System.Drawing.Size(890, 433);
+            this.eatControl1.TabIndex = 6;
+            // 
             // MainView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 591);
+            this.Controls.Add(this.eatControl1);
             this.Controls.Add(this.homePromoControl1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.MainLogoPainel);
@@ -396,7 +405,7 @@
         private System.Windows.Forms.Button EatButton;
         private System.Windows.Forms.Button CustomersButton;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel SidePanel;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button4;
@@ -404,6 +413,7 @@
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.GroupBox groupBox1;
         private Views.HomePromoControl homePromoControl1;
+        private Views.UserControls.EatControl eatControl1;
     }
 }
 
