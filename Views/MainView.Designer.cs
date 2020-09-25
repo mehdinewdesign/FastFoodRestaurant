@@ -49,9 +49,9 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.CloseButton = new System.Windows.Forms.Button();
             this.homePromoControl1 = new FastFoodRestaurant.Views.HomePromoControl();
             this.eatControl1 = new FastFoodRestaurant.Views.UserControls.EatControl();
-            this.CloseButton = new System.Windows.Forms.Button();
             this.MainPanel.SuspendLayout();
             this.MainLogoPainel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.MainLogo)).BeginInit();
@@ -242,7 +242,6 @@
             this.HomeButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.HomeButton.UseCompatibleTextRendering = true;
             this.HomeButton.UseVisualStyleBackColor = true;
-            this.HomeButton.UseWaitCursor = true;
             this.HomeButton.Click += new System.EventHandler(this.HomeButton_Click);
             // 
             // TopPanel
@@ -343,6 +342,18 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Configurations";
             // 
+            // CloseButton
+            // 
+            this.CloseButton.FlatAppearance.BorderSize = 0;
+            this.CloseButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.CloseButton.Image = ((System.Drawing.Image)(resources.GetObject("CloseButton.Image")));
+            this.CloseButton.Location = new System.Drawing.Point(162, 43);
+            this.CloseButton.Name = "CloseButton";
+            this.CloseButton.Size = new System.Drawing.Size(40, 42);
+            this.CloseButton.TabIndex = 7;
+            this.CloseButton.UseVisualStyleBackColor = true;
+            this.CloseButton.Click += new System.EventHandler(this.CloseButton_Click);
+            // 
             // homePromoControl1
             // 
             this.homePromoControl1.Location = new System.Drawing.Point(177, 158);
@@ -356,18 +367,6 @@
             this.eatControl1.Name = "eatControl1";
             this.eatControl1.Size = new System.Drawing.Size(890, 433);
             this.eatControl1.TabIndex = 6;
-            // 
-            // CloseButton
-            // 
-            this.CloseButton.FlatAppearance.BorderSize = 0;
-            this.CloseButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.CloseButton.Image = ((System.Drawing.Image)(resources.GetObject("CloseButton.Image")));
-            this.CloseButton.Location = new System.Drawing.Point(162, 43);
-            this.CloseButton.Name = "CloseButton";
-            this.CloseButton.Size = new System.Drawing.Size(40, 42);
-            this.CloseButton.TabIndex = 7;
-            this.CloseButton.UseVisualStyleBackColor = true;
-            this.CloseButton.Click += new System.EventHandler(this.CloseButton_Click);
             // 
             // MainView
             // 
