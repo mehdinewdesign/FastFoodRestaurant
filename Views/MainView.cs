@@ -18,7 +18,7 @@ namespace FastFoodRestaurant
 
         private void MainView_Load(object sender, EventArgs e)
         {
-
+           
         }
 
         private void MainPanel_Paint(object sender, PaintEventArgs e)
@@ -41,19 +41,17 @@ namespace FastFoodRestaurant
 
         }
 
-        private void button6_Click(object sender, EventArgs e)
+        private void Button6_Click(object sender, EventArgs e)
         {
            
         }
 
         private void HomeButton_Click(object sender, EventArgs e)
         {
-           
             SidePanel.Height = HomeButton.Height;
             SidePanel.Top = HomeButton.Top;
             HomePromoControl promo = new HomePromoControl();
             promo.BringToFront();
-            
         }
 
         private void EatButton_Click(object sender, EventArgs e)
@@ -87,6 +85,23 @@ namespace FastFoodRestaurant
         private void CustomersButton_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CloseButton_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(0);
+            // var closeOption = new MainView();
+            // closeOption.Close();
         }
     }
 }
