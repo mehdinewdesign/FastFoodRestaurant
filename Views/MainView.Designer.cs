@@ -50,8 +50,8 @@
             this.button5 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.CloseButton = new System.Windows.Forms.Button();
-            this.homePromoControl1 = new FastFoodRestaurant.Views.HomePromoControl();
-            this.eatControl1 = new FastFoodRestaurant.Views.UserControls.EatControl();
+            this.PromoControl = new FastFoodRestaurant.Views.HomePromoControl();
+            this.EatControl = new FastFoodRestaurant.Views.UserControls.EatControl();
             this.MainPanel.SuspendLayout();
             this.MainLogoPainel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.MainLogo)).BeginInit();
@@ -85,7 +85,7 @@
             this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Location = new System.Drawing.Point(70, 547);
             this.button2.Name = "button2";
@@ -106,7 +106,7 @@
             // 
             this.CustomersButton.FlatAppearance.BorderSize = 0;
             this.CustomersButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.CustomersButton.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.CustomersButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.CustomersButton.ForeColor = System.Drawing.Color.White;
             this.CustomersButton.Image = ((System.Drawing.Image)(resources.GetObject("CustomersButton.Image")));
             this.CustomersButton.Location = new System.Drawing.Point(12, 423);
@@ -122,7 +122,7 @@
             // 
             this.DriverPayButton.FlatAppearance.BorderSize = 0;
             this.DriverPayButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.DriverPayButton.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.DriverPayButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.DriverPayButton.ForeColor = System.Drawing.Color.White;
             this.DriverPayButton.Image = ((System.Drawing.Image)(resources.GetObject("DriverPayButton.Image")));
             this.DriverPayButton.Location = new System.Drawing.Point(12, 363);
@@ -139,7 +139,7 @@
             this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Location = new System.Drawing.Point(109, 547);
             this.button3.Name = "button3";
@@ -152,7 +152,7 @@
             // 
             this.TakeButton.FlatAppearance.BorderSize = 0;
             this.TakeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.TakeButton.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.TakeButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.TakeButton.ForeColor = System.Drawing.Color.White;
             this.TakeButton.Image = ((System.Drawing.Image)(resources.GetObject("TakeButton.Image")));
             this.TakeButton.Location = new System.Drawing.Point(12, 303);
@@ -169,7 +169,7 @@
             this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(31, 547);
             this.button1.Name = "button1";
@@ -182,7 +182,7 @@
             // 
             this.DeliveryButton.FlatAppearance.BorderSize = 0;
             this.DeliveryButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.DeliveryButton.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.DeliveryButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.DeliveryButton.ForeColor = System.Drawing.Color.White;
             this.DeliveryButton.Image = ((System.Drawing.Image)(resources.GetObject("DeliveryButton.Image")));
             this.DeliveryButton.Location = new System.Drawing.Point(12, 243);
@@ -198,7 +198,7 @@
             // 
             this.CollectionButton.FlatAppearance.BorderSize = 0;
             this.CollectionButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.CollectionButton.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.CollectionButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.CollectionButton.ForeColor = System.Drawing.Color.White;
             this.CollectionButton.Image = ((System.Drawing.Image)(resources.GetObject("CollectionButton.Image")));
             this.CollectionButton.Location = new System.Drawing.Point(12, 183);
@@ -214,7 +214,7 @@
             // 
             this.EatButton.FlatAppearance.BorderSize = 0;
             this.EatButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.EatButton.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.EatButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.EatButton.ForeColor = System.Drawing.Color.White;
             this.EatButton.Image = ((System.Drawing.Image)(resources.GetObject("EatButton.Image")));
             this.EatButton.Location = new System.Drawing.Point(12, 123);
@@ -231,7 +231,7 @@
             this.HomeButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.HomeButton.FlatAppearance.BorderSize = 0;
             this.HomeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.HomeButton.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.HomeButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.HomeButton.ForeColor = System.Drawing.Color.White;
             this.HomeButton.Image = ((System.Drawing.Image)(resources.GetObject("HomeButton.Image")));
             this.HomeButton.Location = new System.Drawing.Point(12, 63);
@@ -268,22 +268,22 @@
             // SubtitleMainView
             // 
             this.SubtitleMainView.AutoSize = true;
-            this.SubtitleMainView.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.SubtitleMainView.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.SubtitleMainView.ForeColor = System.Drawing.Color.White;
             this.SubtitleMainView.Location = new System.Drawing.Point(14, 117);
             this.SubtitleMainView.Name = "SubtitleMainView";
-            this.SubtitleMainView.Size = new System.Drawing.Size(82, 17);
+            this.SubtitleMainView.Size = new System.Drawing.Size(79, 16);
             this.SubtitleMainView.TabIndex = 3;
             this.SubtitleMainView.Text = "Restaurants";
             // 
             // MainTitle
             // 
             this.MainTitle.AutoSize = true;
-            this.MainTitle.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.MainTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.MainTitle.ForeColor = System.Drawing.Color.White;
             this.MainTitle.Location = new System.Drawing.Point(13, 98);
             this.MainTitle.Name = "MainTitle";
-            this.MainTitle.Size = new System.Drawing.Size(83, 19);
+            this.MainTitle.Size = new System.Drawing.Size(95, 20);
             this.MainTitle.TabIndex = 3;
             this.MainTitle.Text = "Fast foods";
             this.MainTitle.Click += new System.EventHandler(this.label1_Click);
@@ -303,7 +303,7 @@
             // 
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button4.ForeColor = System.Drawing.Color.White;
             this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
             this.button4.Location = new System.Drawing.Point(37, 43);
@@ -318,7 +318,7 @@
             // 
             this.button5.FlatAppearance.BorderSize = 0;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button5.ForeColor = System.Drawing.Color.White;
             this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
             this.button5.Location = new System.Drawing.Point(100, 43);
@@ -334,7 +334,7 @@
             this.groupBox1.Controls.Add(this.CloseButton);
             this.groupBox1.Controls.Add(this.button4);
             this.groupBox1.Controls.Add(this.button5);
-            this.groupBox1.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.groupBox1.Location = new System.Drawing.Point(818, 20);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(237, 114);
@@ -354,31 +354,31 @@
             this.CloseButton.UseVisualStyleBackColor = true;
             this.CloseButton.Click += new System.EventHandler(this.CloseButton_Click);
             // 
-            // homePromoControl1
+            // PromoControl
             // 
-            this.homePromoControl1.Location = new System.Drawing.Point(177, 158);
-            this.homePromoControl1.Name = "homePromoControl1";
-            this.homePromoControl1.Size = new System.Drawing.Size(890, 433);
-            this.homePromoControl1.TabIndex = 5;
+            this.PromoControl.Location = new System.Drawing.Point(177, 158);
+            this.PromoControl.Name = "PromoControl";
+            this.PromoControl.Size = new System.Drawing.Size(890, 433);
+            this.PromoControl.TabIndex = 5;
             // 
-            // eatControl1
+            // EatControl
             // 
-            this.eatControl1.Location = new System.Drawing.Point(177, 158);
-            this.eatControl1.Name = "eatControl1";
-            this.eatControl1.Size = new System.Drawing.Size(890, 433);
-            this.eatControl1.TabIndex = 6;
+            this.EatControl.Location = new System.Drawing.Point(177, 158);
+            this.EatControl.Name = "EatControl";
+            this.EatControl.Size = new System.Drawing.Size(890, 433);
+            this.EatControl.TabIndex = 6;
             // 
             // MainView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 591);
-            this.Controls.Add(this.eatControl1);
-            this.Controls.Add(this.homePromoControl1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.MainLogoPainel);
             this.Controls.Add(this.TopPanel);
             this.Controls.Add(this.MainPanel);
+            this.Controls.Add(this.PromoControl);
+            this.Controls.Add(this.EatControl);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.ImeMode = System.Windows.Forms.ImeMode.On;
@@ -417,8 +417,8 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.GroupBox groupBox1;
-        private Views.HomePromoControl homePromoControl1;
-        private Views.UserControls.EatControl eatControl1;
+        private Views.HomePromoControl PromoControl;
+        private Views.UserControls.EatControl EatControl;
         private System.Windows.Forms.Button CloseButton;
     }
 }

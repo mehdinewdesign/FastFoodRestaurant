@@ -50,14 +50,16 @@ namespace FastFoodRestaurant
         {
             // Control the swap of red side panel between buttons on click.
             mainController.SidePanelSwapOnClick(HomeButton, SidePanel);
-
-            var home = new HomePromoControl();
-            home.GetBringToFront();
+            // Bring to the front user control.
+            PromoControl.BringToFront();
+           
         }
 
         private void EatButton_Click(object sender, EventArgs e)
         {
             mainController.SidePanelSwapOnClick(EatButton, SidePanel);
+
+            EatControl.BringToFront();
         }
 
         private void CollectionButton_Click(object sender, EventArgs e)
