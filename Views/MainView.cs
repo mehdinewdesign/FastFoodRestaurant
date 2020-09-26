@@ -8,7 +8,7 @@ namespace FastFoodRestaurant
 {
     public partial class MainView : Form
     {
-        // Initialize Controller.
+        // Initialize Controllers.
         MainViewController mainController = new MainViewController();
 
         public MainView()
@@ -48,10 +48,11 @@ namespace FastFoodRestaurant
 
         private void HomeButton_Click(object sender, EventArgs e)
         {
-            // A altura do SidePanel é equivalente à altura do HomeButton.
-            SidePanel.Height = HomeButton.Height;
-            SidePanel.Top = HomeButton.Top;
-            SidePanel.BringToFront();
+            // Control the swap of red side panel between buttons on click.
+            mainController.SidePanelSwapOnClick(HomeButton, SidePanel);
+
+            var home = new HomePromoControl();
+            home.GetBringToFront();
         }
 
         private void EatButton_Click(object sender, EventArgs e)

@@ -13,5 +13,11 @@ namespace FastFoodRestaurant.Controllers
             panelValue.Top = buttonValue.Top;
             panelValue.BringToFront();
         }
+
+        // Break this in two classes for respect single responsability principle???
+        //protected internal void SwapBetweenPagesUsersControl()
+        //{
+
+        //}
     }
 }

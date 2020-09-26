@@ -13,7 +13,17 @@ namespace FastFoodRestaurant.Views
         public HomePromoControl()
         {
             InitializeComponent();
+            
         }
+
+        //protected internal void GetBringToFront(UserControl value)
+        //{
+        //    if(MainView.Contains(value))
+        //    {
+        //        Control control = new Control();
+        //        control.BringToFront();
+        //    }
+        //}
 
         private void label4_Click(object sender, EventArgs e)
         {
@@ -22,7 +32,7 @@ namespace FastFoodRestaurant.Views
 
         private void HomePromoControl_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
