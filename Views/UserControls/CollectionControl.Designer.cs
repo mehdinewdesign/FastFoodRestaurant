@@ -34,21 +34,28 @@
             this.CakeButton = new System.Windows.Forms.Button();
             this.PizzaButton = new System.Windows.Forms.Button();
             this.PizzaCollectionLabel = new System.Windows.Forms.Label();
+            this.CakeCollectionLabel = new System.Windows.Forms.Label();
+            this.PastaCollectionLabel = new System.Windows.Forms.Label();
+            this.BurgerLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // HamburguerButton
             // 
+            this.HamburguerButton.FlatAppearance.BorderSize = 0;
             this.HamburguerButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.HamburguerButton.Location = new System.Drawing.Point(260, 168);
+            this.HamburguerButton.Image = ((System.Drawing.Image)(resources.GetObject("HamburguerButton.Image")));
+            this.HamburguerButton.Location = new System.Drawing.Point(259, 138);
             this.HamburguerButton.Name = "HamburguerButton";
-            this.HamburguerButton.Size = new System.Drawing.Size(72, 72);
+            this.HamburguerButton.Size = new System.Drawing.Size(75, 72);
             this.HamburguerButton.TabIndex = 0;
             this.HamburguerButton.UseVisualStyleBackColor = true;
             // 
             // PastaButton
             // 
+            this.PastaButton.FlatAppearance.BorderSize = 0;
             this.PastaButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.PastaButton.Location = new System.Drawing.Point(363, 168);
+            this.PastaButton.Image = ((System.Drawing.Image)(resources.GetObject("PastaButton.Image")));
+            this.PastaButton.Location = new System.Drawing.Point(362, 138);
             this.PastaButton.Name = "PastaButton";
             this.PastaButton.Size = new System.Drawing.Size(75, 72);
             this.PastaButton.TabIndex = 1;
@@ -56,8 +63,10 @@
             // 
             // CakeButton
             // 
+            this.CakeButton.FlatAppearance.BorderSize = 0;
             this.CakeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.CakeButton.Location = new System.Drawing.Point(474, 168);
+            this.CakeButton.Image = ((System.Drawing.Image)(resources.GetObject("CakeButton.Image")));
+            this.CakeButton.Location = new System.Drawing.Point(460, 138);
             this.CakeButton.Name = "CakeButton";
             this.CakeButton.Size = new System.Drawing.Size(75, 72);
             this.CakeButton.TabIndex = 2;
@@ -68,7 +77,7 @@
             this.PizzaButton.FlatAppearance.BorderSize = 0;
             this.PizzaButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.PizzaButton.Image = ((System.Drawing.Image)(resources.GetObject("PizzaButton.Image")));
-            this.PizzaButton.Location = new System.Drawing.Point(575, 168);
+            this.PizzaButton.Location = new System.Drawing.Point(558, 138);
             this.PizzaButton.Name = "PizzaButton";
             this.PizzaButton.Size = new System.Drawing.Size(75, 72);
             this.PizzaButton.TabIndex = 3;
@@ -78,16 +87,46 @@
             // PizzaCollectionLabel
             // 
             this.PizzaCollectionLabel.AutoSize = true;
-            this.PizzaCollectionLabel.Location = new System.Drawing.Point(593, 243);
+            this.PizzaCollectionLabel.Location = new System.Drawing.Point(576, 213);
             this.PizzaCollectionLabel.Name = "PizzaCollectionLabel";
             this.PizzaCollectionLabel.Size = new System.Drawing.Size(38, 15);
             this.PizzaCollectionLabel.TabIndex = 4;
             this.PizzaCollectionLabel.Text = "Pizzas";
             // 
+            // CakeCollectionLabel
+            // 
+            this.CakeCollectionLabel.AutoSize = true;
+            this.CakeCollectionLabel.Location = new System.Drawing.Point(478, 213);
+            this.CakeCollectionLabel.Name = "CakeCollectionLabel";
+            this.CakeCollectionLabel.Size = new System.Drawing.Size(38, 15);
+            this.CakeCollectionLabel.TabIndex = 5;
+            this.CakeCollectionLabel.Text = "Cakes";
+            // 
+            // PastaCollectionLabel
+            // 
+            this.PastaCollectionLabel.AutoSize = true;
+            this.PastaCollectionLabel.Location = new System.Drawing.Point(380, 213);
+            this.PastaCollectionLabel.Name = "PastaCollectionLabel";
+            this.PastaCollectionLabel.Size = new System.Drawing.Size(35, 15);
+            this.PastaCollectionLabel.TabIndex = 6;
+            this.PastaCollectionLabel.Text = "Pasta";
+            // 
+            // BurgerLabel
+            // 
+            this.BurgerLabel.AutoSize = true;
+            this.BurgerLabel.Location = new System.Drawing.Point(262, 213);
+            this.BurgerLabel.Name = "BurgerLabel";
+            this.BurgerLabel.Size = new System.Drawing.Size(68, 15);
+            this.BurgerLabel.TabIndex = 7;
+            this.BurgerLabel.Text = "Hamburger";
+            // 
             // CollectionControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.BurgerLabel);
+            this.Controls.Add(this.PastaCollectionLabel);
+            this.Controls.Add(this.CakeCollectionLabel);
             this.Controls.Add(this.PizzaCollectionLabel);
             this.Controls.Add(this.PizzaButton);
             this.Controls.Add(this.CakeButton);
@@ -107,5 +146,8 @@
         private System.Windows.Forms.Button CakeButton;
         private System.Windows.Forms.Button PizzaButton;
         private System.Windows.Forms.Label PizzaCollectionLabel;
+        private System.Windows.Forms.Label CakeCollectionLabel;
+        private System.Windows.Forms.Label PastaCollectionLabel;
+        private System.Windows.Forms.Label BurgerLabel;
     }
 }
