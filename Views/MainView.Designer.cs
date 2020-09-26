@@ -56,6 +56,7 @@
             this.DriverPayControl = new FastFoodRestaurant.Views.UserControls.DriverPayControl();
             this.customersControl1 = new FastFoodRestaurant.Views.UserControls.CustomersControl();
             this.MinimizeButton = new System.Windows.Forms.Button();
+            this.MaximizeButton = new System.Windows.Forms.Button();
             this.MainPanel.SuspendLayout();
             this.MainLogoPainel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.MainLogo)).BeginInit();
@@ -307,9 +308,10 @@
             // 
             // CloseButton
             // 
+            this.CloseButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("CloseButton.BackgroundImage")));
+            this.CloseButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.CloseButton.FlatAppearance.BorderSize = 0;
             this.CloseButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.CloseButton.Image = ((System.Drawing.Image)(resources.GetObject("CloseButton.Image")));
             this.CloseButton.Location = new System.Drawing.Point(1015, 12);
             this.CloseButton.Name = "CloseButton";
             this.CloseButton.Size = new System.Drawing.Size(40, 42);
@@ -379,18 +381,31 @@
             this.MinimizeButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.MinimizeButton.FlatAppearance.BorderSize = 0;
             this.MinimizeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.MinimizeButton.Location = new System.Drawing.Point(969, 12);
+            this.MinimizeButton.Location = new System.Drawing.Point(922, 12);
             this.MinimizeButton.Name = "MinimizeButton";
             this.MinimizeButton.Size = new System.Drawing.Size(40, 42);
             this.MinimizeButton.TabIndex = 13;
             this.MinimizeButton.UseVisualStyleBackColor = true;
             this.MinimizeButton.Click += new System.EventHandler(this.MinimizeButton_Click);
             // 
+            // MaximizeButton
+            // 
+            this.MaximizeButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("MaximizeButton.BackgroundImage")));
+            this.MaximizeButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.MaximizeButton.FlatAppearance.BorderSize = 0;
+            this.MaximizeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.MaximizeButton.Location = new System.Drawing.Point(969, 12);
+            this.MaximizeButton.Name = "MaximizeButton";
+            this.MaximizeButton.Size = new System.Drawing.Size(40, 42);
+            this.MaximizeButton.TabIndex = 14;
+            this.MaximizeButton.UseVisualStyleBackColor = true;
+            // 
             // MainView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 591);
+            this.Controls.Add(this.MaximizeButton);
             this.Controls.Add(this.MinimizeButton);
             this.Controls.Add(this.CloseButton);
             this.Controls.Add(this.PromoControl);
@@ -448,6 +463,7 @@
         private Views.UserControls.DriverPayControl DriverPayControl;
         private Views.UserControls.CustomersControl customersControl1;
         private System.Windows.Forms.Button MinimizeButton;
+        private System.Windows.Forms.Button MaximizeButton;
     }
 }
 
