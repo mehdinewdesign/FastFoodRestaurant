@@ -48,43 +48,52 @@ namespace FastFoodRestaurant
 
         private void HomeButton_Click(object sender, EventArgs e)
         {
+            // A altura do SidePanel é equivalente à altura do HomeButton.
             SidePanel.Height = HomeButton.Height;
             SidePanel.Top = HomeButton.Top;
-            HomePromoControl promo = new HomePromoControl();
-            promo.BringToFront();
+            SidePanel.BringToFront();
         }
 
         private void EatButton_Click(object sender, EventArgs e)
         {
             SidePanel.Height = EatButton.Height;
             SidePanel.Top = EatButton.Top;
-            EatControl eat = new EatControl();
-            eat.BringToFront();
+            SidePanel.BringToFront();
         }
 
         private void CollectionButton_Click(object sender, EventArgs e)
         {
-
+            SidePanel.Height = CollectionButton.Height;
+            SidePanel.Top = CollectionButton.Top;
+            SidePanel.BringToFront();
         }
 
         private void DeliveryButton_Click(object sender, EventArgs e)
         {
-
+            SidePanel.Height = DeliveryButton.Height;
+            SidePanel.Top = DeliveryButton.Top;
+            SidePanel.BringToFront();
         }
 
         private void TakeButton_Click(object sender, EventArgs e)
         {
-
+            SidePanel.Height = TakeButton.Height;
+            SidePanel.Top = TakeButton.Top;
+            SidePanel.BringToFront();
         }
 
         private void DriverPayButton_Click(object sender, EventArgs e)
         {
-
+            SidePanel.Height = DriverPayButton.Height;
+            SidePanel.Top = DriverPayButton.Top;
+            SidePanel.BringToFront();
         }
 
         private void CustomersButton_Click(object sender, EventArgs e)
         {
-
+            SidePanel.Height = CustomersButton.Height;
+            SidePanel.Top = CustomersButton.Top;
+            SidePanel.BringToFront();
         }
 
         private void button4_Click(object sender, EventArgs e)
