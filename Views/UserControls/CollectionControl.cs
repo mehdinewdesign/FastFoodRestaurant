@@ -14,5 +14,10 @@ namespace FastFoodRestaurant.Views.UserControls
         {
             InitializeComponent();
         }
+
+        private void PizzaButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
