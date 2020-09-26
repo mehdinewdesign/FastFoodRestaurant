@@ -399,6 +399,7 @@
             this.MaximizeButton.Size = new System.Drawing.Size(40, 42);
             this.MaximizeButton.TabIndex = 14;
             this.MaximizeButton.UseVisualStyleBackColor = true;
+            this.MaximizeButton.Click += new System.EventHandler(this.MaximizeButton_Click);
             // 
             // MainView
             // 

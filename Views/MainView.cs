@@ -108,9 +108,20 @@ namespace FastFoodRestaurant
             Environment.Exit(0);
         }
 
+        private void MaximizeButton_Click(object sender, EventArgs e)
+        {
+            if(this.WindowState == FormWindowState.Normal)
+            {
+                this.WindowState = FormWindowState.Maximized;
+            }
+            else
+            {
+                this.WindowState = FormWindowState.Normal;
+            }
+        }
+
         private void MinimizeButton_Click(object sender, EventArgs e)
         {
-            // Minimize Window
             this.WindowState = FormWindowState.Minimized;
         }
 
@@ -128,5 +139,7 @@ namespace FastFoodRestaurant
         {
             // System.Diagnostics.Process.Start("https://twitter.com/");
         }
+
+        
     }
 }
