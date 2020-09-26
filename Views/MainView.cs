@@ -8,7 +8,7 @@ namespace FastFoodRestaurant
 {
     public partial class MainView : Form
     {
-        // Initialize Controllers.
+        // Initialize Controller.
         MainViewController mainController = new MainViewController();
 
         public MainView()
