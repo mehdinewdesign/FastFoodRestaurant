@@ -1,4 +1,5 @@
-﻿using FastFoodRestaurant.Views;
+﻿using FastFoodRestaurant.Controllers;
+using FastFoodRestaurant.Views;
 using FastFoodRestaurant.Views.UserControls;
 using System;
 using System.Windows.Forms;
@@ -7,13 +8,12 @@ namespace FastFoodRestaurant
 {
     public partial class MainView : Form
     {
+        // Initialize Controllers.
+        MainViewController mainController = new MainViewController();
+
         public MainView()
         {
             InitializeComponent();
-            SidePanel.Height = HomeButton.Height;
-            SidePanel.Top = HomeButton.Top;
-            HomePromoControl promo = new HomePromoControl();
-            promo.BringToFront();
         }
 
         private void MainView_Load(object sender, EventArgs e)
@@ -56,44 +56,32 @@ namespace FastFoodRestaurant
 
         private void EatButton_Click(object sender, EventArgs e)
         {
-            SidePanel.Height = EatButton.Height;
-            SidePanel.Top = EatButton.Top;
-            SidePanel.BringToFront();
+            mainController.SidePanelSwapOnClick(EatButton, SidePanel);
         }
 
         private void CollectionButton_Click(object sender, EventArgs e)
         {
-            SidePanel.Height = CollectionButton.Height;
-            SidePanel.Top = CollectionButton.Top;
-            SidePanel.BringToFront();
+            mainController.SidePanelSwapOnClick(CollectionButton, SidePanel);
         }
 
         private void DeliveryButton_Click(object sender, EventArgs e)
         {
-            SidePanel.Height = DeliveryButton.Height;
-            SidePanel.Top = DeliveryButton.Top;
-            SidePanel.BringToFront();
+            mainController.SidePanelSwapOnClick(DeliveryButton, SidePanel);
         }
 
         private void TakeButton_Click(object sender, EventArgs e)
         {
-            SidePanel.Height = TakeButton.Height;
-            SidePanel.Top = TakeButton.Top;
-            SidePanel.BringToFront();
+            mainController.SidePanelSwapOnClick(TakeButton, SidePanel);
         }
 
         private void DriverPayButton_Click(object sender, EventArgs e)
         {
-            SidePanel.Height = DriverPayButton.Height;
-            SidePanel.Top = DriverPayButton.Top;
-            SidePanel.BringToFront();
+            mainController.SidePanelSwapOnClick(DriverPayButton, SidePanel);
         }
 
         private void CustomersButton_Click(object sender, EventArgs e)
         {
-            SidePanel.Height = CustomersButton.Height;
-            SidePanel.Top = CustomersButton.Top;
-            SidePanel.BringToFront();
+            mainController.SidePanelSwapOnClick(CustomersButton, SidePanel);
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -109,8 +97,6 @@ namespace FastFoodRestaurant
         private void CloseButton_Click(object sender, EventArgs e)
         {
             Environment.Exit(0);
-            // var closeOption = new MainView();
-            // closeOption.Close();
         }
     }
 }
