@@ -11,7 +11,7 @@ Download a UI Prototype:
 
 ## Screenshots
 
-![alt text](https://i.imgur.com/1YbWVNu.png)
+![alt text](https://i.imgur.com/C1s2nyr.png)
 
 # Technical and structural design #
 
