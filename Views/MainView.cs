@@ -113,5 +113,20 @@ namespace FastFoodRestaurant
             // Minimize Window
             this.WindowState = FormWindowState.Minimized;
         }
+
+        private void FacebookButton_Click(object sender, EventArgs e)
+        {
+            // System.Diagnostics.Process.Start("https://www.facebook.com/");
+        }
+
+        private void InstagramButton_Click(object sender, EventArgs e)
+        {
+            // System.Diagnostics.Process.Start("https://www.instagram.com/");
+        }
+
+        private void TwitterButton_Click(object sender, EventArgs e)
+        {
+            // System.Diagnostics.Process.Start("https://twitter.com/");
+        }
     }
 }

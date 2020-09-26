@@ -58,7 +58,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing.Common" name="System.Drawing.Common, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" />
-  <data name="button2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="InstagramButton.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGOfPtRkwAAACBjSFJNAACH
         DwAAjA8AAP1SAACBQAAAfXkAAOmLAAA85QAAGcxzPIV3AAAKOWlDQ1BQaG90b3Nob3AgSUNDIHByb2Zp
@@ -258,7 +258,7 @@
         A+np+RdvdGy5aCo9fgAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="button3.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="TwitterButton.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGOfPtRkwAAACBjSFJNAACH
         DwAAjA8AAP1SAACBQAAAfXkAAOmLAAA85QAAGcxzPIV3AAAKOWlDQ1BQaG90b3Nob3AgSUNDIHByb2Zp
@@ -385,7 +385,7 @@
         AAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="button1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="FacebookButton.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGOfPtRkwAAACBjSFJNAACH
         DwAAjA8AAP1SAACBQAAAfXkAAOmLAAA85QAAGcxzPIV3AAAKOWlDQ1BQaG90b3Nob3AgSUNDIHByb2Zp
@@ -2990,16 +2990,15 @@
   </data>
   <data name="MinimizeButton.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAHTSURBVHhe7ZvtSgMxEEX7x7cSEX/qc6lPJSI+R0X8QPQldFIbWUJCnO25dWPnwIXupHP3Jm13
-        F7a7CoIgCIIqR6Zr06Ppc1Cl7FemNBc3afI10xF1aXLzakrNp5utMTkzpTk8b7ac5NUbndnziAXYanTw
-        BbgwPZjy+FK0Np2bSvK4m1bjkymPLU3ptFeSx9y0GmcbisHz4oZi8Ly4oRg8L24oBs+LG4rB8+KGYvC8
-        uKEYPC9uKAbPixuKwfPihmLwvLihGDwvbigGz4sbisHz4oZi8Ly4oRg8L24oBs+LG4rB8+KGYvC8uKEY
-        PC9uKAbPixuKwfPihmLwvLihGDwvbigGz+s13NcdI+8doFa9i9dwn3eMPHeAWvUuXsNWnca7/1a9i9ew
-        Vafx7r9V7+I1fDHlMbXSz60kj5W06l28hukgmP9Wo1Ra6EUeBP8aPC9uKAbPixuKwfPihmLwvLsY3ppu
-        vl/+QNdKdslbZRfD2nvoWknrPb/prdJqrJ3vy08n16fQtfStyPUsz/VBl1Zj7Xx/Z5pyb9pHbZrBe33Q
-        ZXbjwogF2MrNwS/Amyk1Hm+2xuTElOaQjlluDv6BifzIzIepZjqC3k2zH5kJgiAI/jer1RepVRAfVf0S
-        0wAAAABJRU5ErkJggg==
+        iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAALGPC/xhBQAAAdNJREFUeF7t
+        m+1KAzEQRfvHtxIRf+pzqU8lIj5HRfxA9CV0UhtZQkKc7bl1Y+fAhe6kc/cmbXcXtrsKgiAIgipHpmvT
+        o+lzUKXsV6Y0Fzdp8jXTEXVpcvNqSs2nm60xOTOlOTxvtpzk1Rud2fOIBdhqdPAFuDA9mPL4UrQ2nZtK
+        8ribVuOTKY8tTem0V5LH3LQaZxuKwfPihmLwvLihGDwvbigGz4sbisHz4oZi8Ly4oRg8L24oBs+LG4rB
+        8+KGYvC8uKEYPC9uKAbPixuKwfPihmLwvLihGDwvbigGz4sbisHz4oZi8Ly4oRg8L24oBs+LG4rB8+KG
+        YvC8uKEYPC9uKAbP6zXc1x0j7x2gVr2L13Cfd4w8d4Ba9S5ew1adxrv/Vr2L17BVp/Huv1Xv4jV8MeUx
+        tdLPrSSPlbTqXbyG6SCY/1ajVFroRR4E/xo8L24oBs+LG4rB8+KGYvC8uxjemm6+X/5A10p2yVtlF8Pa
+        e+haSes9v+mt0mqsne/LTyfXp9C19K3I9SzP9UGXVmPtfH9nmnJv2kdtmsF7fdBlduPCiAXYys3BL8Cb
+        KTUeb7bG5MSU5pCOWW4O/oGJ/MjMh6lmOoLeTbMfmQmCIAj+N6vVF6lVEB9V/RLTAAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">

@@ -30,13 +30,13 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainView));
             this.MainPanel = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
+            this.InstagramButton = new System.Windows.Forms.Button();
             this.SidePanel = new System.Windows.Forms.Panel();
             this.CustomersButton = new System.Windows.Forms.Button();
             this.DriverPayButton = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.TwitterButton = new System.Windows.Forms.Button();
             this.TakeButton = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.FacebookButton = new System.Windows.Forms.Button();
             this.DeliveryButton = new System.Windows.Forms.Button();
             this.CollectionButton = new System.Windows.Forms.Button();
             this.EatButton = new System.Windows.Forms.Button();
@@ -64,13 +64,13 @@
             // MainPanel
             // 
             this.MainPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
-            this.MainPanel.Controls.Add(this.button2);
+            this.MainPanel.Controls.Add(this.InstagramButton);
             this.MainPanel.Controls.Add(this.SidePanel);
             this.MainPanel.Controls.Add(this.CustomersButton);
             this.MainPanel.Controls.Add(this.DriverPayButton);
-            this.MainPanel.Controls.Add(this.button3);
+            this.MainPanel.Controls.Add(this.TwitterButton);
             this.MainPanel.Controls.Add(this.TakeButton);
-            this.MainPanel.Controls.Add(this.button1);
+            this.MainPanel.Controls.Add(this.FacebookButton);
             this.MainPanel.Controls.Add(this.DeliveryButton);
             this.MainPanel.Controls.Add(this.CollectionButton);
             this.MainPanel.Controls.Add(this.EatButton);
@@ -83,19 +83,20 @@
             this.MainPanel.TabStop = true;
             this.MainPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.MainPanel_Paint);
             // 
-            // button2
+            // InstagramButton
             // 
-            this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(70, 547);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(33, 32);
-            this.button2.TabIndex = 3;
-            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button2.UseVisualStyleBackColor = false;
+            this.InstagramButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("InstagramButton.BackgroundImage")));
+            this.InstagramButton.FlatAppearance.BorderSize = 0;
+            this.InstagramButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.InstagramButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.InstagramButton.ForeColor = System.Drawing.Color.White;
+            this.InstagramButton.Location = new System.Drawing.Point(70, 547);
+            this.InstagramButton.Name = "InstagramButton";
+            this.InstagramButton.Size = new System.Drawing.Size(33, 32);
+            this.InstagramButton.TabIndex = 3;
+            this.InstagramButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.InstagramButton.UseVisualStyleBackColor = false;
+            this.InstagramButton.Click += new System.EventHandler(this.InstagramButton_Click);
             // 
             // SidePanel
             // 
@@ -137,19 +138,20 @@
             this.DriverPayButton.UseVisualStyleBackColor = true;
             this.DriverPayButton.Click += new System.EventHandler(this.DriverPayButton_Click);
             // 
-            // button3
+            // TwitterButton
             // 
-            this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(109, 547);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(33, 32);
-            this.button3.TabIndex = 3;
-            this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button3.UseVisualStyleBackColor = false;
+            this.TwitterButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("TwitterButton.BackgroundImage")));
+            this.TwitterButton.FlatAppearance.BorderSize = 0;
+            this.TwitterButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.TwitterButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.TwitterButton.ForeColor = System.Drawing.Color.White;
+            this.TwitterButton.Location = new System.Drawing.Point(109, 547);
+            this.TwitterButton.Name = "TwitterButton";
+            this.TwitterButton.Size = new System.Drawing.Size(33, 32);
+            this.TwitterButton.TabIndex = 3;
+            this.TwitterButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.TwitterButton.UseVisualStyleBackColor = false;
+            this.TwitterButton.Click += new System.EventHandler(this.TwitterButton_Click);
             // 
             // TakeButton
             // 
@@ -167,19 +169,20 @@
             this.TakeButton.UseVisualStyleBackColor = true;
             this.TakeButton.Click += new System.EventHandler(this.TakeButton_Click);
             // 
-            // button1
+            // FacebookButton
             // 
-            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(31, 547);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(33, 32);
-            this.button1.TabIndex = 3;
-            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button1.UseVisualStyleBackColor = false;
+            this.FacebookButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("FacebookButton.BackgroundImage")));
+            this.FacebookButton.FlatAppearance.BorderSize = 0;
+            this.FacebookButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.FacebookButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.FacebookButton.ForeColor = System.Drawing.Color.White;
+            this.FacebookButton.Location = new System.Drawing.Point(31, 547);
+            this.FacebookButton.Name = "FacebookButton";
+            this.FacebookButton.Size = new System.Drawing.Size(33, 32);
+            this.FacebookButton.TabIndex = 3;
+            this.FacebookButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.FacebookButton.UseVisualStyleBackColor = false;
+            this.FacebookButton.Click += new System.EventHandler(this.FacebookButton_Click);
             // 
             // DeliveryButton
             // 
@@ -431,10 +434,10 @@
         private System.Windows.Forms.Button CollectionButton;
         private System.Windows.Forms.Button EatButton;
         private System.Windows.Forms.Button CustomersButton;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button InstagramButton;
         private System.Windows.Forms.Panel SidePanel;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button TwitterButton;
+        private System.Windows.Forms.Button FacebookButton;
         private Views.HomePromoControl PromoControl;
         private Views.UserControls.EatControl EatControl;
         private System.Windows.Forms.Button CloseButton;
