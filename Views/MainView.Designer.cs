@@ -46,16 +46,19 @@
             this.SubtitleMainView = new System.Windows.Forms.Label();
             this.MainTitle = new System.Windows.Forms.Label();
             this.MainLogo = new System.Windows.Forms.PictureBox();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.CloseButton = new System.Windows.Forms.Button();
             this.PromoControl = new FastFoodRestaurant.Views.HomePromoControl();
             this.EatControl = new FastFoodRestaurant.Views.UserControls.EatControl();
+            this.CollectionControl = new FastFoodRestaurant.Views.UserControls.CollectionControl();
+            this.deliveryControl1 = new FastFoodRestaurant.Views.UserControls.DeliveryControl();
+            this.DeliveryControl = new FastFoodRestaurant.Views.UserControls.DeliveryControl();
+            this.takeAwayControl1 = new FastFoodRestaurant.Views.UserControls.TakeAwayControl();
+            this.DriverPayControl = new FastFoodRestaurant.Views.UserControls.DriverPayControl();
+            this.customersControl1 = new FastFoodRestaurant.Views.UserControls.CustomersControl();
+            this.MinimizeButton = new System.Windows.Forms.Button();
             this.MainPanel.SuspendLayout();
             this.MainLogoPainel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.MainLogo)).BeginInit();
-            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // MainPanel
@@ -261,7 +264,7 @@
             this.MainLogoPainel.Controls.Add(this.MainLogo);
             this.MainLogoPainel.Location = new System.Drawing.Point(230, 0);
             this.MainLogoPainel.Name = "MainLogoPainel";
-            this.MainLogoPainel.Size = new System.Drawing.Size(109, 152);
+            this.MainLogoPainel.Size = new System.Drawing.Size(116, 152);
             this.MainLogoPainel.TabIndex = 2;
             this.MainLogoPainel.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -270,7 +273,7 @@
             this.SubtitleMainView.AutoSize = true;
             this.SubtitleMainView.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.SubtitleMainView.ForeColor = System.Drawing.Color.White;
-            this.SubtitleMainView.Location = new System.Drawing.Point(14, 117);
+            this.SubtitleMainView.Location = new System.Drawing.Point(22, 119);
             this.SubtitleMainView.Name = "SubtitleMainView";
             this.SubtitleMainView.Size = new System.Drawing.Size(79, 16);
             this.SubtitleMainView.TabIndex = 3;
@@ -281,7 +284,7 @@
             this.MainTitle.AutoSize = true;
             this.MainTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.MainTitle.ForeColor = System.Drawing.Color.White;
-            this.MainTitle.Location = new System.Drawing.Point(13, 98);
+            this.MainTitle.Location = new System.Drawing.Point(14, 99);
             this.MainTitle.Name = "MainTitle";
             this.MainTitle.Size = new System.Drawing.Size(95, 20);
             this.MainTitle.TabIndex = 3;
@@ -291,7 +294,7 @@
             // MainLogo
             // 
             this.MainLogo.Image = ((System.Drawing.Image)(resources.GetObject("MainLogo.Image")));
-            this.MainLogo.Location = new System.Drawing.Point(14, 16);
+            this.MainLogo.Location = new System.Drawing.Point(22, 16);
             this.MainLogo.Name = "MainLogo";
             this.MainLogo.Size = new System.Drawing.Size(70, 75);
             this.MainLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -299,55 +302,12 @@
             this.MainLogo.TabStop = false;
             this.MainLogo.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // button4
-            // 
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-            this.button4.Location = new System.Drawing.Point(37, 43);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(33, 42);
-            this.button4.TabIndex = 3;
-            this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // button5
-            // 
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
-            this.button5.Location = new System.Drawing.Point(100, 43);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(43, 42);
-            this.button5.TabIndex = 3;
-            this.button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button5.UseVisualStyleBackColor = false;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.CloseButton);
-            this.groupBox1.Controls.Add(this.button4);
-            this.groupBox1.Controls.Add(this.button5);
-            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.groupBox1.Location = new System.Drawing.Point(818, 20);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(237, 114);
-            this.groupBox1.TabIndex = 4;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Configurations";
-            // 
             // CloseButton
             // 
             this.CloseButton.FlatAppearance.BorderSize = 0;
             this.CloseButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.CloseButton.Image = ((System.Drawing.Image)(resources.GetObject("CloseButton.Image")));
-            this.CloseButton.Location = new System.Drawing.Point(162, 43);
+            this.CloseButton.Location = new System.Drawing.Point(1015, 12);
             this.CloseButton.Name = "CloseButton";
             this.CloseButton.Size = new System.Drawing.Size(40, 42);
             this.CloseButton.TabIndex = 7;
@@ -368,17 +328,79 @@
             this.EatControl.Size = new System.Drawing.Size(890, 433);
             this.EatControl.TabIndex = 6;
             // 
+            // CollectionControl
+            // 
+            this.CollectionControl.Location = new System.Drawing.Point(177, 158);
+            this.CollectionControl.Name = "CollectionControl";
+            this.CollectionControl.Size = new System.Drawing.Size(890, 433);
+            this.CollectionControl.TabIndex = 7;
+            // 
+            // deliveryControl1
+            // 
+            this.deliveryControl1.Location = new System.Drawing.Point(177, 158);
+            this.deliveryControl1.Name = "deliveryControl1";
+            this.deliveryControl1.Size = new System.Drawing.Size(890, 433);
+            this.deliveryControl1.TabIndex = 8;
+            // 
+            // DeliveryControl
+            // 
+            this.DeliveryControl.Location = new System.Drawing.Point(177, 158);
+            this.DeliveryControl.Name = "DeliveryControl";
+            this.DeliveryControl.Size = new System.Drawing.Size(890, 433);
+            this.DeliveryControl.TabIndex = 9;
+            // 
+            // takeAwayControl1
+            // 
+            this.takeAwayControl1.Location = new System.Drawing.Point(177, 158);
+            this.takeAwayControl1.Name = "takeAwayControl1";
+            this.takeAwayControl1.Size = new System.Drawing.Size(890, 433);
+            this.takeAwayControl1.TabIndex = 10;
+            // 
+            // DriverPayControl
+            // 
+            this.DriverPayControl.Location = new System.Drawing.Point(177, 158);
+            this.DriverPayControl.Name = "DriverPayControl";
+            this.DriverPayControl.Size = new System.Drawing.Size(890, 433);
+            this.DriverPayControl.TabIndex = 11;
+            // 
+            // customersControl1
+            // 
+            this.customersControl1.Location = new System.Drawing.Point(177, 158);
+            this.customersControl1.Name = "customersControl1";
+            this.customersControl1.Size = new System.Drawing.Size(890, 433);
+            this.customersControl1.TabIndex = 12;
+            // 
+            // MinimizeButton
+            // 
+            this.MinimizeButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("MinimizeButton.BackgroundImage")));
+            this.MinimizeButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.MinimizeButton.FlatAppearance.BorderSize = 0;
+            this.MinimizeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.MinimizeButton.Location = new System.Drawing.Point(969, 12);
+            this.MinimizeButton.Name = "MinimizeButton";
+            this.MinimizeButton.Size = new System.Drawing.Size(40, 42);
+            this.MinimizeButton.TabIndex = 13;
+            this.MinimizeButton.UseVisualStyleBackColor = true;
+            this.MinimizeButton.Click += new System.EventHandler(this.MinimizeButton_Click);
+            // 
             // MainView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 591);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.MinimizeButton);
+            this.Controls.Add(this.CloseButton);
+            this.Controls.Add(this.PromoControl);
+            this.Controls.Add(this.EatControl);
+            this.Controls.Add(this.CollectionControl);
+            this.Controls.Add(this.deliveryControl1);
+            this.Controls.Add(this.DeliveryControl);
+            this.Controls.Add(this.takeAwayControl1);
+            this.Controls.Add(this.DriverPayControl);
             this.Controls.Add(this.MainLogoPainel);
             this.Controls.Add(this.TopPanel);
             this.Controls.Add(this.MainPanel);
-            this.Controls.Add(this.PromoControl);
-            this.Controls.Add(this.EatControl);
+            this.Controls.Add(this.customersControl1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.ImeMode = System.Windows.Forms.ImeMode.On;
@@ -390,7 +412,6 @@
             this.MainLogoPainel.ResumeLayout(false);
             this.MainLogoPainel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.MainLogo)).EndInit();
-            this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -414,12 +435,16 @@
         private System.Windows.Forms.Panel SidePanel;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.GroupBox groupBox1;
         private Views.HomePromoControl PromoControl;
         private Views.UserControls.EatControl EatControl;
         private System.Windows.Forms.Button CloseButton;
+        private Views.UserControls.CollectionControl CollectionControl;
+        private Views.UserControls.DeliveryControl deliveryControl1;
+        private Views.UserControls.DeliveryControl DeliveryControl;
+        private Views.UserControls.TakeAwayControl takeAwayControl1;
+        private Views.UserControls.DriverPayControl DriverPayControl;
+        private Views.UserControls.CustomersControl customersControl1;
+        private System.Windows.Forms.Button MinimizeButton;
     }
 }
 

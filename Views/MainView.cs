@@ -65,26 +65,32 @@ namespace FastFoodRestaurant
         private void CollectionButton_Click(object sender, EventArgs e)
         {
             mainController.SidePanelSwapOnClick(CollectionButton, SidePanel);
+            CollectionControl.BringToFront();
         }
 
         private void DeliveryButton_Click(object sender, EventArgs e)
         {
             mainController.SidePanelSwapOnClick(DeliveryButton, SidePanel);
+            DeliveryControl.BringToFront();
+            
         }
 
         private void TakeButton_Click(object sender, EventArgs e)
         {
             mainController.SidePanelSwapOnClick(TakeButton, SidePanel);
+            takeAwayControl1.BringToFront();
         }
 
         private void DriverPayButton_Click(object sender, EventArgs e)
         {
             mainController.SidePanelSwapOnClick(DriverPayButton, SidePanel);
+            DriverPayControl.BringToFront();
         }
 
         private void CustomersButton_Click(object sender, EventArgs e)
         {
             mainController.SidePanelSwapOnClick(CustomersButton, SidePanel);
+            customersControl1.BringToFront();
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -100,6 +106,12 @@ namespace FastFoodRestaurant
         private void CloseButton_Click(object sender, EventArgs e)
         {
             Environment.Exit(0);
+        }
+
+        private void MinimizeButton_Click(object sender, EventArgs e)
+        {
+            // Minimize Window
+            this.WindowState = FormWindowState.Minimized;
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace FastFoodRestaurant.Views.UserControls
 {
-    partial class CollectionControl
+    partial class TakeAwayControl
     {
         /// <summary> 
         /// Variável de designer necessária.
@@ -33,19 +33,19 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(319, 124);
+            this.button1.Location = new System.Drawing.Point(361, 364);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // CollectionControl
+            // TakeAwayControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.button1);
-            this.Name = "CollectionControl";
+            this.Name = "TakeAwayControl";
             this.Size = new System.Drawing.Size(890, 433);
             this.ResumeLayout(false);
 
