@@ -55,7 +55,7 @@
             this.PastaButton.FlatAppearance.BorderSize = 0;
             this.PastaButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.PastaButton.Image = ((System.Drawing.Image)(resources.GetObject("PastaButton.Image")));
-            this.PastaButton.Location = new System.Drawing.Point(362, 138);
+            this.PastaButton.Location = new System.Drawing.Point(358, 138);
             this.PastaButton.Name = "PastaButton";
             this.PastaButton.Size = new System.Drawing.Size(75, 72);
             this.PastaButton.TabIndex = 1;
@@ -66,7 +66,7 @@
             this.CakeButton.FlatAppearance.BorderSize = 0;
             this.CakeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.CakeButton.Image = ((System.Drawing.Image)(resources.GetObject("CakeButton.Image")));
-            this.CakeButton.Location = new System.Drawing.Point(460, 138);
+            this.CakeButton.Location = new System.Drawing.Point(457, 138);
             this.CakeButton.Name = "CakeButton";
             this.CakeButton.Size = new System.Drawing.Size(75, 72);
             this.CakeButton.TabIndex = 2;
@@ -77,7 +77,7 @@
             this.PizzaButton.FlatAppearance.BorderSize = 0;
             this.PizzaButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.PizzaButton.Image = ((System.Drawing.Image)(resources.GetObject("PizzaButton.Image")));
-            this.PizzaButton.Location = new System.Drawing.Point(558, 138);
+            this.PizzaButton.Location = new System.Drawing.Point(556, 138);
             this.PizzaButton.Name = "PizzaButton";
             this.PizzaButton.Size = new System.Drawing.Size(75, 72);
             this.PizzaButton.TabIndex = 3;
@@ -87,25 +87,25 @@
             // PizzaCollectionLabel
             // 
             this.PizzaCollectionLabel.AutoSize = true;
-            this.PizzaCollectionLabel.Location = new System.Drawing.Point(576, 213);
+            this.PizzaCollectionLabel.Location = new System.Drawing.Point(575, 213);
             this.PizzaCollectionLabel.Name = "PizzaCollectionLabel";
-            this.PizzaCollectionLabel.Size = new System.Drawing.Size(38, 15);
+            this.PizzaCollectionLabel.Size = new System.Drawing.Size(33, 15);
             this.PizzaCollectionLabel.TabIndex = 4;
-            this.PizzaCollectionLabel.Text = "Pizzas";
+            this.PizzaCollectionLabel.Text = "Pizza";
             // 
             // CakeCollectionLabel
             // 
             this.CakeCollectionLabel.AutoSize = true;
-            this.CakeCollectionLabel.Location = new System.Drawing.Point(478, 213);
+            this.CakeCollectionLabel.Location = new System.Drawing.Point(483, 213);
             this.CakeCollectionLabel.Name = "CakeCollectionLabel";
-            this.CakeCollectionLabel.Size = new System.Drawing.Size(38, 15);
+            this.CakeCollectionLabel.Size = new System.Drawing.Size(33, 15);
             this.CakeCollectionLabel.TabIndex = 5;
-            this.CakeCollectionLabel.Text = "Cakes";
+            this.CakeCollectionLabel.Text = "Cake";
             // 
             // PastaCollectionLabel
             // 
             this.PastaCollectionLabel.AutoSize = true;
-            this.PastaCollectionLabel.Location = new System.Drawing.Point(380, 213);
+            this.PastaCollectionLabel.Location = new System.Drawing.Point(389, 213);
             this.PastaCollectionLabel.Name = "PastaCollectionLabel";
             this.PastaCollectionLabel.Size = new System.Drawing.Size(35, 15);
             this.PastaCollectionLabel.TabIndex = 6;

@@ -32,15 +32,15 @@
             this.SelectedItemLabel = new System.Windows.Forms.Label();
             this.listView1 = new System.Windows.Forms.ListView();
             this.AddressGroupBox = new System.Windows.Forms.GroupBox();
-            this.StreetLabel = new System.Windows.Forms.Label();
-            this.PostalCodeAddressLabel = new System.Windows.Forms.Label();
-            this.NumberAddresslabel = new System.Windows.Forms.Label();
-            this.SupplyLabel = new System.Windows.Forms.Label();
-            this.listView2 = new System.Windows.Forms.ListView();
-            this.StreetTextBox = new System.Windows.Forms.TextBox();
-            this.NumberAddressTextBox = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.NumberAddressTextBox = new System.Windows.Forms.TextBox();
+            this.StreetTextBox = new System.Windows.Forms.TextBox();
+            this.SupplyLabel = new System.Windows.Forms.Label();
+            this.NumberAddresslabel = new System.Windows.Forms.Label();
+            this.PostalCodeAddressLabel = new System.Windows.Forms.Label();
+            this.StreetLabel = new System.Windows.Forms.Label();
+            this.listView2 = new System.Windows.Forms.ListView();
             this.AddressGroupBox.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -49,6 +49,7 @@
             this.OrderDeliveryButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(199)))), ((int)(((byte)(44)))));
             this.OrderDeliveryButton.FlatAppearance.BorderSize = 0;
             this.OrderDeliveryButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.OrderDeliveryButton.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.OrderDeliveryButton.ForeColor = System.Drawing.Color.White;
             this.OrderDeliveryButton.Location = new System.Drawing.Point(13, 390);
             this.OrderDeliveryButton.Name = "OrderDeliveryButton";
@@ -60,10 +61,10 @@
             // SelectedItemLabel
             // 
             this.SelectedItemLabel.AutoSize = true;
-            this.SelectedItemLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.SelectedItemLabel.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.SelectedItemLabel.Location = new System.Drawing.Point(13, 16);
             this.SelectedItemLabel.Name = "SelectedItemLabel";
-            this.SelectedItemLabel.Size = new System.Drawing.Size(108, 21);
+            this.SelectedItemLabel.Size = new System.Drawing.Size(125, 21);
             this.SelectedItemLabel.TabIndex = 1;
             this.SelectedItemLabel.Text = "Selected Itens:";
             this.SelectedItemLabel.Click += new System.EventHandler(this.SelectedItemLabel_Click);
@@ -87,6 +88,7 @@
             this.AddressGroupBox.Controls.Add(this.NumberAddresslabel);
             this.AddressGroupBox.Controls.Add(this.PostalCodeAddressLabel);
             this.AddressGroupBox.Controls.Add(this.StreetLabel);
+            this.AddressGroupBox.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.AddressGroupBox.Location = new System.Drawing.Point(13, 115);
             this.AddressGroupBox.Name = "AddressGroupBox";
             this.AddressGroupBox.Size = new System.Drawing.Size(861, 94);
@@ -94,42 +96,70 @@
             this.AddressGroupBox.TabStop = false;
             this.AddressGroupBox.Text = "Address:";
             // 
-            // StreetLabel
+            // textBox2
             // 
-            this.StreetLabel.AutoSize = true;
-            this.StreetLabel.Location = new System.Drawing.Point(11, 27);
-            this.StreetLabel.Name = "StreetLabel";
-            this.StreetLabel.Size = new System.Drawing.Size(43, 15);
-            this.StreetLabel.TabIndex = 0;
-            this.StreetLabel.Text = "Street: ";
+            this.textBox2.Location = new System.Drawing.Point(100, 54);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(755, 22);
+            this.textBox2.TabIndex = 7;
             // 
-            // PostalCodeAddressLabel
+            // textBox1
             // 
-            this.PostalCodeAddressLabel.AutoSize = true;
-            this.PostalCodeAddressLabel.Location = new System.Drawing.Point(638, 27);
-            this.PostalCodeAddressLabel.Name = "PostalCodeAddressLabel";
-            this.PostalCodeAddressLabel.Size = new System.Drawing.Size(34, 15);
-            this.PostalCodeAddressLabel.TabIndex = 1;
-            this.PostalCodeAddressLabel.Text = "CEP: ";
+            this.textBox1.Location = new System.Drawing.Point(678, 19);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(177, 22);
+            this.textBox1.TabIndex = 6;
             // 
-            // NumberAddresslabel
+            // NumberAddressTextBox
             // 
-            this.NumberAddresslabel.AutoSize = true;
-            this.NumberAddresslabel.Location = new System.Drawing.Point(469, 27);
-            this.NumberAddresslabel.Name = "NumberAddresslabel";
-            this.NumberAddresslabel.Size = new System.Drawing.Size(57, 15);
-            this.NumberAddresslabel.TabIndex = 2;
-            this.NumberAddresslabel.Text = "Number: ";
-            this.NumberAddresslabel.Click += new System.EventHandler(this.NumberAddresslabel_Click);
+            this.NumberAddressTextBox.Location = new System.Drawing.Point(532, 19);
+            this.NumberAddressTextBox.Name = "NumberAddressTextBox";
+            this.NumberAddressTextBox.Size = new System.Drawing.Size(100, 22);
+            this.NumberAddressTextBox.TabIndex = 5;
+            // 
+            // StreetTextBox
+            // 
+            this.StreetTextBox.Location = new System.Drawing.Point(100, 19);
+            this.StreetTextBox.Name = "StreetTextBox";
+            this.StreetTextBox.Size = new System.Drawing.Size(357, 22);
+            this.StreetTextBox.TabIndex = 4;
             // 
             // SupplyLabel
             // 
             this.SupplyLabel.AutoSize = true;
             this.SupplyLabel.Location = new System.Drawing.Point(11, 62);
             this.SupplyLabel.Name = "SupplyLabel";
-            this.SupplyLabel.Size = new System.Drawing.Size(83, 15);
+            this.SupplyLabel.Size = new System.Drawing.Size(92, 17);
             this.SupplyLabel.TabIndex = 3;
             this.SupplyLabel.Text = "Complement: ";
+            // 
+            // NumberAddresslabel
+            // 
+            this.NumberAddresslabel.AutoSize = true;
+            this.NumberAddresslabel.Location = new System.Drawing.Point(469, 27);
+            this.NumberAddresslabel.Name = "NumberAddresslabel";
+            this.NumberAddresslabel.Size = new System.Drawing.Size(61, 17);
+            this.NumberAddresslabel.TabIndex = 2;
+            this.NumberAddresslabel.Text = "Number: ";
+            this.NumberAddresslabel.Click += new System.EventHandler(this.NumberAddresslabel_Click);
+            // 
+            // PostalCodeAddressLabel
+            // 
+            this.PostalCodeAddressLabel.AutoSize = true;
+            this.PostalCodeAddressLabel.Location = new System.Drawing.Point(638, 27);
+            this.PostalCodeAddressLabel.Name = "PostalCodeAddressLabel";
+            this.PostalCodeAddressLabel.Size = new System.Drawing.Size(36, 17);
+            this.PostalCodeAddressLabel.TabIndex = 1;
+            this.PostalCodeAddressLabel.Text = "CEP: ";
+            // 
+            // StreetLabel
+            // 
+            this.StreetLabel.AutoSize = true;
+            this.StreetLabel.Location = new System.Drawing.Point(11, 27);
+            this.StreetLabel.Name = "StreetLabel";
+            this.StreetLabel.Size = new System.Drawing.Size(51, 17);
+            this.StreetLabel.TabIndex = 0;
+            this.StreetLabel.Text = "Street: ";
             // 
             // listView2
             // 
@@ -139,34 +169,6 @@
             this.listView2.Size = new System.Drawing.Size(861, 169);
             this.listView2.TabIndex = 5;
             this.listView2.UseCompatibleStateImageBehavior = false;
-            // 
-            // StreetTextBox
-            // 
-            this.StreetTextBox.Location = new System.Drawing.Point(100, 19);
-            this.StreetTextBox.Name = "StreetTextBox";
-            this.StreetTextBox.Size = new System.Drawing.Size(357, 23);
-            this.StreetTextBox.TabIndex = 4;
-            // 
-            // NumberAddressTextBox
-            // 
-            this.NumberAddressTextBox.Location = new System.Drawing.Point(532, 19);
-            this.NumberAddressTextBox.Name = "NumberAddressTextBox";
-            this.NumberAddressTextBox.Size = new System.Drawing.Size(100, 23);
-            this.NumberAddressTextBox.TabIndex = 5;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(678, 19);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(177, 23);
-            this.textBox1.TabIndex = 6;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(100, 54);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(755, 23);
-            this.textBox2.TabIndex = 7;
             // 
             // DeliveryControl
             // 

@@ -73,12 +73,12 @@
             this.MainPanel.Controls.Add(this.CustomersButton);
             this.MainPanel.Controls.Add(this.DriverPayButton);
             this.MainPanel.Controls.Add(this.TwitterButton);
-            this.MainPanel.Controls.Add(this.TakeButton);
             this.MainPanel.Controls.Add(this.FacebookButton);
             this.MainPanel.Controls.Add(this.DeliveryButton);
             this.MainPanel.Controls.Add(this.CollectionButton);
             this.MainPanel.Controls.Add(this.EatButton);
             this.MainPanel.Controls.Add(this.HomeButton);
+            this.MainPanel.Controls.Add(this.TakeButton);
             this.MainPanel.Dock = System.Windows.Forms.DockStyle.Left;
             this.MainPanel.Location = new System.Drawing.Point(0, 0);
             this.MainPanel.Name = "MainPanel";
@@ -164,7 +164,7 @@
             this.TakeButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.TakeButton.ForeColor = System.Drawing.Color.White;
             this.TakeButton.Image = ((System.Drawing.Image)(resources.GetObject("TakeButton.Image")));
-            this.TakeButton.Location = new System.Drawing.Point(12, 303);
+            this.TakeButton.Location = new System.Drawing.Point(12, 243);
             this.TakeButton.Name = "TakeButton";
             this.TakeButton.Size = new System.Drawing.Size(165, 54);
             this.TakeButton.TabIndex = 3;
@@ -195,7 +195,7 @@
             this.DeliveryButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.DeliveryButton.ForeColor = System.Drawing.Color.White;
             this.DeliveryButton.Image = ((System.Drawing.Image)(resources.GetObject("DeliveryButton.Image")));
-            this.DeliveryButton.Location = new System.Drawing.Point(12, 243);
+            this.DeliveryButton.Location = new System.Drawing.Point(12, 303);
             this.DeliveryButton.Name = "DeliveryButton";
             this.DeliveryButton.Size = new System.Drawing.Size(165, 54);
             this.DeliveryButton.TabIndex = 3;
