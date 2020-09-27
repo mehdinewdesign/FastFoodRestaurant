@@ -56,9 +56,12 @@
             this.MinimizeButton = new System.Windows.Forms.Button();
             this.MaximizeButton = new System.Windows.Forms.Button();
             this.DeliveryControlPage = new FastFoodRestaurant.Views.UserControls.DeliveryControl();
+            this.ShoppingCart = new System.Windows.Forms.Button();
+            this.ConfigGroupBox = new System.Windows.Forms.GroupBox();
             this.MainPanel.SuspendLayout();
             this.MainLogoPainel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.MainLogo)).BeginInit();
+            this.ConfigGroupBox.SuspendLayout();
             this.SuspendLayout();
             // 
             // MainPanel
@@ -311,7 +314,7 @@
             this.CloseButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.CloseButton.FlatAppearance.BorderSize = 0;
             this.CloseButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.CloseButton.Location = new System.Drawing.Point(1015, 12);
+            this.CloseButton.Location = new System.Drawing.Point(102, 15);
             this.CloseButton.Name = "CloseButton";
             this.CloseButton.Size = new System.Drawing.Size(40, 42);
             this.CloseButton.TabIndex = 7;
@@ -366,7 +369,7 @@
             this.MinimizeButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.MinimizeButton.FlatAppearance.BorderSize = 0;
             this.MinimizeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.MinimizeButton.Location = new System.Drawing.Point(922, 12);
+            this.MinimizeButton.Location = new System.Drawing.Point(10, 15);
             this.MinimizeButton.Name = "MinimizeButton";
             this.MinimizeButton.Size = new System.Drawing.Size(40, 42);
             this.MinimizeButton.TabIndex = 13;
@@ -379,7 +382,7 @@
             this.MaximizeButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.MaximizeButton.FlatAppearance.BorderSize = 0;
             this.MaximizeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.MaximizeButton.Location = new System.Drawing.Point(969, 12);
+            this.MaximizeButton.Location = new System.Drawing.Point(56, 15);
             this.MaximizeButton.Name = "MaximizeButton";
             this.MaximizeButton.Size = new System.Drawing.Size(40, 42);
             this.MaximizeButton.TabIndex = 14;
@@ -393,16 +396,37 @@
             this.DeliveryControlPage.Size = new System.Drawing.Size(890, 433);
             this.DeliveryControlPage.TabIndex = 15;
             // 
+            // ShoppingCart
+            // 
+            this.ShoppingCart.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ShoppingCart.BackgroundImage")));
+            this.ShoppingCart.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ShoppingCart.FlatAppearance.BorderSize = 0;
+            this.ShoppingCart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ShoppingCart.Location = new System.Drawing.Point(873, 22);
+            this.ShoppingCart.Name = "ShoppingCart";
+            this.ShoppingCart.Size = new System.Drawing.Size(25, 29);
+            this.ShoppingCart.TabIndex = 16;
+            this.ShoppingCart.UseVisualStyleBackColor = true;
+            // 
+            // ConfigGroupBox
+            // 
+            this.ConfigGroupBox.Controls.Add(this.MinimizeButton);
+            this.ConfigGroupBox.Controls.Add(this.MaximizeButton);
+            this.ConfigGroupBox.Controls.Add(this.CloseButton);
+            this.ConfigGroupBox.Location = new System.Drawing.Point(913, 0);
+            this.ConfigGroupBox.Name = "ConfigGroupBox";
+            this.ConfigGroupBox.Size = new System.Drawing.Size(148, 63);
+            this.ConfigGroupBox.TabIndex = 17;
+            this.ConfigGroupBox.TabStop = false;
+            // 
             // MainView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 591);
+            this.Controls.Add(this.ShoppingCart);
             this.Controls.Add(this.PromoControl);
             this.Controls.Add(this.EatControl);
-            this.Controls.Add(this.MaximizeButton);
-            this.Controls.Add(this.MinimizeButton);
-            this.Controls.Add(this.CloseButton);
             this.Controls.Add(this.CollectionControl);
             this.Controls.Add(this.takeAwayControl1);
             this.Controls.Add(this.DriverPayControl);
@@ -411,6 +435,7 @@
             this.Controls.Add(this.MainPanel);
             this.Controls.Add(this.customersControl1);
             this.Controls.Add(this.DeliveryControlPage);
+            this.Controls.Add(this.ConfigGroupBox);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.ImeMode = System.Windows.Forms.ImeMode.On;
@@ -422,6 +447,7 @@
             this.MainLogoPainel.ResumeLayout(false);
             this.MainLogoPainel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.MainLogo)).EndInit();
+            this.ConfigGroupBox.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -455,6 +481,8 @@
         private System.Windows.Forms.Button MinimizeButton;
         private System.Windows.Forms.Button MaximizeButton;
         private Views.UserControls.DeliveryControl DeliveryControlPage;
+        private System.Windows.Forms.Button ShoppingCart;
+        private System.Windows.Forms.GroupBox ConfigGroupBox;
     }
 }
 

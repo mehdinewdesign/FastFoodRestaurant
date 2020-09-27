@@ -2969,6 +2969,30 @@
         rkJggg==
 </value>
   </data>
+  <data name="ShoppingCart.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAALGPC/xhBQAABCxJREFUeF7t
+        m0eoE0EchyPYRSw3PYiKoh4ULAiKCHYUVBQbeNOLBfRiOVgRC2I7eLBXEAU9qIgHK2I92FBs2LH3jg3L
+        7/sn84wheW+T7HvZzeaDD/Y/JrOTcXZ22ouVKBGrIZfIB/KpXJlIiwz8+D/ybUKuF8vI8ES+kY0SvpOv
+        ZWcZCZ7J5ApwreC33CxryaIm3SNwTH5KXB+UNWXR4jrBl/J94pq0VvK5pBKmyEgyUFIBr2RtEqLIFUkl
+        9LUogqyTkX4M5kgqYKFFEWSipALWWhRBRkoqYI9FEaSXpAKKSeY9DPc9zXnay3SZFIOLZIU0kXyYQVGx
+        0Fvymx5ZVAE0E+YFP2U1EoqAnpIKYCLoCWaIrtkUk54eAbgt02UQVl9Iz50gnJV8sbtF4WSU5DccsChL
+        9ku+PNSicMJSH79htkVZwsIIXx5vUSx2XB6NX5YR9LTTkt/Qz6IsWSr58kyL4teYTJDTWND5Kn/JBiRk
+        ywxJhsss8nZTCEoa65vENyzKgXGSDLZYFIudlCfil2UEOW2SpPxbLcqBwZIMcupBA8A2SfmZ2eZEN0kG
+        5ywKHzcl5e9kUQ60lmRwx6JwwVI/Q/kv0vPAJxUyoQJYNQ4b/SVlP2VRjjAJ+iHJKGx7BG5Jb4VFecAO
+        Ehk1tSg80HFTbobCeXFVklEHi8IDGz6Uu7lFecDwkoxYTAgLLSRl9mUxZ7cks9EWhYMxkjIzmcubNZLM
+        JlsUDlZJyjzLojxZIMlsnkXh4IykzL5s602VZLbaouCT9wwwlbGSCthpUfDpIinvdYt8wI2oDlsUfOir
+        KK+bweYNEwkyvGxR8NkuKe8Ei3ygmSTDxxYFn1uS8na0yAfqSjL8ZtG/gVFVmrzOl+7+7t8bSzcDrE6C
+        X5AhN6ovWXVJLUBlm7zKk+7+7t8HSGI+4yvsqpJxS4uCy1xJOZdb5CMXJBl3tSiYNJSXJOUcQYKfuPlA
+        GKS1+n6yjWFwupsFSRZujkjOOfqOGwswvaxHQhRx/QCbJZGEvTUq4KMsb5mZGRjLUQ8lp89plj1krnCo
+        gfc8eXGmmVfecFkQ3NoA64RtSEhhvnTPIy3mYuKawck0mS3sSfJdluU5uIl3Jfdg37LK4Qg9/6MU4LNk
+        vO2Oz7gWwhpiWxIStJPXJNPTbJbVBkl+/HqZfHSf602Se/GZKoeh8T5JAZBTJOy9c9T+u2QzJRVaCy1h
+        r0XeYMh7T6b7uwVec/clnykYnBngtJWrCKTJZ4LZZPJnvbhRZoJW8CF+WTjYcmLURUGZLJ2XmXBvkWyk
+        +Wdig6RDDgyHZEWPQDa7zPT2PAJ1LPofHkNGfAV9BFLh9UdHV14n2IcEj7hOcIdMrgSud0laSEE6wfKY
+        LilYZb4GaRXcg5lfIBkiab68JvkDLL8GQuTHai95D5MlSpQokSOx2F+qvcsfaBkcHwAAAABJRU5ErkJg
+        gg==
+</value>
+  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAYAAAAAAAEAIACcRAAAZgAAAICAAAABACAAKAgBAAJFAABAQAAAAQAgAChCAAAqTQEAMDAAAAEA
