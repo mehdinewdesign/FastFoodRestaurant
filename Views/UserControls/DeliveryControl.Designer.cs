@@ -62,7 +62,7 @@
             // 
             this.SelectedItemLabel.AutoSize = true;
             this.SelectedItemLabel.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.SelectedItemLabel.Location = new System.Drawing.Point(13, 16);
+            this.SelectedItemLabel.Location = new System.Drawing.Point(13, 0);
             this.SelectedItemLabel.Name = "SelectedItemLabel";
             this.SelectedItemLabel.Size = new System.Drawing.Size(125, 21);
             this.SelectedItemLabel.TabIndex = 1;
@@ -72,9 +72,9 @@
             // listView1
             // 
             this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(13, 40);
+            this.listView1.Location = new System.Drawing.Point(13, 24);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(861, 69);
+            this.listView1.Size = new System.Drawing.Size(861, 85);
             this.listView1.TabIndex = 3;
             this.listView1.UseCompatibleStateImageBehavior = false;
             // 
@@ -127,7 +127,7 @@
             // SupplyLabel
             // 
             this.SupplyLabel.AutoSize = true;
-            this.SupplyLabel.Location = new System.Drawing.Point(11, 62);
+            this.SupplyLabel.Location = new System.Drawing.Point(6, 57);
             this.SupplyLabel.Name = "SupplyLabel";
             this.SupplyLabel.Size = new System.Drawing.Size(92, 17);
             this.SupplyLabel.TabIndex = 3;
@@ -136,7 +136,7 @@
             // NumberAddresslabel
             // 
             this.NumberAddresslabel.AutoSize = true;
-            this.NumberAddresslabel.Location = new System.Drawing.Point(469, 27);
+            this.NumberAddresslabel.Location = new System.Drawing.Point(465, 22);
             this.NumberAddresslabel.Name = "NumberAddresslabel";
             this.NumberAddresslabel.Size = new System.Drawing.Size(61, 17);
             this.NumberAddresslabel.TabIndex = 2;
@@ -146,7 +146,7 @@
             // PostalCodeAddressLabel
             // 
             this.PostalCodeAddressLabel.AutoSize = true;
-            this.PostalCodeAddressLabel.Location = new System.Drawing.Point(638, 27);
+            this.PostalCodeAddressLabel.Location = new System.Drawing.Point(638, 22);
             this.PostalCodeAddressLabel.Name = "PostalCodeAddressLabel";
             this.PostalCodeAddressLabel.Size = new System.Drawing.Size(36, 17);
             this.PostalCodeAddressLabel.TabIndex = 1;
@@ -155,7 +155,7 @@
             // StreetLabel
             // 
             this.StreetLabel.AutoSize = true;
-            this.StreetLabel.Location = new System.Drawing.Point(11, 27);
+            this.StreetLabel.Location = new System.Drawing.Point(6, 22);
             this.StreetLabel.Name = "StreetLabel";
             this.StreetLabel.Size = new System.Drawing.Size(51, 17);
             this.StreetLabel.TabIndex = 0;
@@ -181,6 +181,7 @@
             this.Controls.Add(this.OrderDeliveryButton);
             this.Name = "DeliveryControl";
             this.Size = new System.Drawing.Size(890, 433);
+            this.Load += new System.EventHandler(this.DeliveryControl_Load);
             this.AddressGroupBox.ResumeLayout(false);
             this.AddressGroupBox.PerformLayout();
             this.ResumeLayout(false);

@@ -24,5 +24,10 @@ namespace FastFoodRestaurant.Views.UserControls
         {
 
         }
+
+        private void DeliveryControl_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
