@@ -71,7 +71,7 @@ namespace FastFoodRestaurant
         private void DeliveryButton_Click(object sender, EventArgs e)
         {
             mainController.SidePanelSwapOnClick(DeliveryButton, SidePanel);
-            DeliveryControl.BringToFront();
+            DeliveryControlPage.BringToFront();
             
         }
 

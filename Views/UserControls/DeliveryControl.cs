@@ -14,5 +14,15 @@ namespace FastFoodRestaurant.Views.UserControls
         {
             InitializeComponent();
         }
+
+        private void SelectedItemLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void NumberAddresslabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -50,13 +50,12 @@
             this.PromoControl = new FastFoodRestaurant.Views.HomePromoControl();
             this.EatControl = new FastFoodRestaurant.Views.UserControls.EatControl();
             this.CollectionControl = new FastFoodRestaurant.Views.UserControls.CollectionControl();
-            this.deliveryControl1 = new FastFoodRestaurant.Views.UserControls.DeliveryControl();
-            this.DeliveryControl = new FastFoodRestaurant.Views.UserControls.DeliveryControl();
             this.takeAwayControl1 = new FastFoodRestaurant.Views.UserControls.TakeAwayControl();
             this.DriverPayControl = new FastFoodRestaurant.Views.UserControls.DriverPayControl();
             this.customersControl1 = new FastFoodRestaurant.Views.UserControls.CustomersControl();
             this.MinimizeButton = new System.Windows.Forms.Button();
             this.MaximizeButton = new System.Windows.Forms.Button();
+            this.DeliveryControlPage = new FastFoodRestaurant.Views.UserControls.DeliveryControl();
             this.MainPanel.SuspendLayout();
             this.MainLogoPainel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.MainLogo)).BeginInit();
@@ -340,20 +339,6 @@
             this.CollectionControl.Size = new System.Drawing.Size(890, 433);
             this.CollectionControl.TabIndex = 7;
             // 
-            // deliveryControl1
-            // 
-            this.deliveryControl1.Location = new System.Drawing.Point(177, 158);
-            this.deliveryControl1.Name = "deliveryControl1";
-            this.deliveryControl1.Size = new System.Drawing.Size(890, 433);
-            this.deliveryControl1.TabIndex = 8;
-            // 
-            // DeliveryControl
-            // 
-            this.DeliveryControl.Location = new System.Drawing.Point(177, 158);
-            this.DeliveryControl.Name = "DeliveryControl";
-            this.DeliveryControl.Size = new System.Drawing.Size(890, 433);
-            this.DeliveryControl.TabIndex = 9;
-            // 
             // takeAwayControl1
             // 
             this.takeAwayControl1.Location = new System.Drawing.Point(177, 158);
@@ -401,25 +386,31 @@
             this.MaximizeButton.UseVisualStyleBackColor = true;
             this.MaximizeButton.Click += new System.EventHandler(this.MaximizeButton_Click);
             // 
+            // DeliveryControlPage
+            // 
+            this.DeliveryControlPage.Location = new System.Drawing.Point(177, 158);
+            this.DeliveryControlPage.Name = "DeliveryControlPage";
+            this.DeliveryControlPage.Size = new System.Drawing.Size(890, 433);
+            this.DeliveryControlPage.TabIndex = 15;
+            // 
             // MainView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 591);
+            this.Controls.Add(this.PromoControl);
+            this.Controls.Add(this.EatControl);
             this.Controls.Add(this.MaximizeButton);
             this.Controls.Add(this.MinimizeButton);
             this.Controls.Add(this.CloseButton);
-            this.Controls.Add(this.PromoControl);
-            this.Controls.Add(this.EatControl);
             this.Controls.Add(this.CollectionControl);
-            this.Controls.Add(this.deliveryControl1);
-            this.Controls.Add(this.DeliveryControl);
             this.Controls.Add(this.takeAwayControl1);
             this.Controls.Add(this.DriverPayControl);
             this.Controls.Add(this.MainLogoPainel);
             this.Controls.Add(this.TopPanel);
             this.Controls.Add(this.MainPanel);
             this.Controls.Add(this.customersControl1);
+            this.Controls.Add(this.DeliveryControlPage);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.ImeMode = System.Windows.Forms.ImeMode.On;
@@ -458,13 +449,12 @@
         private Views.UserControls.EatControl EatControl;
         private System.Windows.Forms.Button CloseButton;
         private Views.UserControls.CollectionControl CollectionControl;
-        private Views.UserControls.DeliveryControl deliveryControl1;
-        private Views.UserControls.DeliveryControl DeliveryControl;
         private Views.UserControls.TakeAwayControl takeAwayControl1;
         private Views.UserControls.DriverPayControl DriverPayControl;
         private Views.UserControls.CustomersControl customersControl1;
         private System.Windows.Forms.Button MinimizeButton;
         private System.Windows.Forms.Button MaximizeButton;
+        private Views.UserControls.DeliveryControl DeliveryControlPage;
     }
 }
 
