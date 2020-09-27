@@ -58,6 +58,7 @@
             this.DeliveryControlPage = new FastFoodRestaurant.Views.UserControls.DeliveryControl();
             this.ShoppingCart = new System.Windows.Forms.Button();
             this.ConfigGroupBox = new System.Windows.Forms.GroupBox();
+            this.ShoppingCartControl = new FastFoodRestaurant.Views.UserControls.ShoppingCartControl();
             this.MainPanel.SuspendLayout();
             this.MainLogoPainel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.MainLogo)).BeginInit();
@@ -407,6 +408,7 @@
             this.ShoppingCart.Size = new System.Drawing.Size(25, 29);
             this.ShoppingCart.TabIndex = 16;
             this.ShoppingCart.UseVisualStyleBackColor = true;
+            this.ShoppingCart.Click += new System.EventHandler(this.ShoppingCart_Click);
             // 
             // ConfigGroupBox
             // 
@@ -418,6 +420,13 @@
             this.ConfigGroupBox.Size = new System.Drawing.Size(148, 63);
             this.ConfigGroupBox.TabIndex = 17;
             this.ConfigGroupBox.TabStop = false;
+            // 
+            // ShoppingCartControl
+            // 
+            this.ShoppingCartControl.Location = new System.Drawing.Point(177, 158);
+            this.ShoppingCartControl.Name = "ShoppingCartControl";
+            this.ShoppingCartControl.Size = new System.Drawing.Size(890, 433);
+            this.ShoppingCartControl.TabIndex = 18;
             // 
             // MainView
             // 
@@ -436,6 +445,7 @@
             this.Controls.Add(this.customersControl1);
             this.Controls.Add(this.DeliveryControlPage);
             this.Controls.Add(this.ConfigGroupBox);
+            this.Controls.Add(this.ShoppingCartControl);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.ImeMode = System.Windows.Forms.ImeMode.On;
@@ -483,6 +493,7 @@
         private Views.UserControls.DeliveryControl DeliveryControlPage;
         private System.Windows.Forms.Button ShoppingCart;
         private System.Windows.Forms.GroupBox ConfigGroupBox;
+        private Views.UserControls.ShoppingCartControl ShoppingCartControl;
     }
 }
 

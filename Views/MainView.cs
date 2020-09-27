@@ -140,6 +140,10 @@ namespace FastFoodRestaurant
             // System.Diagnostics.Process.Start("https://twitter.com/");
         }
 
-        
+        private void ShoppingCart_Click(object sender, EventArgs e)
+        {
+            ShoppingCartControl.BringToFront();
+            ShoppingCart.BringToFront();
+        }
     }
 }
