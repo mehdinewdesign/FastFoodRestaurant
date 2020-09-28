@@ -58,7 +58,6 @@ namespace FastFoodRestaurant
         private void EatButton_Click(object sender, EventArgs e)
         {
             mainController.SidePanelSwapOnClick(EatButton, SidePanel);
-
             EatControl.BringToFront();
         }
 

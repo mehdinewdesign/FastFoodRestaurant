@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CollectionControl));
-            this.HamburguerButton = new System.Windows.Forms.Button();
+            this.HamburguerCollectionButton = new System.Windows.Forms.Button();
             this.PastaButton = new System.Windows.Forms.Button();
             this.CakeButton = new System.Windows.Forms.Button();
             this.PizzaButton = new System.Windows.Forms.Button();
@@ -39,16 +39,17 @@
             this.BurgerLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // HamburguerButton
+            // HamburguerCollectionButton
             // 
-            this.HamburguerButton.FlatAppearance.BorderSize = 0;
-            this.HamburguerButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.HamburguerButton.Image = ((System.Drawing.Image)(resources.GetObject("HamburguerButton.Image")));
-            this.HamburguerButton.Location = new System.Drawing.Point(259, 138);
-            this.HamburguerButton.Name = "HamburguerButton";
-            this.HamburguerButton.Size = new System.Drawing.Size(75, 72);
-            this.HamburguerButton.TabIndex = 0;
-            this.HamburguerButton.UseVisualStyleBackColor = true;
+            this.HamburguerCollectionButton.FlatAppearance.BorderSize = 0;
+            this.HamburguerCollectionButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.HamburguerCollectionButton.Image = ((System.Drawing.Image)(resources.GetObject("HamburguerCollectionButton.Image")));
+            this.HamburguerCollectionButton.Location = new System.Drawing.Point(259, 138);
+            this.HamburguerCollectionButton.Name = "HamburguerCollectionButton";
+            this.HamburguerCollectionButton.Size = new System.Drawing.Size(75, 72);
+            this.HamburguerCollectionButton.TabIndex = 0;
+            this.HamburguerCollectionButton.UseVisualStyleBackColor = true;
+            this.HamburguerCollectionButton.Click += new System.EventHandler(this.HamburguerCollectionButton_Click);
             // 
             // PastaButton
             // 
@@ -131,7 +132,7 @@
             this.Controls.Add(this.PizzaButton);
             this.Controls.Add(this.CakeButton);
             this.Controls.Add(this.PastaButton);
-            this.Controls.Add(this.HamburguerButton);
+            this.Controls.Add(this.HamburguerCollectionButton);
             this.Name = "CollectionControl";
             this.Size = new System.Drawing.Size(890, 433);
             this.ResumeLayout(false);
@@ -141,7 +142,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button HamburguerButton;
+        private System.Windows.Forms.Button HamburguerCollectionButton;
         private System.Windows.Forms.Button PastaButton;
         private System.Windows.Forms.Button CakeButton;
         private System.Windows.Forms.Button PizzaButton;

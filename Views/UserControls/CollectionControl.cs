@@ -19,5 +19,10 @@ namespace FastFoodRestaurant.Views.UserControls
         {
 
         }
+
+        private void HamburguerCollectionButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

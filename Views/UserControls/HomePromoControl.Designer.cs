@@ -117,6 +117,7 @@
             this.OrderButton.TabIndex = 5;
             this.OrderButton.Text = "Order Now";
             this.OrderButton.UseVisualStyleBackColor = false;
+            this.OrderButton.Click += new System.EventHandler(this.OrderButton_Click);
             // 
             // HomePromoControl
             // 
