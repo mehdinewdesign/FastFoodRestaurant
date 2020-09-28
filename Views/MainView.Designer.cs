@@ -35,12 +35,12 @@
             this.CustomersButton = new System.Windows.Forms.Button();
             this.DriverPayButton = new System.Windows.Forms.Button();
             this.TwitterButton = new System.Windows.Forms.Button();
-            this.TakeButton = new System.Windows.Forms.Button();
             this.FacebookButton = new System.Windows.Forms.Button();
             this.DeliveryButton = new System.Windows.Forms.Button();
             this.CollectionButton = new System.Windows.Forms.Button();
             this.EatButton = new System.Windows.Forms.Button();
             this.HomeButton = new System.Windows.Forms.Button();
+            this.TakeButton = new System.Windows.Forms.Button();
             this.TopPanel = new System.Windows.Forms.Panel();
             this.MainLogoPainel = new System.Windows.Forms.Panel();
             this.SubtitleMainView = new System.Windows.Forms.Label();
@@ -157,22 +157,6 @@
             this.TwitterButton.UseVisualStyleBackColor = false;
             this.TwitterButton.Click += new System.EventHandler(this.TwitterButton_Click);
             // 
-            // TakeButton
-            // 
-            this.TakeButton.FlatAppearance.BorderSize = 0;
-            this.TakeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.TakeButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.TakeButton.ForeColor = System.Drawing.Color.White;
-            this.TakeButton.Image = ((System.Drawing.Image)(resources.GetObject("TakeButton.Image")));
-            this.TakeButton.Location = new System.Drawing.Point(12, 243);
-            this.TakeButton.Name = "TakeButton";
-            this.TakeButton.Size = new System.Drawing.Size(165, 54);
-            this.TakeButton.TabIndex = 3;
-            this.TakeButton.Text = "      Take Away";
-            this.TakeButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.TakeButton.UseVisualStyleBackColor = true;
-            this.TakeButton.Click += new System.EventHandler(this.TakeButton_Click);
-            // 
             // FacebookButton
             // 
             this.FacebookButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("FacebookButton.BackgroundImage")));
@@ -254,6 +238,22 @@
             this.HomeButton.UseVisualStyleBackColor = true;
             this.HomeButton.Click += new System.EventHandler(this.HomeButton_Click);
             // 
+            // TakeButton
+            // 
+            this.TakeButton.FlatAppearance.BorderSize = 0;
+            this.TakeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.TakeButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.TakeButton.ForeColor = System.Drawing.Color.White;
+            this.TakeButton.Image = ((System.Drawing.Image)(resources.GetObject("TakeButton.Image")));
+            this.TakeButton.Location = new System.Drawing.Point(12, 243);
+            this.TakeButton.Name = "TakeButton";
+            this.TakeButton.Size = new System.Drawing.Size(165, 54);
+            this.TakeButton.TabIndex = 3;
+            this.TakeButton.Text = "      Take Away";
+            this.TakeButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.TakeButton.UseVisualStyleBackColor = true;
+            this.TakeButton.Click += new System.EventHandler(this.TakeButton_Click);
+            // 
             // TopPanel
             // 
             this.TopPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(41)))), ((int)(((byte)(28)))));
@@ -278,22 +278,22 @@
             // SubtitleMainView
             // 
             this.SubtitleMainView.AutoSize = true;
-            this.SubtitleMainView.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.SubtitleMainView.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.SubtitleMainView.ForeColor = System.Drawing.Color.White;
             this.SubtitleMainView.Location = new System.Drawing.Point(22, 119);
             this.SubtitleMainView.Name = "SubtitleMainView";
-            this.SubtitleMainView.Size = new System.Drawing.Size(79, 16);
+            this.SubtitleMainView.Size = new System.Drawing.Size(82, 17);
             this.SubtitleMainView.TabIndex = 3;
             this.SubtitleMainView.Text = "Restaurants";
             // 
             // MainTitle
             // 
             this.MainTitle.AutoSize = true;
-            this.MainTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.MainTitle.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.MainTitle.ForeColor = System.Drawing.Color.White;
             this.MainTitle.Location = new System.Drawing.Point(14, 99);
             this.MainTitle.Name = "MainTitle";
-            this.MainTitle.Size = new System.Drawing.Size(95, 20);
+            this.MainTitle.Size = new System.Drawing.Size(98, 21);
             this.MainTitle.TabIndex = 3;
             this.MainTitle.Text = "Fast foods";
             this.MainTitle.Click += new System.EventHandler(this.label1_Click);

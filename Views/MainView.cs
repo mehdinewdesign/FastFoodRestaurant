@@ -1,6 +1,7 @@
 ﻿using FastFoodRestaurant.Controllers;
 using FastFoodRestaurant.Views;
 using FastFoodRestaurant.Views.UserControls;
+using FastFoodRestaurant.Views.UserControls.CollectionControlPages;
 using System;
 using System.Windows.Forms;
 
