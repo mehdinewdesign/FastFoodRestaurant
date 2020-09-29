@@ -85,7 +85,7 @@
             this.MainPanel.Size = new System.Drawing.Size(177, 591);
             this.MainPanel.TabIndex = 0;
             this.MainPanel.TabStop = true;
-            this.MainPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.MainPanel_Paint);
+
             // 
             // InstagramButton
             // 
@@ -273,7 +273,6 @@
             this.MainLogoPainel.Name = "MainLogoPainel";
             this.MainLogoPainel.Size = new System.Drawing.Size(116, 152);
             this.MainLogoPainel.TabIndex = 2;
-            this.MainLogoPainel.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // SubtitleMainView
             // 
@@ -296,7 +295,6 @@
             this.MainTitle.Size = new System.Drawing.Size(98, 21);
             this.MainTitle.TabIndex = 3;
             this.MainTitle.Text = "Fast foods";
-            this.MainTitle.Click += new System.EventHandler(this.label1_Click);
             // 
             // MainLogo
             // 
@@ -307,7 +305,6 @@
             this.MainLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.MainLogo.TabIndex = 4;
             this.MainLogo.TabStop = false;
-            this.MainLogo.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // CloseButton
             // 
@@ -452,7 +449,6 @@
             this.Name = "MainView";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MainView";
-            this.Load += new System.EventHandler(this.MainView_Load);
             this.MainPanel.ResumeLayout(false);
             this.MainLogoPainel.ResumeLayout(false);
             this.MainLogoPainel.PerformLayout();

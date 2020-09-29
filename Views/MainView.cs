@@ -11,90 +11,10 @@ namespace FastFoodRestaurant
     {
         // Initialize Controllers.
         MainViewController mainController = new MainViewController();
-
-        static MainView _obj;
-
-        // Check checks the current instance of the form.
-        public static MainView Instance
-        {
-            get
-            {
-                if(_obj == null)
-                {
-                    _obj = new MainView();
-                }
-                return _obj;
-            }
-        }
-
-
-        // Return the main painel with collection buttons.
-        //public Panel PanelContainer
-        //{
-        //    get { return CollectionMainPanel; }
-        //    set { CollectionMainPanel = value;  }
-        //}
-
-        // Main Buttons target´s
-        public Button HamburguerCollectionButton
-        {
-            get { return HamburguerCollectionButton; }
-            set { HamburguerCollectionButton = value; } 
-        }
-
-        public Button PastaCollectionButton
-        {
-            get { return PastaCollectionButton; }
-            set { PastaCollectionButton = value; }
-        }
-
-        public Button CakeCollectionButton
-        {
-            get { return CakeCollectionButton; }
-            set { CakeCollectionButton = value; }
-        }
-
-        public Button PizzaCollectionButton
-        {
-            get { return PizzaCollectionButton; }
-            set { PizzaCollectionButton = value; }
-        }
-
-        // https://www.youtube.com/watch?v=wZ63E_9ASwM
-
+        
         public MainView()
         {
             InitializeComponent();
-        }
-
-        private void MainView_Load(object sender, EventArgs e)
-        {
-           
-        }
-
-        private void MainPanel_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Button6_Click(object sender, EventArgs e)
-        {
-           
         }
 
         private void HomeButton_Click(object sender, EventArgs e)
@@ -103,7 +23,6 @@ namespace FastFoodRestaurant
             mainController.SidePanelSwapOnClick(HomeButton, SidePanel);
             // Bring to the front user control.
             PromoControl.BringToFront();
-           
         }
 
         private void EatButton_Click(object sender, EventArgs e)
@@ -141,16 +60,6 @@ namespace FastFoodRestaurant
         {
             mainController.SidePanelSwapOnClick(CustomersButton, SidePanel);
             customersControl1.BringToFront();
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void CloseButton_Click(object sender, EventArgs e)

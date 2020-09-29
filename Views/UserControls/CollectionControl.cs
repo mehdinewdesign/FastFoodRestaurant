@@ -25,7 +25,7 @@ namespace FastFoodRestaurant.Views.UserControls
 
         private void HamburguerCollectionButton_Click(object sender, EventArgs e)
         {
-            collectionBurgerControl1.BringToFront();
+            
         }
 
         private void CollectionItensGroupBox_Enter(object sender, EventArgs e)
@@ -43,14 +43,9 @@ namespace FastFoodRestaurant.Views.UserControls
             
         }
 
-        private void collectionBurgerControl1_Load_1(object sender, EventArgs e)
-        {
-
-        }
-
         private void PastaButton_Click(object sender, EventArgs e)
         {
-            collectionBurgerControl1.BringToFront();
+            
         }
 
         private void CakeButton_Click(object sender, EventArgs e)
