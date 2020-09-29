@@ -14,8 +14,6 @@ namespace FastFoodRestaurant.Views.UserControls
         public CollectionControl()
         {
             InitializeComponent();
-            
-            
         }
 
         private void PizzaButton_Click(object sender, EventArgs e)
@@ -25,7 +23,6 @@ namespace FastFoodRestaurant.Views.UserControls
 
         private void HamburguerCollectionButton_Click(object sender, EventArgs e)
         {
-            
         }
 
         private void CollectionItensGroupBox_Enter(object sender, EventArgs e)

@@ -1,7 +1,5 @@
 ﻿using FastFoodRestaurant.Controllers;
-using FastFoodRestaurant.Views;
 using FastFoodRestaurant.Views.UserControls;
-using FastFoodRestaurant.Views.UserControls.CollectionControlPages;
 using System;
 using System.Windows.Forms;
 
@@ -41,7 +39,6 @@ namespace FastFoodRestaurant
         {
             mainController.SidePanelSwapOnClick(DeliveryButton, SidePanel);
             DeliveryControlPage.BringToFront();
-            
         }
 
         private void TakeButton_Click(object sender, EventArgs e)
@@ -69,19 +66,19 @@ namespace FastFoodRestaurant
 
         private void MaximizeButton_Click(object sender, EventArgs e)
         {
-            if(this.WindowState == FormWindowState.Normal)
+            if(WindowState == FormWindowState.Normal)
             {
-                this.WindowState = FormWindowState.Maximized;
+                WindowState = FormWindowState.Maximized;
             }
             else
             {
-                this.WindowState = FormWindowState.Normal;
+                WindowState = FormWindowState.Normal;
             }
         }
 
         private void MinimizeButton_Click(object sender, EventArgs e)
         {
-            this.WindowState = FormWindowState.Minimized;
+            WindowState = FormWindowState.Minimized;
         }
 
         private void FacebookButton_Click(object sender, EventArgs e)
