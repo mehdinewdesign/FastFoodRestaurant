@@ -12,6 +12,20 @@ namespace FastFoodRestaurant
         // Initialize Controllers.
         MainViewController mainController = new MainViewController();
 
+        static MainView _obj;
+
+        public static MainView Instance
+        {
+            get
+            {
+                if(_obj == null)
+                {
+                    _obj = new MainView();
+                }
+                return _obj;
+            }
+        }
+
         public MainView()
         {
             InitializeComponent();
