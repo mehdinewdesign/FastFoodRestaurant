@@ -85,7 +85,6 @@
             this.MainPanel.Size = new System.Drawing.Size(177, 591);
             this.MainPanel.TabIndex = 0;
             this.MainPanel.TabStop = true;
-
             // 
             // InstagramButton
             // 
