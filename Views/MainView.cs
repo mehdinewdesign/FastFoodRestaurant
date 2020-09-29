@@ -14,6 +14,7 @@ namespace FastFoodRestaurant
 
         static MainView _obj;
 
+        // Check checks the current instance of the form.
         public static MainView Instance
         {
             get
@@ -25,6 +26,41 @@ namespace FastFoodRestaurant
                 return _obj;
             }
         }
+
+
+        // Return the main painel with collection buttons.
+        //public Panel PanelContainer
+        //{
+        //    get { return CollectionMainPanel; }
+        //    set { CollectionMainPanel = value;  }
+        //}
+
+        // Main Buttons target´s
+        public Button HamburguerCollectionButton
+        {
+            get { return HamburguerCollectionButton; }
+            set { HamburguerCollectionButton = value; } 
+        }
+
+        public Button PastaCollectionButton
+        {
+            get { return PastaCollectionButton; }
+            set { PastaCollectionButton = value; }
+        }
+
+        public Button CakeCollectionButton
+        {
+            get { return CakeCollectionButton; }
+            set { CakeCollectionButton = value; }
+        }
+
+        public Button PizzaCollectionButton
+        {
+            get { return PizzaCollectionButton; }
+            set { PizzaCollectionButton = value; }
+        }
+
+        // https://www.youtube.com/watch?v=wZ63E_9ASwM
 
         public MainView()
         {

@@ -172,6 +172,7 @@
             this.CollectionMainPanel.Name = "CollectionMainPanel";
             this.CollectionMainPanel.Size = new System.Drawing.Size(893, 434);
             this.CollectionMainPanel.TabIndex = 12;
+            this.CollectionMainPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.CollectionMainPanel_Paint);
             // 
             // CollectionControl
             // 

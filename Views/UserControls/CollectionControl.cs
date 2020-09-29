@@ -57,5 +57,10 @@ namespace FastFoodRestaurant.Views.UserControls
         {
             collectionCakeControl1.BringToFront();
         }
+
+        public void CollectionMainPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
