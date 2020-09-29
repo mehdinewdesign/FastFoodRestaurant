@@ -30,9 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CollectionControl));
             this.HamburguerCollectionButton = new System.Windows.Forms.Button();
-            this.PastaButton = new System.Windows.Forms.Button();
-            this.CakeButton = new System.Windows.Forms.Button();
-            this.PizzaButton = new System.Windows.Forms.Button();
+            this.PastaCollectionButton = new System.Windows.Forms.Button();
+            this.CakeCollectionButton = new System.Windows.Forms.Button();
+            this.PizzaCollectionButton = new System.Windows.Forms.Button();
             this.PizzaCollectionLabel = new System.Windows.Forms.Label();
             this.CakeCollectionLabel = new System.Windows.Forms.Label();
             this.PastaCollectionLabel = new System.Windows.Forms.Label();
@@ -41,8 +41,8 @@
             this.collectionCakeControl1 = new FastFoodRestaurant.Views.UserControls.CollectionControlPages.CollectionCakeControl();
             this.collectionPastaControl1 = new FastFoodRestaurant.Views.UserControls.CollectionControlPages.CollectionPastaControl();
             this.collectionPizzaControl1 = new FastFoodRestaurant.Views.UserControls.CollectionControlPages.CollectionPizzaControl();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel1.SuspendLayout();
+            this.CollectionMainPanel = new System.Windows.Forms.Panel();
+            this.CollectionMainPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // HamburguerCollectionButton
@@ -57,41 +57,41 @@
             this.HamburguerCollectionButton.UseVisualStyleBackColor = true;
             this.HamburguerCollectionButton.Click += new System.EventHandler(this.HamburguerCollectionButton_Click);
             // 
-            // PastaButton
+            // PastaCollectionButton
             // 
-            this.PastaButton.FlatAppearance.BorderSize = 0;
-            this.PastaButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.PastaButton.Image = ((System.Drawing.Image)(resources.GetObject("PastaButton.Image")));
-            this.PastaButton.Location = new System.Drawing.Point(357, 170);
-            this.PastaButton.Name = "PastaButton";
-            this.PastaButton.Size = new System.Drawing.Size(75, 72);
-            this.PastaButton.TabIndex = 1;
-            this.PastaButton.UseVisualStyleBackColor = true;
-            this.PastaButton.Click += new System.EventHandler(this.PastaButton_Click);
+            this.PastaCollectionButton.FlatAppearance.BorderSize = 0;
+            this.PastaCollectionButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.PastaCollectionButton.Image = ((System.Drawing.Image)(resources.GetObject("PastaCollectionButton.Image")));
+            this.PastaCollectionButton.Location = new System.Drawing.Point(357, 170);
+            this.PastaCollectionButton.Name = "PastaCollectionButton";
+            this.PastaCollectionButton.Size = new System.Drawing.Size(75, 72);
+            this.PastaCollectionButton.TabIndex = 1;
+            this.PastaCollectionButton.UseVisualStyleBackColor = true;
+            this.PastaCollectionButton.Click += new System.EventHandler(this.PastaButton_Click);
             // 
-            // CakeButton
+            // CakeCollectionButton
             // 
-            this.CakeButton.FlatAppearance.BorderSize = 0;
-            this.CakeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.CakeButton.Image = ((System.Drawing.Image)(resources.GetObject("CakeButton.Image")));
-            this.CakeButton.Location = new System.Drawing.Point(456, 170);
-            this.CakeButton.Name = "CakeButton";
-            this.CakeButton.Size = new System.Drawing.Size(75, 72);
-            this.CakeButton.TabIndex = 2;
-            this.CakeButton.UseVisualStyleBackColor = true;
-            this.CakeButton.Click += new System.EventHandler(this.CakeButton_Click);
+            this.CakeCollectionButton.FlatAppearance.BorderSize = 0;
+            this.CakeCollectionButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.CakeCollectionButton.Image = ((System.Drawing.Image)(resources.GetObject("CakeCollectionButton.Image")));
+            this.CakeCollectionButton.Location = new System.Drawing.Point(456, 170);
+            this.CakeCollectionButton.Name = "CakeCollectionButton";
+            this.CakeCollectionButton.Size = new System.Drawing.Size(75, 72);
+            this.CakeCollectionButton.TabIndex = 2;
+            this.CakeCollectionButton.UseVisualStyleBackColor = true;
+            this.CakeCollectionButton.Click += new System.EventHandler(this.CakeButton_Click);
             // 
-            // PizzaButton
+            // PizzaCollectionButton
             // 
-            this.PizzaButton.FlatAppearance.BorderSize = 0;
-            this.PizzaButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.PizzaButton.Image = ((System.Drawing.Image)(resources.GetObject("PizzaButton.Image")));
-            this.PizzaButton.Location = new System.Drawing.Point(548, 170);
-            this.PizzaButton.Name = "PizzaButton";
-            this.PizzaButton.Size = new System.Drawing.Size(75, 72);
-            this.PizzaButton.TabIndex = 3;
-            this.PizzaButton.UseVisualStyleBackColor = true;
-            this.PizzaButton.Click += new System.EventHandler(this.PizzaButton_Click);
+            this.PizzaCollectionButton.FlatAppearance.BorderSize = 0;
+            this.PizzaCollectionButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.PizzaCollectionButton.Image = ((System.Drawing.Image)(resources.GetObject("PizzaCollectionButton.Image")));
+            this.PizzaCollectionButton.Location = new System.Drawing.Point(548, 170);
+            this.PizzaCollectionButton.Name = "PizzaCollectionButton";
+            this.PizzaCollectionButton.Size = new System.Drawing.Size(75, 72);
+            this.PizzaCollectionButton.TabIndex = 3;
+            this.PizzaCollectionButton.UseVisualStyleBackColor = true;
+            this.PizzaCollectionButton.Click += new System.EventHandler(this.PizzaButton_Click);
             // 
             // PizzaCollectionLabel
             // 
@@ -158,34 +158,34 @@
             this.collectionPizzaControl1.Size = new System.Drawing.Size(890, 433);
             this.collectionPizzaControl1.TabIndex = 11;
             // 
-            // panel1
+            // CollectionMainPanel
             // 
-            this.panel1.Controls.Add(this.HamburguerCollectionButton);
-            this.panel1.Controls.Add(this.CakeButton);
-            this.panel1.Controls.Add(this.CakeCollectionLabel);
-            this.panel1.Controls.Add(this.PizzaCollectionLabel);
-            this.panel1.Controls.Add(this.BurgerLabel);
-            this.panel1.Controls.Add(this.PizzaButton);
-            this.panel1.Controls.Add(this.PastaCollectionLabel);
-            this.panel1.Controls.Add(this.PastaButton);
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(893, 434);
-            this.panel1.TabIndex = 12;
+            this.CollectionMainPanel.Controls.Add(this.HamburguerCollectionButton);
+            this.CollectionMainPanel.Controls.Add(this.CakeCollectionButton);
+            this.CollectionMainPanel.Controls.Add(this.CakeCollectionLabel);
+            this.CollectionMainPanel.Controls.Add(this.PizzaCollectionLabel);
+            this.CollectionMainPanel.Controls.Add(this.BurgerLabel);
+            this.CollectionMainPanel.Controls.Add(this.PizzaCollectionButton);
+            this.CollectionMainPanel.Controls.Add(this.PastaCollectionLabel);
+            this.CollectionMainPanel.Controls.Add(this.PastaCollectionButton);
+            this.CollectionMainPanel.Location = new System.Drawing.Point(0, 0);
+            this.CollectionMainPanel.Name = "CollectionMainPanel";
+            this.CollectionMainPanel.Size = new System.Drawing.Size(893, 434);
+            this.CollectionMainPanel.TabIndex = 12;
             // 
             // CollectionControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.CollectionMainPanel);
             this.Controls.Add(this.collectionPizzaControl1);
             this.Controls.Add(this.collectionPastaControl1);
             this.Controls.Add(this.collectionCakeControl1);
             this.Controls.Add(this.collectionBurgerControl1);
             this.Name = "CollectionControl";
             this.Size = new System.Drawing.Size(890, 433);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.CollectionMainPanel.ResumeLayout(false);
+            this.CollectionMainPanel.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -193,9 +193,9 @@
         #endregion
 
         private System.Windows.Forms.Button HamburguerCollectionButton;
-        private System.Windows.Forms.Button PastaButton;
-        private System.Windows.Forms.Button CakeButton;
-        private System.Windows.Forms.Button PizzaButton;
+        private System.Windows.Forms.Button PastaCollectionButton;
+        private System.Windows.Forms.Button CakeCollectionButton;
+        private System.Windows.Forms.Button PizzaCollectionButton;
         private System.Windows.Forms.Label PizzaCollectionLabel;
         private System.Windows.Forms.Label CakeCollectionLabel;
         private System.Windows.Forms.Label PastaCollectionLabel;
@@ -204,6 +204,6 @@
         private CollectionControlPages.CollectionCakeControl collectionCakeControl1;
         private CollectionControlPages.CollectionPastaControl collectionPastaControl1;
         private CollectionControlPages.CollectionPizzaControl collectionPizzaControl1;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel CollectionMainPanel;
     }
 }
