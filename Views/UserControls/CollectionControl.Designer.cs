@@ -67,6 +67,7 @@
             this.PastaCollectionButton.Size = new System.Drawing.Size(75, 72);
             this.PastaCollectionButton.TabIndex = 1;
             this.PastaCollectionButton.UseVisualStyleBackColor = true;
+            this.PastaCollectionButton.Click += new System.EventHandler(this.PastaCollectionButton_Click);
             // 
             // CakeCollectionButton
             // 
@@ -78,6 +79,7 @@
             this.CakeCollectionButton.Size = new System.Drawing.Size(75, 72);
             this.CakeCollectionButton.TabIndex = 2;
             this.CakeCollectionButton.UseVisualStyleBackColor = true;
+            this.CakeCollectionButton.Click += new System.EventHandler(this.CakeCollectionButton_Click);
             // 
             // PizzaCollectionButton
             // 
@@ -143,7 +145,7 @@
             // 
             // collectionBurgerControl
             // 
-            this.collectionBurgerControl.Location = new System.Drawing.Point(0, 0);
+            this.collectionBurgerControl.Location = new System.Drawing.Point(270, 266);
             this.collectionBurgerControl.Name = "collectionBurgerControl";
             this.collectionBurgerControl.Size = new System.Drawing.Size(890, 433);
             this.collectionBurgerControl.TabIndex = 12;
@@ -151,7 +153,7 @@
             // 
             // collectionPizzaControl
             // 
-            this.collectionPizzaControl.Location = new System.Drawing.Point(0, 0);
+            this.collectionPizzaControl.Location = new System.Drawing.Point(267, 266);
             this.collectionPizzaControl.Name = "collectionPizzaControl";
             this.collectionPizzaControl.Size = new System.Drawing.Size(890, 433);
             this.collectionPizzaControl.TabIndex = 13;
@@ -159,7 +161,7 @@
             // 
             // collectionCakeControl
             // 
-            this.collectionCakeControl.Location = new System.Drawing.Point(0, 0);
+            this.collectionCakeControl.Location = new System.Drawing.Point(267, 266);
             this.collectionCakeControl.Name = "collectionCakeControl";
             this.collectionCakeControl.Size = new System.Drawing.Size(890, 433);
             this.collectionCakeControl.TabIndex = 14;
@@ -167,7 +169,7 @@
             // 
             // collectionPastaControl
             // 
-            this.collectionPastaControl.Location = new System.Drawing.Point(0, 0);
+            this.collectionPastaControl.Location = new System.Drawing.Point(267, 266);
             this.collectionPastaControl.Name = "collectionPastaControl";
             this.collectionPastaControl.Size = new System.Drawing.Size(890, 433);
             this.collectionPastaControl.TabIndex = 15;
