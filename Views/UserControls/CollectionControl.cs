@@ -12,21 +12,21 @@ namespace FastFoodRestaurant.Views.UserControls
 {
     public partial class CollectionControl : UserControl
     {
-        
+
+        CollectionController collectionController = new CollectionController();
         public CollectionControl()
         {
             InitializeComponent();
         }
 
 
-        // Set defautl state
-        private void CollectionControl_Load(object sender, EventArgs e)
+        // Set defautl state of user control on click of CollectionButton side menu.
+        public void CollectionControl_Load(object sender, EventArgs e)
         {
-            collectionBurgerControl.Visible = false;
-            collectionPastaControl.Visible = false;
-            collectionCakeControl.Visible = false;
-            collectionPizzaControl.Visible = false;
-            
+            collectionController.SetStateUserControlToFalse(collectionBurgerControl);
+            collectionController.SetStateUserControlToFalse(collectionPastaControl);
+            collectionController.SetStateUserControlToFalse(collectionCakeControl);
+            collectionController.SetStateUserControlToFalse(collectionPizzaControl);
         }
 
 

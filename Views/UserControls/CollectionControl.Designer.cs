@@ -145,7 +145,7 @@
             // 
             // collectionBurgerControl
             // 
-            this.collectionBurgerControl.Location = new System.Drawing.Point(270, 266);
+            this.collectionBurgerControl.Location = new System.Drawing.Point(0, 0);
             this.collectionBurgerControl.Name = "collectionBurgerControl";
             this.collectionBurgerControl.Size = new System.Drawing.Size(890, 433);
             this.collectionBurgerControl.TabIndex = 12;
@@ -153,7 +153,7 @@
             // 
             // collectionPizzaControl
             // 
-            this.collectionPizzaControl.Location = new System.Drawing.Point(267, 266);
+            this.collectionPizzaControl.Location = new System.Drawing.Point(0, 0);
             this.collectionPizzaControl.Name = "collectionPizzaControl";
             this.collectionPizzaControl.Size = new System.Drawing.Size(890, 433);
             this.collectionPizzaControl.TabIndex = 13;
@@ -161,7 +161,7 @@
             // 
             // collectionCakeControl
             // 
-            this.collectionCakeControl.Location = new System.Drawing.Point(267, 266);
+            this.collectionCakeControl.Location = new System.Drawing.Point(0, 0);
             this.collectionCakeControl.Name = "collectionCakeControl";
             this.collectionCakeControl.Size = new System.Drawing.Size(890, 433);
             this.collectionCakeControl.TabIndex = 14;
@@ -169,7 +169,7 @@
             // 
             // collectionPastaControl
             // 
-            this.collectionPastaControl.Location = new System.Drawing.Point(267, 266);
+            this.collectionPastaControl.Location = new System.Drawing.Point(0, 0);
             this.collectionPastaControl.Name = "collectionPastaControl";
             this.collectionPastaControl.Size = new System.Drawing.Size(890, 433);
             this.collectionPastaControl.TabIndex = 15;

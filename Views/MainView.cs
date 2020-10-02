@@ -10,6 +10,7 @@ namespace FastFoodRestaurant
     {
         // Initialize Controllers.
         MainViewController mainController = new MainViewController();
+        CollectionController collectionController = new CollectionController();
         
         public MainView()
         {
@@ -34,7 +35,9 @@ namespace FastFoodRestaurant
         {
             mainController.SidePanelSwapOnClick(CollectionButton, SidePanel);
             CollectionControl.BringToFront();
-            
+
+            // Invoke the Collection itself to set state of usercontrols to false.
+            CollectionControl.CollectionControl_Load(CollectionControl, e);
         }
 
         private void DeliveryButton_Click(object sender, EventArgs e)
