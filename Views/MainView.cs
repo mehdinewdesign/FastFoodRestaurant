@@ -1,5 +1,6 @@
 ﻿using FastFoodRestaurant.Controllers;
 using FastFoodRestaurant.Views.UserControls;
+using FastFoodRestaurant.Views.UserControls.CollectionControlPages;
 using System;
 using System.Windows.Forms;
 
@@ -33,6 +34,7 @@ namespace FastFoodRestaurant
         {
             mainController.SidePanelSwapOnClick(CollectionButton, SidePanel);
             CollectionControl.BringToFront();
+            
         }
 
         private void DeliveryButton_Click(object sender, EventArgs e)
