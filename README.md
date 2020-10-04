@@ -24,6 +24,32 @@ This project is based on Windows Forms, for access the designer tool you will ne
 
 [Visual Studio IDE](https://visualstudio.microsoft.com/pt-br/)
 
+### Installing
+
+For developers that use Visual Studio IDE just clone the repository and double-click on FastFoodRestaurant.sln and project will be loaded.
+
+```
+git clone https://github.com/viniciusmorgado/FastFoodRestaurant.git
+```
+
+For people that want to run the software, install Microsoft SQL Server and .NET Core SDK, and clone the repository:
+
+```
+git clone https://github.com/viniciusmorgado/FastFoodRestaurant.git
+```
+
+After cloning goes to powershell and access the project directory, inside project root write in powershell:
+
+```
+dotnet run
+```
+
+This command will compile the application and run the software.
+
+<strong>Remember:</strong> If you don´t install SQL Server, database options for data persistence will not be available.
+
+For people who are just curious, an alternative is to download the precompiled version by [clicking here](https://github.com/viniciusmorgado/FastFoodRestaurant/raw/master/_Build/Setup_FastFoodRestaurant.exe), this version is updated monthly and not after minor upgrads.
+
 # Technical and structural design #
 
 Below are technical details about the project.
