@@ -8,11 +8,12 @@ namespace FastFoodRestaurant.Models
     public class EntityContext : DbContext
     {
         public DbSet<Products> Products { get; set; }
+        public DbSet<Customers> Customers { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             // Remove string on upload for security reasons.
-            optionsBuilder.UseSqlServer("");
+            optionsBuilder.UseSqlServer("Data Source=localhost; Initial Catalog=FastFood; Integrated Security=SSPI");
         }
 
     }
