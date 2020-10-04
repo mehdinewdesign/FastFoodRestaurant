@@ -14,7 +14,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-This project the follow software install in your local machine:
+This project need the following software install in your local machine to work:
 
 [.NET Core 3.1 or later](https://dotnet.microsoft.com/download)
 
