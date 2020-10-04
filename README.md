@@ -8,6 +8,22 @@ A single page software for fastfood terminal restaurant build using .NET Core an
 
 ![alt text](https://i.imgur.com/ooQ8csY.png)
 
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+This project the follow software install in your local machine:
+
+[.NET Core 3.1 or later](https://dotnet.microsoft.com/download)
+
+[Microsoft SQL Server 2019 or later](https://www.microsoft.com/pt-br/sql-server/sql-server-downloads)
+
+This project is based on Windows Forms, for access the designer tool you will need a Visual Studio IDE, but for modifying the code only you can use any text editor like vscode or atom.
+
+[Visual Studio IDE](https://visualstudio.microsoft.com/pt-br/)
+
 # Technical and structural design #
 
 Below are technical details about the project.
