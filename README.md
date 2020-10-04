@@ -6,7 +6,7 @@ A single page software for fastfood terminal restaurant build using .NET Core an
 
 ## Screenshots
 
-![alt text](https://i.imgur.com/nCxIOzn.png)
+![alt text](https://i.imgur.com/ooQ8csY.png)
 
 # Technical and structural design #
 
