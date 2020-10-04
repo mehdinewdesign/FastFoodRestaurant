@@ -1,27 +1,22 @@
 # Fast Food Restaurant
 
-A flat software for fast food restaurant build using .NET Core and C# with Windows Forms.
+A single page software for fastfood terminal restaurant build using .NET Core and C# with Windows Forms.
 
 <strong>Observation:</strong> This software is under development.
 
-Download a UI Prototype:
-
-[Direct Download](https://github.com/viniciusmorgado/FastFoodRestaurant/raw/master/_Build/Setup_FastFoodRestaurant.exe) <br>
-[Google Drive](https://drive.google.com/file/d/1XgqtS1Pa0k4zcuhSXIZaGA6tZ1xMfWPk/view?usp=sharing)
-
 ## Screenshots
 
-![alt text](https://i.imgur.com/C1s2nyr.png)
+![alt text](https://i.imgur.com/nCxIOzn.png)
 
 # Technical and structural design #
 
-Below are technical details and software design architectures.
+Below are technical details about the project.
 
 ## Architectural Pattern ##
 
 <strong>MVC (Model - View - Controller)</strong>
 
-This project is written using MVC pattern for separations of concerns bacause you capability of loose coupling, all the layers are separated with their own functionality. It is easy to replace a layer with some other type of layer. In other words, MVC pattern is to break up UI behavior into separate pieces in order to increase reuse possibilities and testability.
+This project is written using MVC pattern for separations of concerns because you capability of loose coupling, the software layers like model is independent from the user interface (views) accessing data for presentation through controllers class, this approach allow better maintainability and coherence for long-term development.
 
 ## Developer(s)
 
