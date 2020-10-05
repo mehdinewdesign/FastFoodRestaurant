@@ -6,14 +6,18 @@ using System.Data;
 using System.Text;
 using System.Windows.Forms;
 using FastFoodRestaurant.Models;
+using FastFoodRestaurant.Controllers;
 
 namespace FastFoodRestaurant.Views.UserControls.CustomersControlPages
 {
     public partial class RegisterCustomerControl : UserControl
     {
+        CollectionController collectionController = new CollectionController();
+        RegisterCustomerController registerController = new RegisterCustomerController();
         public RegisterCustomerControl()
         {
             InitializeComponent();
+            RegisterSuccessPopUp.Visible = false;
         }
 
         private void RegisterCustomerControl_Load(object sender, EventArgs e)
@@ -36,20 +40,21 @@ namespace FastFoodRestaurant.Views.UserControls.CustomersControlPages
 
         private void RegisterButton_Click(object sender, EventArgs e)
         {
-            var registerContext = new EntityContext();
+            registerController.DbEntryRecordRegister
+            (
+                NameTextBoxRegister.Text,
+                UserNameTextBox.Text,
+                PasswordTextBoxRegister.Text,
+                EmailTextBoxRegister.Text
+            );
 
-            var entryRecord = new Customers()
-            {
-                Name = NameTextBoxRegister.Text,
-                UserName = UserNameTextBox.Text,
-                Password = PasswordTextBoxRegister.Text,
-                Email = EmailTextBoxRegister.Text
-            };
+            NameTextBoxRegister.Clear();
+            UserNameTextBox.Clear();
+            PasswordTextBoxRegister.Clear();
+            EmailTextBoxRegister.Clear();
 
-            registerContext.Add<Customers>(entryRecord);
-
-            registerContext.SaveChanges();
-           
+            RegisterSuccessPopUp.BringToFront();
+            RegisterSuccessPopUp.Visible = true;
         }
     }
 }
