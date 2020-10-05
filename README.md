@@ -32,11 +32,7 @@ For developers that use Visual Studio IDE just clone the repository and double-c
 git clone https://github.com/viniciusmorgado/FastFoodRestaurant.git
 ```
 
-For people that want to run the software, install Microsoft SQL Server and .NET Core SDK, and clone the repository:
-
-```
-git clone https://github.com/viniciusmorgado/FastFoodRestaurant.git
-```
+For people that want to run the software, install Microsoft SQL Server and .NET Core SDK, and clone the repository.
 
 After cloning goes to powershell and access the project directory, inside project root write in powershell:
 
@@ -50,7 +46,7 @@ This command will compile the application and run the software.
 
 For people who are just curious, an alternative is to download the precompiled version by [clicking here](https://github.com/viniciusmorgado/FastFoodRestaurant/raw/master/_Build/Setup_FastFoodRestaurant.exe), this version is updated monthly and not after minor upgrads.
 
-# Technical and structural design #
+# Technical and structural details #
 
 Below are technical details about the project.
 
@@ -64,7 +60,9 @@ This project is written using MVC pattern for separations of concerns because yo
 
 Mockup: Low fidelity prototype - Design with [Adobe XD](https://www.adobe.com/products/xd.html)
 
-![interface mockup](https://i.imgur.com/tfTZeVm.png)
+![interface mockup](https://i.imgur.com/FxSbfim.png)
+
+<strong>Observation:</strong> high fidelity prototype will be released soon.
 
 ## Built With
 
