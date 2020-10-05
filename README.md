@@ -60,6 +60,27 @@ Below are technical details about the project.
 
 This project is written using MVC pattern for separations of concerns because you capability of loose coupling, the software layers like model is independent from the user interface (views) accessing data for presentation through controllers class, this approach allow better maintainability and coherence for long-term development.
 
+## UX | UI Design Prototype
+
+Mockup: Low fidelity prototype - Design with [Adobe XD](https://www.adobe.com/products/xd.html)
+
+![interface mockup](https://i.imgur.com/tfTZeVm.png)
+
+## Built With
+
+### Design UI | UX
+* [Adobe XD](https://www.adobe.com/products/xd.html) - UI/UX design and collaboration tool from Adobe.
+
+### Front-end:
+* [Windows Forms Core](https://docs.microsoft.com/en-us/dotnet/desktop/winforms/?view=netdesktop-5.0) - UI framework that creates rich desktop client apps for Windows.
+
+### Back-end:
+* [.NET Core with C#](https://dotnet.microsoft.com/) - Open source, cross-platform Microsoft Framework.
+
+### Database:
+* [Microsoft SQL Server](https://www.microsoft.com/pt-br/sql-server/sql-server-downloads) - Microsoft complete solution for relational databases.
+* [Entity Framework Core](https://docs.microsoft.com/en-us/ef/) - Entity Framework Core is a modern object-database mapper for dotNET Core.
+
 ## Developer(s)
 
 <a href="https://github.com/viniciusmorgado" target="_blank">**Morgado**</a><br><br>
