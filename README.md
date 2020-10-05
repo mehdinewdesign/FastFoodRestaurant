@@ -58,9 +58,9 @@ This project is written using MVC pattern for separations of concerns because yo
 
 ## UX | UI Design Prototype
 
-<div align="center"><strong>Mockup:</strong> Low fidelity prototype - Design with [Adobe XD](https://www.adobe.com/products/xd.html)</div>
+<strong>Mockup:</strong> Low fidelity prototype - Design with [Adobe XD](https://www.adobe.com/products/xd.html)
 
-![interface mockup](https://i.imgur.com/FxSbfim.png)
+<div align="center">![interface mockup](https://i.imgur.com/FxSbfim.png)</div>
 
 <strong>Observation:</strong> high fidelity prototype and UX research paper will be released soon.
 
