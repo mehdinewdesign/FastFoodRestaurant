@@ -5,6 +5,7 @@ using System.Drawing;
 using System.Data;
 using System.Text;
 using System.Windows.Forms;
+using FastFoodRestaurant.Models;
 
 namespace FastFoodRestaurant.Views.UserControls.CustomersControlPages
 {
@@ -31,6 +32,24 @@ namespace FastFoodRestaurant.Views.UserControls.CustomersControlPages
         private void NameTextBoxRegister_TextChanged(object sender, EventArgs e)
         {
             Focus();
+        }
+
+        private void RegisterButton_Click(object sender, EventArgs e)
+        {
+            var registerContext = new EntityContext();
+
+            var entryRecord = new Customers()
+            {
+                Name = NameTextBoxRegister.Text,
+                UserName = UserNameTextBox.Text,
+                Password = PasswordTextBoxRegister.Text,
+                Email = EmailTextBoxRegister.Text
+            };
+
+            registerContext.Add<Customers>(entryRecord);
+
+            registerContext.SaveChanges();
+           
         }
     }
 }

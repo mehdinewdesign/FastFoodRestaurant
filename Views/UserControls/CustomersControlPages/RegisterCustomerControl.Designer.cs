@@ -36,7 +36,7 @@
             this.UserNameTextBox = new System.Windows.Forms.TextBox();
             this.PasswordLabelRegister = new System.Windows.Forms.Label();
             this.EmailLabelRegister = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.RegisterButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // NameLabelRegister
@@ -108,25 +108,26 @@
             this.EmailLabelRegister.TabIndex = 8;
             this.EmailLabelRegister.Text = "Email: ";
             // 
-            // button1
+            // RegisterButton
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(199)))), ((int)(((byte)(44)))));
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(126, 223);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(260, 23);
-            this.button1.TabIndex = 9;
-            this.button1.Text = "Register";
-            this.button1.UseVisualStyleBackColor = false;
+            this.RegisterButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(199)))), ((int)(((byte)(44)))));
+            this.RegisterButton.FlatAppearance.BorderSize = 0;
+            this.RegisterButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.RegisterButton.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.RegisterButton.ForeColor = System.Drawing.Color.White;
+            this.RegisterButton.Location = new System.Drawing.Point(126, 223);
+            this.RegisterButton.Name = "RegisterButton";
+            this.RegisterButton.Size = new System.Drawing.Size(260, 23);
+            this.RegisterButton.TabIndex = 9;
+            this.RegisterButton.Text = "Register";
+            this.RegisterButton.UseVisualStyleBackColor = false;
+            this.RegisterButton.Click += new System.EventHandler(this.RegisterButton_Click);
             // 
             // RegisterCustomerControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.RegisterButton);
             this.Controls.Add(this.EmailLabelRegister);
             this.Controls.Add(this.PasswordLabelRegister);
             this.Controls.Add(this.UserNameTextBox);
@@ -153,6 +154,6 @@
         private System.Windows.Forms.TextBox UserNameTextBox;
         private System.Windows.Forms.Label PasswordLabelRegister;
         private System.Windows.Forms.Label EmailLabelRegister;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button RegisterButton;
     }
 }
