@@ -36,6 +36,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.RegisterCustomerControl = new FastFoodRestaurant.Views.UserControls.CustomersControlPages.RegisterCustomerControl();
             ((System.ComponentModel.ISupportInitialize)(this.AvatarPictureBox)).BeginInit();
             this.SuspendLayout();
             // 
@@ -105,10 +106,18 @@
             this.button1.Text = "No? Register instead";
             this.button1.UseVisualStyleBackColor = true;
             // 
+            // RegisterCustomerControl
+            // 
+            this.RegisterCustomerControl.Location = new System.Drawing.Point(0, 0);
+            this.RegisterCustomerControl.Name = "RegisterCustomerControl";
+            this.RegisterCustomerControl.Size = new System.Drawing.Size(890, 433);
+            this.RegisterCustomerControl.TabIndex = 6;
+            // 
             // CustomersControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.RegisterCustomerControl);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -133,5 +142,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button1;
+        private CustomersControlPages.RegisterCustomerControl RegisterCustomerControl;
     }
 }
