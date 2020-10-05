@@ -11,7 +11,10 @@ A single page software for fastfood terminal restaurant build using .NET Core an
 
 ## Screenshots
 
-![alt text](https://i.imgur.com/ooQ8csY.png)
+<p align="center">
+    <img alt="Screenshot" width="65%" src="https://i.imgur.com/ooQ8csY.png"> 
+</p>
+
 
 
 ## Getting Started
