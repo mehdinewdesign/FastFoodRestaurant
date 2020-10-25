@@ -13,7 +13,7 @@ namespace FastFoodRestaurant.Views.UserControls.CustomersControlPages
     public partial class RegisterCustomerControl : UserControl
     {
         CollectionController collectionController = new CollectionController();
-        RegisterCustomerController registerController = new RegisterCustomerController();
+        // RegisterCustomerController registerController = new RegisterCustomerController();
         public RegisterCustomerControl()
         {
             InitializeComponent();
@@ -38,6 +38,7 @@ namespace FastFoodRestaurant.Views.UserControls.CustomersControlPages
             Focus();
         }
 
+        RegisterCustomerController registerController = new RegisterCustomerController();
         private void RegisterButton_Click(object sender, EventArgs e)
         {
             registerController.DbEntryRecordRegister
