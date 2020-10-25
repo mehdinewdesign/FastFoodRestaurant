@@ -83,7 +83,7 @@ You can find the diagrams files at project directory <strong> [Assets/Uml](https
 
 ![Use case diagram overview](https://github.com/viniciusmorgado/FastFoodRestaurant/blob/master/Assets/Uml/UML-UseCaseDiagrams.png)
 
-## UX | UI Design Prototype
+## UX | UI - Interface Prototype
 
 <strong>Mockup:</strong> Low fidelity prototype - Design with [Adobe XD](https://www.adobe.com/products/xd.html)
 
