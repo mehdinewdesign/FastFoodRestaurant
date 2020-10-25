@@ -6,7 +6,7 @@ A single page software for fastfood terminal restaurant build using .NET Core an
 
 
 <p align="center">
-    <img alt="Project logo" width="20%" src="https://raw.githubusercontent.com/viniciusmorgado/FastFoodRestaurant/master/_Content/Images/logo.png"> 
+    <img alt="Project logo" width="20%" src="https://github.com/viniciusmorgado/FastFoodRestaurant/blob/master/Assets/Images/logo.png"> 
 </p>
 
 ## Screenshots
