@@ -55,9 +55,9 @@ This command will compile the application and run the software.
 
 For people who are just curious, an alternative is to download the precompiled version by [clicking here](https://github.com/viniciusmorgado/FastFoodRestaurant/raw/master/_Build/Setup_FastFoodRestaurant.exe), this version is updated monthly and not after minor upgrads.
 
-# Technical and structural details #
+# System Design Overview #
 
-Below are technical details about the project.
+Below are technical details about interface, architecture, database and other decisions made during the development of the project.
 
 ## Architectural Pattern ##
 
