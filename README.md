@@ -65,6 +65,24 @@ Below are technical details about interface, architecture, database and other de
 
 This project is written using MVC pattern for separations of concerns because you capability of loose coupling, the software layers like model is independent from the user interface (views) accessing data for presentation through controllers class, this approach allow better maintainability and coherence for long-term development.
 
+## UML Schematic Overview
+
+The image below is overview of project UML Use Case Diagram, for visualize the entire Use Case Diagram for Microsoft Visio [click here](https://github.com/viniciusmorgado/FastFoodRestaurant/raw/master/Assets/Uml/UML-UseCaseDiagrams.vsdx)
+
+<strong>You can also see other diagrams used for design this object-oriented system:</strong>
+
+<strong>[Class diagram](https://github.com/viniciusmorgado/FastFoodRestaurant/raw/master/Assets/Uml/UML-ClassDiagrams.vsdx)</strong> - A static structure diagram that describes the structure of the system by showing the system's classes, their attributes, operations, and the relationships among objects.
+
+<strong>[Sequence Diagrams](https://github.com/viniciusmorgado/FastFoodRestaurant/raw/master/Assets/Uml/UML-SequenceDiagram.vsdx)</strong> - A sequence diagram shows, as parallel vertical lines (lifelines), different processes or objects that live simultaneously, and, as horizontal arrows, the messages exchanged between them, in the order in which they occur.
+
+<strong>[Activity Diagrams](https://github.com/viniciusmorgado/FastFoodRestaurant/raw/master/Assets/Uml/UML-ActivityDiagrams.vsdx)</strong> - A graphical representation of workflow of stepwise activities and actions with support for choice, iteration and concurrency.
+
+<strong>[Statechart Diagrams](https://github.com/viniciusmorgado/FastFoodRestaurant/raw/master/Assets/Uml/UML-StateMachineDiagrams.vsdx)</strong> - Is a diagram for modeling the dynamic nature of the system. They define different states of an object during its lifetime and these changes of state in response of events.
+
+You can find the diagrams files at project directory <strong> [Assets/Uml](https://github.com/viniciusmorgado/FastFoodRestaurant/tree/master/Assets/Uml) </strong>
+
+![Use case diagram overview](https://github.com/viniciusmorgado/FastFoodRestaurant/blob/master/Assets/Uml/UML-UseCaseDiagrams.png)
+
 ## UX | UI Design Prototype
 
 <strong>Mockup:</strong> Low fidelity prototype - Design with [Adobe XD](https://www.adobe.com/products/xd.html)
