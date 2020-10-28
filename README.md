@@ -85,7 +85,7 @@ You can find the diagrams files at project directory <strong> [Assets/Uml](https
 
 ## UX | UI - Interface Prototype
 
-<strong>Mockup:</strong> Low fidelity prototype - Design with [Adobe XD](https://www.adobe.com/products/xd.html)
+<strong>Wireframe:</strong> Design with [Adobe XD](https://www.adobe.com/products/xd.html)
 
 ![interface mockup](https://i.imgur.com/FxSbfim.png)
 
