@@ -81,7 +81,7 @@ The image below is overview of project UML Use Case Diagram, for visualize the e
 
 You can find the diagrams files at project directory <strong> [Assets/Uml](https://github.com/viniciusmorgado/FastFoodRestaurant/tree/master/Assets/Uml) </strong>
 
-![Use case diagram overview](https://github.com/viniciusmorgado/FastFoodRestaurant/blob/master/Assets/Uml/UML-UseCaseDiagrams.png)
+![Use case diagram overview](https://github.com/viniciusmorgado/FastFoodRestaurant/blob/master/Assets/Diagrams/UML-UseCaseDiagrams.png)
 
 ## UX | UI - Interface Prototype
 
