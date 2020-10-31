@@ -93,3 +93,4 @@ C:\Users\conta\Documents\FastFoodRestaurant\test\FastFood.Test\obj\Debug\netcore
 C:\Users\conta\Documents\FastFoodRestaurant\test\FastFood.Test\obj\Debug\netcoreapp3.1\FastFood.Test.dll
 C:\Users\conta\Documents\FastFoodRestaurant\test\FastFood.Test\obj\Debug\netcoreapp3.1\FastFood.Test.pdb
 C:\Users\conta\Documents\FastFoodRestaurant\test\FastFood.Test\obj\Debug\netcoreapp3.1\FastFood.Test.genruntimeconfig.cache
+C:\Users\conta\Documents\FastFoodRestaurant\test\FastFood.Test\obj\Debug\netcoreapp3.1\FastFood.Test.csprojAssemblyReference.cache
