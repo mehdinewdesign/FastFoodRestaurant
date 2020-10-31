@@ -6,7 +6,7 @@ A single page software for fastfood terminal restaurant build using .NET Core an
 
 
 <p align="center">
-    <img alt="Project logo" width="20%" src="https://github.com/viniciusmorgado/FastFoodRestaurant/blob/master/Assets/Images/logo.png"> 
+    <img alt="Project logo" width="20%" src="https://github.com/viniciusmorgado/FastFoodRestaurant/blob/master/src/Assets/Images/logo.png"> 
 </p>
 
 ## Screenshots
@@ -81,7 +81,7 @@ The image below is overview of project UML Use Case Diagram, for visualize the e
 
 You can find the diagrams files at project directory <strong> [Assets/Uml](https://github.com/viniciusmorgado/FastFoodRestaurant/tree/master/Assets/Uml) </strong>
 
-![Use case diagram overview](https://github.com/viniciusmorgado/FastFoodRestaurant/blob/master/Assets/Diagrams/UML-UseCaseDiagrams.png)
+![Use case diagram overview](https://github.com/viniciusmorgado/FastFoodRestaurant/blob/master/src/Assets/Diagrams/UML-UseCaseDiagrams.png)
 
 ## UX | UI - Interface Prototype
 
