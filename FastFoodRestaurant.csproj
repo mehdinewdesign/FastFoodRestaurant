@@ -7,6 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Assets\Uml\**" />
+    <Compile Remove="Controllers\ExceptionHandling\**" />
+    <EmbeddedResource Remove="Assets\Uml\**" />
+    <EmbeddedResource Remove="Controllers\ExceptionHandling\**" />
+    <None Remove="Assets\Uml\**" />
+    <None Remove="Controllers\ExceptionHandling\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Update="Properties\Resources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
@@ -35,8 +44,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Assets\Uml\" />
-    <Folder Include="Controllers\ExceptionHandling\" />
+    <Folder Include="Models\Data\Migrations\" />
   </ItemGroup>
 
 </Project>

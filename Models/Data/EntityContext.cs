@@ -13,7 +13,7 @@ namespace FastFoodRestaurant.Models
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             // Remove string on upload for security reasons.
-            optionsBuilder.UseSqlServer("Data Source=localhost; Initial Catalog=FastFood; Integrated Security=SSPI");
+            optionsBuilder.UseSqlServer("");
         }
 
     }
