@@ -89,7 +89,11 @@ You can find the diagrams files at project directory <strong> [Assets/Uml](https
 
 ![interface wireframe](https://github.com/viniciusmorgado/FastFoodRestaurant/blob/master/src/Assets/Design/WireFrames/MainWindow%201920%20%E2%80%93%201.png)
 
-<strong>Observation:</strong> high fidelity prototype and UX research paper will be released soon.
+<strong>Mockup:</strong>
+
+![interface mockup](https://github.com/viniciusmorgado/FastFoodRestaurant/blob/master/src/Assets/Design/Mockups/Mockup%201920%20%E2%80%93%201.png)
+
+Download UX research docs, [click here]().
 
 # Running tests #
 
@@ -143,7 +147,7 @@ dotnet publish
 
 ## Built With
 
-### Design UI | UX
+### Design UI
 * [Adobe XD](https://www.adobe.com/products/xd.html) - UI/UX design and collaboration tool from Adobe.
 
 ### Front-end:
