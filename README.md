@@ -106,6 +106,9 @@ You can find the diagrams files at project directory <strong> [Assets/Uml](https
 * [Microsoft SQL Server](https://www.microsoft.com/pt-br/sql-server/sql-server-downloads) - Microsoft complete solution for relational databases.
 * [Entity Framework Core](https://docs.microsoft.com/en-us/ef/) - Entity Framework Core is a modern object-database mapper for dotNET Core.
 
+### Test:
+* [xUnit.net](https://xunit.net/) - xUnit.net is a free, open source, community-focused unit testing tool for the .NET Framework.
+
 ## Developer(s)
 
 <a href="https://github.com/viniciusmorgado" target="_blank">**Morgado**</a><br><br>
