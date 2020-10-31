@@ -99,7 +99,7 @@ Download UX research docs, [click here]().
 
 This project have a separate project for unit testing with xUnit, follow the AAA pattern for write the tests and keep all test code inside a test directory.
 
-### Coding Style Tests
+### Coding Style for tests
 
 This project follow the pattern AAA (Arrange-Act-Assert) for write unit tests, it test method have three sections: arrange, act and assert. Each one of them only responsible for the part in which they are named after.
 
