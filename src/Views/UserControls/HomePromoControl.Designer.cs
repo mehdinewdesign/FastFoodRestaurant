@@ -79,7 +79,6 @@
             this.label4.Size = new System.Drawing.Size(276, 21);
             this.label4.TabIndex = 2;
             this.label4.Text = "With Onions, tomato and ketchup";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // pictureBox1
             // 
@@ -90,7 +89,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // TextPromo
             // 
@@ -132,7 +130,6 @@
             this.Controls.Add(this.label1);
             this.Name = "HomePromoControl";
             this.Size = new System.Drawing.Size(890, 433);
-            this.Load += new System.EventHandler(this.HomePromoControl_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
