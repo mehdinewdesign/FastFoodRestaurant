@@ -28,18 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CollectionPastaControl));
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.PizzaCollectionsBuyNow = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
+            this.PizzaCollectionsLabel = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
+            this.LasagnaCollectionsBuyNow = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.label4 = new System.Windows.Forms.Label();
+            this.LasagnaCollectionLabels = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
+            this.SpaghettiBuyNow = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.label6 = new System.Windows.Forms.Label();
+            this.SpaghettiCollectionsLabel = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -62,21 +63,23 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "$15";
             // 
-            // button1
+            // PizzaCollectionsBuyNow
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(199)))), ((int)(((byte)(44)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(13, 267);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(175, 35);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Buy Now";
-            this.button1.UseVisualStyleBackColor = false;
+            this.PizzaCollectionsBuyNow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(199)))), ((int)(((byte)(44)))));
+            this.PizzaCollectionsBuyNow.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.PizzaCollectionsBuyNow.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.PizzaCollectionsBuyNow.ForeColor = System.Drawing.Color.White;
+            this.PizzaCollectionsBuyNow.Location = new System.Drawing.Point(13, 267);
+            this.PizzaCollectionsBuyNow.Name = "PizzaCollectionsBuyNow";
+            this.PizzaCollectionsBuyNow.Size = new System.Drawing.Size(175, 35);
+            this.PizzaCollectionsBuyNow.TabIndex = 3;
+            this.PizzaCollectionsBuyNow.Text = "Buy Now";
+            this.PizzaCollectionsBuyNow.UseVisualStyleBackColor = false;
+            this.PizzaCollectionsBuyNow.Click += new System.EventHandler(this.PizzaCollectionsBuyNow_Click);
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(13, 34);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(175, 155);
@@ -84,15 +87,15 @@
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
-            // label2
+            // PizzaCollectionsLabel
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(13, 13);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(54, 20);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Pasta";
+            this.PizzaCollectionsLabel.AutoSize = true;
+            this.PizzaCollectionsLabel.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.PizzaCollectionsLabel.Location = new System.Drawing.Point(13, 13);
+            this.PizzaCollectionsLabel.Name = "PizzaCollectionsLabel";
+            this.PizzaCollectionsLabel.Size = new System.Drawing.Size(44, 18);
+            this.PizzaCollectionsLabel.TabIndex = 0;
+            this.PizzaCollectionsLabel.Text = "Pizza";
             // 
             // label3
             // 
@@ -101,25 +104,27 @@
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(199)))), ((int)(((byte)(44)))));
             this.label3.Location = new System.Drawing.Point(22, 208);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(87, 41);
+            this.label3.Size = new System.Drawing.Size(88, 41);
             this.label3.TabIndex = 2;
-            this.label3.Text = "$23";
+            this.label3.Text = "$20";
             // 
-            // button2
+            // LasagnaCollectionsBuyNow
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(199)))), ((int)(((byte)(44)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(13, 267);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(175, 35);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Buy Now";
-            this.button2.UseVisualStyleBackColor = false;
+            this.LasagnaCollectionsBuyNow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(199)))), ((int)(((byte)(44)))));
+            this.LasagnaCollectionsBuyNow.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.LasagnaCollectionsBuyNow.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.LasagnaCollectionsBuyNow.ForeColor = System.Drawing.Color.White;
+            this.LasagnaCollectionsBuyNow.Location = new System.Drawing.Point(13, 267);
+            this.LasagnaCollectionsBuyNow.Name = "LasagnaCollectionsBuyNow";
+            this.LasagnaCollectionsBuyNow.Size = new System.Drawing.Size(175, 35);
+            this.LasagnaCollectionsBuyNow.TabIndex = 3;
+            this.LasagnaCollectionsBuyNow.Text = "Buy Now";
+            this.LasagnaCollectionsBuyNow.UseVisualStyleBackColor = false;
+            this.LasagnaCollectionsBuyNow.Click += new System.EventHandler(this.LasagnaCollectionsBuyNow_Click);
             // 
             // pictureBox2
             // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(13, 34);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(175, 155);
@@ -127,15 +132,15 @@
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
             // 
-            // label4
+            // LasagnaCollectionLabels
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(13, 13);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(115, 20);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Special Taste";
+            this.LasagnaCollectionLabels.AutoSize = true;
+            this.LasagnaCollectionLabels.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.LasagnaCollectionLabels.Location = new System.Drawing.Point(13, 13);
+            this.LasagnaCollectionLabels.Name = "LasagnaCollectionLabels";
+            this.LasagnaCollectionLabels.Size = new System.Drawing.Size(70, 18);
+            this.LasagnaCollectionLabels.TabIndex = 0;
+            this.LasagnaCollectionLabels.Text = "Lasagna";
             // 
             // label5
             // 
@@ -144,25 +149,27 @@
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(199)))), ((int)(((byte)(44)))));
             this.label5.Location = new System.Drawing.Point(22, 208);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(84, 41);
+            this.label5.Size = new System.Drawing.Size(142, 41);
             this.label5.TabIndex = 2;
-            this.label5.Text = "$27";
+            this.label5.Text = "$22.99";
             // 
-            // button3
+            // SpaghettiBuyNow
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(199)))), ((int)(((byte)(44)))));
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(13, 267);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(175, 35);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "Buy Now";
-            this.button3.UseVisualStyleBackColor = false;
+            this.SpaghettiBuyNow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(199)))), ((int)(((byte)(44)))));
+            this.SpaghettiBuyNow.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SpaghettiBuyNow.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.SpaghettiBuyNow.ForeColor = System.Drawing.Color.White;
+            this.SpaghettiBuyNow.Location = new System.Drawing.Point(13, 267);
+            this.SpaghettiBuyNow.Name = "SpaghettiBuyNow";
+            this.SpaghettiBuyNow.Size = new System.Drawing.Size(175, 35);
+            this.SpaghettiBuyNow.TabIndex = 3;
+            this.SpaghettiBuyNow.Text = "Buy Now";
+            this.SpaghettiBuyNow.UseVisualStyleBackColor = false;
+            this.SpaghettiBuyNow.Click += new System.EventHandler(this.SpaghettiBuyNow_Click);
             // 
             // pictureBox3
             // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.Location = new System.Drawing.Point(13, 34);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(175, 155);
@@ -170,23 +177,23 @@
             this.pictureBox3.TabIndex = 1;
             this.pictureBox3.TabStop = false;
             // 
-            // label6
+            // SpaghettiCollectionsLabel
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(13, 13);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(121, 20);
-            this.label6.TabIndex = 0;
-            this.label6.Text = "Dark Premium";
+            this.SpaghettiCollectionsLabel.AutoSize = true;
+            this.SpaghettiCollectionsLabel.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.SpaghettiCollectionsLabel.Location = new System.Drawing.Point(13, 13);
+            this.SpaghettiCollectionsLabel.Name = "SpaghettiCollectionsLabel";
+            this.SpaghettiCollectionsLabel.Size = new System.Drawing.Size(77, 18);
+            this.SpaghettiCollectionsLabel.TabIndex = 0;
+            this.SpaghettiCollectionsLabel.Text = "Spaghetti";
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.PizzaCollectionsBuyNow);
             this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.PizzaCollectionsLabel);
             this.panel1.Location = new System.Drawing.Point(83, 58);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(200, 317);
@@ -196,9 +203,9 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.panel2.Controls.Add(this.label3);
-            this.panel2.Controls.Add(this.button2);
+            this.panel2.Controls.Add(this.LasagnaCollectionsBuyNow);
             this.panel2.Controls.Add(this.pictureBox2);
-            this.panel2.Controls.Add(this.label4);
+            this.panel2.Controls.Add(this.LasagnaCollectionLabels);
             this.panel2.Location = new System.Drawing.Point(345, 58);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(200, 317);
@@ -208,9 +215,9 @@
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.panel3.Controls.Add(this.label5);
-            this.panel3.Controls.Add(this.button3);
+            this.panel3.Controls.Add(this.SpaghettiBuyNow);
             this.panel3.Controls.Add(this.pictureBox3);
-            this.panel3.Controls.Add(this.label6);
+            this.panel3.Controls.Add(this.SpaghettiCollectionsLabel);
             this.panel3.Location = new System.Drawing.Point(607, 58);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(200, 317);
@@ -241,17 +248,17 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button PizzaCollectionsBuyNow;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label PizzaCollectionsLabel;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button LasagnaCollectionsBuyNow;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label LasagnaCollectionLabels;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button SpaghettiBuyNow;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label SpaghettiCollectionsLabel;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;

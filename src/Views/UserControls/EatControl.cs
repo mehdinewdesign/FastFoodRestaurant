@@ -19,11 +19,6 @@ namespace FastFoodRestaurant.Views.UserControls
             InitializeComponent();
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-       
-        }
-
         private void EatControlBurgerBuy_Click(object sender, EventArgs e)
         {
             eatInController.DbEntryEatIn("Burger", 15, 1);

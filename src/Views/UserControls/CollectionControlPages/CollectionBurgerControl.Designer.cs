@@ -30,15 +30,15 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CollectionBurgerControl));
             this.TradicionalBurgerValueLabel = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.TraditionalBurgerBuyNow = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.TraditionalBurgerLabel = new System.Windows.Forms.Label();
             this.SpecialTasteBurgerValueLabel = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
+            this.SpecialTasteBurgerBuyNow = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.SpecialTasteLabel = new System.Windows.Forms.Label();
             this.DarkVipBurgerValueLabel = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
+            this.DarkBurgerBuyNow = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.BlackVipBurgerLabel = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -63,18 +63,19 @@
             this.TradicionalBurgerValueLabel.TabIndex = 2;
             this.TradicionalBurgerValueLabel.Text = "$15";
             // 
-            // button1
+            // TraditionalBurgerBuyNow
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(199)))), ((int)(((byte)(44)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(13, 267);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(175, 35);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Buy Now";
-            this.button1.UseVisualStyleBackColor = false;
+            this.TraditionalBurgerBuyNow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(199)))), ((int)(((byte)(44)))));
+            this.TraditionalBurgerBuyNow.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.TraditionalBurgerBuyNow.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.TraditionalBurgerBuyNow.ForeColor = System.Drawing.Color.White;
+            this.TraditionalBurgerBuyNow.Location = new System.Drawing.Point(13, 267);
+            this.TraditionalBurgerBuyNow.Name = "TraditionalBurgerBuyNow";
+            this.TraditionalBurgerBuyNow.Size = new System.Drawing.Size(175, 35);
+            this.TraditionalBurgerBuyNow.TabIndex = 3;
+            this.TraditionalBurgerBuyNow.Text = "Buy Now";
+            this.TraditionalBurgerBuyNow.UseVisualStyleBackColor = false;
+            this.TraditionalBurgerBuyNow.Click += new System.EventHandler(this.TraditionalBurgerBuyNow_Click);
             // 
             // pictureBox1
             // 
@@ -92,7 +93,7 @@
             this.TraditionalBurgerLabel.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.TraditionalBurgerLabel.Location = new System.Drawing.Point(13, 13);
             this.TraditionalBurgerLabel.Name = "TraditionalBurgerLabel";
-            this.TraditionalBurgerLabel.Size = new System.Drawing.Size(152, 20);
+            this.TraditionalBurgerLabel.Size = new System.Drawing.Size(136, 18);
             this.TraditionalBurgerLabel.TabIndex = 0;
             this.TraditionalBurgerLabel.Text = "Traditional Burger";
             // 
@@ -107,18 +108,19 @@
             this.SpecialTasteBurgerValueLabel.TabIndex = 2;
             this.SpecialTasteBurgerValueLabel.Text = "$23";
             // 
-            // button2
+            // SpecialTasteBurgerBuyNow
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(199)))), ((int)(((byte)(44)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(13, 267);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(175, 35);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Buy Now";
-            this.button2.UseVisualStyleBackColor = false;
+            this.SpecialTasteBurgerBuyNow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(199)))), ((int)(((byte)(44)))));
+            this.SpecialTasteBurgerBuyNow.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SpecialTasteBurgerBuyNow.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.SpecialTasteBurgerBuyNow.ForeColor = System.Drawing.Color.White;
+            this.SpecialTasteBurgerBuyNow.Location = new System.Drawing.Point(13, 267);
+            this.SpecialTasteBurgerBuyNow.Name = "SpecialTasteBurgerBuyNow";
+            this.SpecialTasteBurgerBuyNow.Size = new System.Drawing.Size(175, 35);
+            this.SpecialTasteBurgerBuyNow.TabIndex = 3;
+            this.SpecialTasteBurgerBuyNow.Text = "Buy Now";
+            this.SpecialTasteBurgerBuyNow.UseVisualStyleBackColor = false;
+            this.SpecialTasteBurgerBuyNow.Click += new System.EventHandler(this.SpecialTasteBurgerBuyNow_Click);
             // 
             // pictureBox2
             // 
@@ -136,7 +138,7 @@
             this.SpecialTasteLabel.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.SpecialTasteLabel.Location = new System.Drawing.Point(13, 13);
             this.SpecialTasteLabel.Name = "SpecialTasteLabel";
-            this.SpecialTasteLabel.Size = new System.Drawing.Size(115, 20);
+            this.SpecialTasteLabel.Size = new System.Drawing.Size(104, 18);
             this.SpecialTasteLabel.TabIndex = 0;
             this.SpecialTasteLabel.Text = "Special Taste";
             // 
@@ -151,18 +153,19 @@
             this.DarkVipBurgerValueLabel.TabIndex = 2;
             this.DarkVipBurgerValueLabel.Text = "$27";
             // 
-            // button3
+            // DarkBurgerBuyNow
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(199)))), ((int)(((byte)(44)))));
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(13, 267);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(175, 35);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "Buy Now";
-            this.button3.UseVisualStyleBackColor = false;
+            this.DarkBurgerBuyNow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(199)))), ((int)(((byte)(44)))));
+            this.DarkBurgerBuyNow.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.DarkBurgerBuyNow.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.DarkBurgerBuyNow.ForeColor = System.Drawing.Color.White;
+            this.DarkBurgerBuyNow.Location = new System.Drawing.Point(13, 267);
+            this.DarkBurgerBuyNow.Name = "DarkBurgerBuyNow";
+            this.DarkBurgerBuyNow.Size = new System.Drawing.Size(175, 35);
+            this.DarkBurgerBuyNow.TabIndex = 3;
+            this.DarkBurgerBuyNow.Text = "Buy Now";
+            this.DarkBurgerBuyNow.UseVisualStyleBackColor = false;
+            this.DarkBurgerBuyNow.Click += new System.EventHandler(this.DarkBurgerBuyNow_Click);
             // 
             // pictureBox3
             // 
@@ -180,7 +183,7 @@
             this.BlackVipBurgerLabel.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.BlackVipBurgerLabel.Location = new System.Drawing.Point(13, 13);
             this.BlackVipBurgerLabel.Name = "BlackVipBurgerLabel";
-            this.BlackVipBurgerLabel.Size = new System.Drawing.Size(121, 20);
+            this.BlackVipBurgerLabel.Size = new System.Drawing.Size(111, 18);
             this.BlackVipBurgerLabel.TabIndex = 0;
             this.BlackVipBurgerLabel.Text = "Dark Premium";
             // 
@@ -188,7 +191,7 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.panel1.Controls.Add(this.TradicionalBurgerValueLabel);
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.TraditionalBurgerBuyNow);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.TraditionalBurgerLabel);
             this.panel1.Location = new System.Drawing.Point(83, 58);
@@ -200,7 +203,7 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.panel2.Controls.Add(this.SpecialTasteBurgerValueLabel);
-            this.panel2.Controls.Add(this.button2);
+            this.panel2.Controls.Add(this.SpecialTasteBurgerBuyNow);
             this.panel2.Controls.Add(this.pictureBox2);
             this.panel2.Controls.Add(this.SpecialTasteLabel);
             this.panel2.Location = new System.Drawing.Point(345, 58);
@@ -212,7 +215,7 @@
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.panel3.Controls.Add(this.DarkVipBurgerValueLabel);
-            this.panel3.Controls.Add(this.button3);
+            this.panel3.Controls.Add(this.DarkBurgerBuyNow);
             this.panel3.Controls.Add(this.pictureBox3);
             this.panel3.Controls.Add(this.BlackVipBurgerLabel);
             this.panel3.Location = new System.Drawing.Point(607, 58);
@@ -245,15 +248,15 @@
         #endregion
 
         private System.Windows.Forms.Label TradicionalBurgerValueLabel;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button TraditionalBurgerBuyNow;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label TraditionalBurgerLabel;
         private System.Windows.Forms.Label SpecialTasteBurgerValueLabel;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button SpecialTasteBurgerBuyNow;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label SpecialTasteLabel;
         private System.Windows.Forms.Label DarkVipBurgerValueLabel;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button DarkBurgerBuyNow;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Label BlackVipBurgerLabel;
         private System.Windows.Forms.Panel panel1;
