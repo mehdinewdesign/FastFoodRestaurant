@@ -91,6 +91,56 @@ You can find the diagrams files at project directory <strong> [Assets/Uml](https
 
 <strong>Observation:</strong> high fidelity prototype and UX research paper will be released soon.
 
+# Running tests #
+
+This project have a separate project for unit testing with xUnit, follow the AAA pattern for write the tests and keep all test code inside a test directory.
+
+### Coding Style Tests
+
+This project follow the pattern AAA (Arrange-Act-Assert) for write unit tests, it test method have three sections: arrange, act and assert. Each one of them only responsible for the part in which they are named after.
+
+It is strongly recommended to use #region-#endregion for separation of stages.
+
+Example:
+
+First we have the arrange, here only have code required to setup that specific test, like objects, mocks setup and potentially expectations would be set.
+
+```
+#region Arrange
+
+var repository = Substitute.For<IClientRepository>();
+var client = new Client(repository);
+
+#endregion
+
+```
+Then there is the Act, which should be the invocation of the method being tested. 
+
+```
+#region Act
+
+client.Save();
+
+#endregion
+```
+And on Assert you would simply check whether the expectations were met
+```
+#region Assert
+
+mock.Received.SomeMethod();
+
+#endregion
+```
+Example from Medium post by Paulo Gomes, [check here](https://medium.com/@pjbgf/title-testing-code-ocd-and-the-aaa-pattern-df453975ab80).
+
+## Deployment
+
+This software is a single form application for desktop clients, is not required any aditional changes for deployment, inside a project root:
+
+```
+dotnet publish
+```
+
 ## Built With
 
 ### Design UI | UX
