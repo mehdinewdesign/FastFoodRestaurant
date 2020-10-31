@@ -183,7 +183,7 @@ dotnet publish
 - The logo of this project is inspired by [Jollibee](https://www.jollibee.com.ph/), do not use the same commercially.
 
 - Picho icons of icons8 is authorized for personal or commercial purposes on the condition that you include a link to Icons8 in your work, please check [this link](https://icons8.crisp.help/en/article/can-i-use-icons8-services-for-free-1uvun5d/) before use.
-
+ 
 ## Acknowledgments
 
 * [C# UI Academy - Learn How to Design Interactive Interfaces of Desktop Application](https://csharpui.com/)
