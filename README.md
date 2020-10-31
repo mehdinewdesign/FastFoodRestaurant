@@ -83,11 +83,11 @@ You can find the diagrams files at project directory <strong> [Assets/Uml](https
 
 ![Use case diagram overview](https://github.com/viniciusmorgado/FastFoodRestaurant/blob/master/src/Assets/Diagrams/UML-UseCaseDiagrams.png)
 
-## UX | UI - Interface Prototype
+## UX | UI
 
 <strong>Wireframe:</strong>
 
-![interface mockup](https://i.imgur.com/FxSbfim.png)
+![interface wireframe](https://github.com/viniciusmorgado/FastFoodRestaurant/blob/master/src/Assets/Design/WireFrames/MainWindow%201920%20%E2%80%93%201.png)
 
 <strong>Observation:</strong> high fidelity prototype and UX research paper will be released soon.
 
