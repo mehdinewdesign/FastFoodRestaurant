@@ -28,24 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CollectionCakeControl));
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
+            this.YellowButterCollectionBuyNow = new System.Windows.Forms.Button();
+            this.YellowButterCollectionImage = new System.Windows.Forms.PictureBox();
+            this.YellowButterCollectionLabel = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.label4 = new System.Windows.Forms.Label();
+            this.PoundCollectionBuyNow = new System.Windows.Forms.Button();
+            this.PoundCollectionImage = new System.Windows.Forms.PictureBox();
+            this.PoundCollectionLabel = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.label6 = new System.Windows.Forms.Label();
+            this.RedVelvetCollectionBuyNow = new System.Windows.Forms.Button();
+            this.RedVelvetCollectionImage = new System.Windows.Forms.PictureBox();
+            this.RedVelvetCollectionLabel = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.YellowButterCollectionImage)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PoundCollectionImage)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.RedVelvetCollectionImage)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -58,41 +59,43 @@
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(199)))), ((int)(((byte)(44)))));
             this.label1.Location = new System.Drawing.Point(22, 208);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(80, 41);
+            this.label1.Size = new System.Drawing.Size(86, 41);
             this.label1.TabIndex = 2;
-            this.label1.Text = "$15";
+            this.label1.Text = "$25";
             // 
-            // button1
+            // YellowButterCollectionBuyNow
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(199)))), ((int)(((byte)(44)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(13, 267);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(175, 35);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Buy Now";
-            this.button1.UseVisualStyleBackColor = false;
+            this.YellowButterCollectionBuyNow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(199)))), ((int)(((byte)(44)))));
+            this.YellowButterCollectionBuyNow.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.YellowButterCollectionBuyNow.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.YellowButterCollectionBuyNow.ForeColor = System.Drawing.Color.White;
+            this.YellowButterCollectionBuyNow.Location = new System.Drawing.Point(13, 267);
+            this.YellowButterCollectionBuyNow.Name = "YellowButterCollectionBuyNow";
+            this.YellowButterCollectionBuyNow.Size = new System.Drawing.Size(175, 35);
+            this.YellowButterCollectionBuyNow.TabIndex = 3;
+            this.YellowButterCollectionBuyNow.Text = "Buy Now";
+            this.YellowButterCollectionBuyNow.UseVisualStyleBackColor = false;
+            this.YellowButterCollectionBuyNow.Click += new System.EventHandler(this.YellowButterCollectionBuyNow_Click);
             // 
-            // pictureBox1
+            // YellowButterCollectionImage
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(13, 34);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(175, 155);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
+            this.YellowButterCollectionImage.Image = ((System.Drawing.Image)(resources.GetObject("YellowButterCollectionImage.Image")));
+            this.YellowButterCollectionImage.Location = new System.Drawing.Point(13, 34);
+            this.YellowButterCollectionImage.Name = "YellowButterCollectionImage";
+            this.YellowButterCollectionImage.Size = new System.Drawing.Size(175, 155);
+            this.YellowButterCollectionImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.YellowButterCollectionImage.TabIndex = 1;
+            this.YellowButterCollectionImage.TabStop = false;
             // 
-            // label2
+            // YellowButterCollectionLabel
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(13, 13);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(53, 20);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Cake";
+            this.YellowButterCollectionLabel.AutoSize = true;
+            this.YellowButterCollectionLabel.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.YellowButterCollectionLabel.Location = new System.Drawing.Point(13, 13);
+            this.YellowButterCollectionLabel.Name = "YellowButterCollectionLabel";
+            this.YellowButterCollectionLabel.Size = new System.Drawing.Size(147, 18);
+            this.YellowButterCollectionLabel.TabIndex = 0;
+            this.YellowButterCollectionLabel.Text = "Yellow Butter Cake";
             // 
             // label3
             // 
@@ -101,41 +104,43 @@
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(199)))), ((int)(((byte)(44)))));
             this.label3.Location = new System.Drawing.Point(22, 208);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(87, 41);
+            this.label3.Size = new System.Drawing.Size(88, 41);
             this.label3.TabIndex = 2;
-            this.label3.Text = "$23";
+            this.label3.Text = "$30";
             // 
-            // button2
+            // PoundCollectionBuyNow
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(199)))), ((int)(((byte)(44)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(13, 267);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(175, 35);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Buy Now";
-            this.button2.UseVisualStyleBackColor = false;
+            this.PoundCollectionBuyNow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(199)))), ((int)(((byte)(44)))));
+            this.PoundCollectionBuyNow.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.PoundCollectionBuyNow.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.PoundCollectionBuyNow.ForeColor = System.Drawing.Color.White;
+            this.PoundCollectionBuyNow.Location = new System.Drawing.Point(13, 267);
+            this.PoundCollectionBuyNow.Name = "PoundCollectionBuyNow";
+            this.PoundCollectionBuyNow.Size = new System.Drawing.Size(175, 35);
+            this.PoundCollectionBuyNow.TabIndex = 3;
+            this.PoundCollectionBuyNow.Text = "Buy Now";
+            this.PoundCollectionBuyNow.UseVisualStyleBackColor = false;
+            this.PoundCollectionBuyNow.Click += new System.EventHandler(this.PoundCollectionBuyNow_Click);
             // 
-            // pictureBox2
+            // PoundCollectionImage
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(13, 34);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(175, 155);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
+            this.PoundCollectionImage.Image = ((System.Drawing.Image)(resources.GetObject("PoundCollectionImage.Image")));
+            this.PoundCollectionImage.Location = new System.Drawing.Point(13, 34);
+            this.PoundCollectionImage.Name = "PoundCollectionImage";
+            this.PoundCollectionImage.Size = new System.Drawing.Size(175, 155);
+            this.PoundCollectionImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PoundCollectionImage.TabIndex = 1;
+            this.PoundCollectionImage.TabStop = false;
             // 
-            // label4
+            // PoundCollectionLabel
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(13, 13);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(115, 20);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Special Taste";
+            this.PoundCollectionLabel.AutoSize = true;
+            this.PoundCollectionLabel.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.PoundCollectionLabel.Location = new System.Drawing.Point(13, 13);
+            this.PoundCollectionLabel.Name = "PoundCollectionLabel";
+            this.PoundCollectionLabel.Size = new System.Drawing.Size(99, 18);
+            this.PoundCollectionLabel.TabIndex = 0;
+            this.PoundCollectionLabel.Text = "Pound Cake";
             // 
             // label5
             // 
@@ -148,45 +153,47 @@
             this.label5.TabIndex = 2;
             this.label5.Text = "$27";
             // 
-            // button3
+            // RedVelvetCollectionBuyNow
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(199)))), ((int)(((byte)(44)))));
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(13, 267);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(175, 35);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "Buy Now";
-            this.button3.UseVisualStyleBackColor = false;
+            this.RedVelvetCollectionBuyNow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(199)))), ((int)(((byte)(44)))));
+            this.RedVelvetCollectionBuyNow.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.RedVelvetCollectionBuyNow.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.RedVelvetCollectionBuyNow.ForeColor = System.Drawing.Color.White;
+            this.RedVelvetCollectionBuyNow.Location = new System.Drawing.Point(13, 267);
+            this.RedVelvetCollectionBuyNow.Name = "RedVelvetCollectionBuyNow";
+            this.RedVelvetCollectionBuyNow.Size = new System.Drawing.Size(175, 35);
+            this.RedVelvetCollectionBuyNow.TabIndex = 3;
+            this.RedVelvetCollectionBuyNow.Text = "Buy Now";
+            this.RedVelvetCollectionBuyNow.UseVisualStyleBackColor = false;
+            this.RedVelvetCollectionBuyNow.Click += new System.EventHandler(this.RedVelvetCollectionBuyNow_Click);
             // 
-            // pictureBox3
+            // RedVelvetCollectionImage
             // 
-            this.pictureBox3.Location = new System.Drawing.Point(13, 34);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(175, 155);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 1;
-            this.pictureBox3.TabStop = false;
+            this.RedVelvetCollectionImage.Image = ((System.Drawing.Image)(resources.GetObject("RedVelvetCollectionImage.Image")));
+            this.RedVelvetCollectionImage.Location = new System.Drawing.Point(13, 34);
+            this.RedVelvetCollectionImage.Name = "RedVelvetCollectionImage";
+            this.RedVelvetCollectionImage.Size = new System.Drawing.Size(175, 155);
+            this.RedVelvetCollectionImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.RedVelvetCollectionImage.TabIndex = 1;
+            this.RedVelvetCollectionImage.TabStop = false;
             // 
-            // label6
+            // RedVelvetCollectionLabel
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(13, 13);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(121, 20);
-            this.label6.TabIndex = 0;
-            this.label6.Text = "Dark Premium";
+            this.RedVelvetCollectionLabel.AutoSize = true;
+            this.RedVelvetCollectionLabel.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.RedVelvetCollectionLabel.Location = new System.Drawing.Point(13, 13);
+            this.RedVelvetCollectionLabel.Name = "RedVelvetCollectionLabel";
+            this.RedVelvetCollectionLabel.Size = new System.Drawing.Size(133, 18);
+            this.RedVelvetCollectionLabel.TabIndex = 0;
+            this.RedVelvetCollectionLabel.Text = "Red Velvet Cake";
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.YellowButterCollectionBuyNow);
+            this.panel1.Controls.Add(this.YellowButterCollectionImage);
+            this.panel1.Controls.Add(this.YellowButterCollectionLabel);
             this.panel1.Location = new System.Drawing.Point(83, 58);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(200, 317);
@@ -196,9 +203,9 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.panel2.Controls.Add(this.label3);
-            this.panel2.Controls.Add(this.button2);
-            this.panel2.Controls.Add(this.pictureBox2);
-            this.panel2.Controls.Add(this.label4);
+            this.panel2.Controls.Add(this.PoundCollectionBuyNow);
+            this.panel2.Controls.Add(this.PoundCollectionImage);
+            this.panel2.Controls.Add(this.PoundCollectionLabel);
             this.panel2.Location = new System.Drawing.Point(345, 58);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(200, 317);
@@ -208,9 +215,9 @@
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.panel3.Controls.Add(this.label5);
-            this.panel3.Controls.Add(this.button3);
-            this.panel3.Controls.Add(this.pictureBox3);
-            this.panel3.Controls.Add(this.label6);
+            this.panel3.Controls.Add(this.RedVelvetCollectionBuyNow);
+            this.panel3.Controls.Add(this.RedVelvetCollectionImage);
+            this.panel3.Controls.Add(this.RedVelvetCollectionLabel);
             this.panel3.Location = new System.Drawing.Point(607, 58);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(200, 317);
@@ -225,9 +232,9 @@
             this.Controls.Add(this.panel1);
             this.Name = "CollectionCakeControl";
             this.Size = new System.Drawing.Size(890, 433);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.YellowButterCollectionImage)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PoundCollectionImage)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.RedVelvetCollectionImage)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -241,17 +248,17 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button YellowButterCollectionBuyNow;
+        private System.Windows.Forms.PictureBox YellowButterCollectionImage;
+        private System.Windows.Forms.Label YellowButterCollectionLabel;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button PoundCollectionBuyNow;
+        private System.Windows.Forms.PictureBox PoundCollectionImage;
+        private System.Windows.Forms.Label PoundCollectionLabel;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button RedVelvetCollectionBuyNow;
+        private System.Windows.Forms.PictureBox RedVelvetCollectionImage;
+        private System.Windows.Forms.Label RedVelvetCollectionLabel;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
