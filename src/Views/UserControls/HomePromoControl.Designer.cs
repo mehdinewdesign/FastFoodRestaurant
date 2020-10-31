@@ -35,7 +35,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.TextPromo = new System.Windows.Forms.Label();
-            this.OrderButton = new System.Windows.Forms.Button();
+            this.HomePromoControlOrderNow = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -66,7 +66,7 @@
             this.label3.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label3.Location = new System.Drawing.Point(58, 167);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(254, 39);
+            this.label3.Size = new System.Drawing.Size(236, 38);
             this.label3.TabIndex = 1;
             this.label3.Text = "Cheeseburger";
             // 
@@ -104,26 +104,26 @@
     "at quisque nibh etiam sem congue\r\nvestibulum. bibendum torquent interdum\r\nfaucib" +
     "us.";
             // 
-            // OrderButton
+            // HomePromoControlOrderNow
             // 
-            this.OrderButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(199)))), ((int)(((byte)(44)))));
-            this.OrderButton.FlatAppearance.BorderSize = 0;
-            this.OrderButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.OrderButton.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.OrderButton.ForeColor = System.Drawing.Color.White;
-            this.OrderButton.Location = new System.Drawing.Point(58, 367);
-            this.OrderButton.Name = "OrderButton";
-            this.OrderButton.Size = new System.Drawing.Size(276, 32);
-            this.OrderButton.TabIndex = 5;
-            this.OrderButton.Text = "Order Now";
-            this.OrderButton.UseVisualStyleBackColor = false;
-            this.OrderButton.Click += new System.EventHandler(this.OrderButton_Click);
+            this.HomePromoControlOrderNow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(199)))), ((int)(((byte)(44)))));
+            this.HomePromoControlOrderNow.FlatAppearance.BorderSize = 0;
+            this.HomePromoControlOrderNow.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.HomePromoControlOrderNow.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.HomePromoControlOrderNow.ForeColor = System.Drawing.Color.White;
+            this.HomePromoControlOrderNow.Location = new System.Drawing.Point(58, 367);
+            this.HomePromoControlOrderNow.Name = "HomePromoControlOrderNow";
+            this.HomePromoControlOrderNow.Size = new System.Drawing.Size(276, 32);
+            this.HomePromoControlOrderNow.TabIndex = 5;
+            this.HomePromoControlOrderNow.Text = "Order Now";
+            this.HomePromoControlOrderNow.UseVisualStyleBackColor = false;
+            this.HomePromoControlOrderNow.Click += new System.EventHandler(this.HomePromoControlOrderNow_Click);
             // 
             // HomePromoControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.OrderButton);
+            this.Controls.Add(this.HomePromoControlOrderNow);
             this.Controls.Add(this.TextPromo);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label4);
@@ -147,6 +147,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label TextPromo;
-        private System.Windows.Forms.Button OrderButton;
+        private System.Windows.Forms.Button HomePromoControlOrderNow;
     }
 }

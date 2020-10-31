@@ -5,12 +5,14 @@ using System.Drawing;
 using System.Data;
 using System.Text;
 using System.Windows.Forms;
-
+using FastFoodRestaurant.Controllers;
 
 namespace FastFoodRestaurant.Views
 {
     public partial class HomePromoControl : UserControl
     {
+        HomePromoControlController homepromoController = new HomePromoControlController();
+
         public HomePromoControl()
         {
             InitializeComponent();
@@ -32,9 +34,9 @@ namespace FastFoodRestaurant.Views
 
         }
 
-        private void OrderButton_Click(object sender, EventArgs e)
+        private void HomePromoControlOrderNow_Click(object sender, EventArgs e)
         {
-            
+            homepromoController.DbEntryRecordRegister("Burger", 19, 1);
         }
     }
 }
