@@ -5,6 +5,7 @@ using System.Drawing;
 using System.Data;
 using System.Text;
 using System.Windows.Forms;
+using FastFoodRestaurant.Models;
 
 namespace FastFoodRestaurant.Views.UserControls
 {
@@ -13,6 +14,11 @@ namespace FastFoodRestaurant.Views.UserControls
         public ShoppingCartControl()
         {
             InitializeComponent();
+        }
+
+        private void ShoppingCartListView_SelectedIndexChanged(object sender, EventArgs e)
+        {
+             
         }
     }
 }

@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.ShoppingCartLabel = new System.Windows.Forms.Label();
-            this.listView1 = new System.Windows.Forms.ListView();
+            this.ShoppingCartListView = new System.Windows.Forms.ListView();
             this.SuspendLayout();
             // 
             // ShoppingCartLabel
@@ -43,23 +43,24 @@
             this.ShoppingCartLabel.TabIndex = 0;
             this.ShoppingCartLabel.Text = "Shopping Cart Itens";
             // 
-            // listView1
+            // ShoppingCartListView
             // 
-            this.listView1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(199)))), ((int)(((byte)(44)))));
-            this.listView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.listView1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(30, 61);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(832, 343);
-            this.listView1.TabIndex = 1;
-            this.listView1.UseCompatibleStateImageBehavior = false;
+            this.ShoppingCartListView.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.ShoppingCartListView.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.ShoppingCartListView.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.ShoppingCartListView.HideSelection = false;
+            this.ShoppingCartListView.Location = new System.Drawing.Point(30, 61);
+            this.ShoppingCartListView.Name = "ShoppingCartListView";
+            this.ShoppingCartListView.Size = new System.Drawing.Size(832, 343);
+            this.ShoppingCartListView.TabIndex = 1;
+            this.ShoppingCartListView.UseCompatibleStateImageBehavior = false;
+            this.ShoppingCartListView.SelectedIndexChanged += new System.EventHandler(this.ShoppingCartListView_SelectedIndexChanged);
             // 
             // ShoppingCartControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.listView1);
+            this.Controls.Add(this.ShoppingCartListView);
             this.Controls.Add(this.ShoppingCartLabel);
             this.Name = "ShoppingCartControl";
             this.Size = new System.Drawing.Size(890, 433);
@@ -71,6 +72,6 @@
         #endregion
 
         private System.Windows.Forms.Label ShoppingCartLabel;
-        private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.ListView ShoppingCartListView;
     }
 }

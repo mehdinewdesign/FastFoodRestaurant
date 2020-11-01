@@ -28,165 +28,172 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.label6 = new System.Windows.Forms.Label();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CollectionPizzaControl));
+            this.VeggieCollectionValue = new System.Windows.Forms.Label();
+            this.VeggieCollectionBuyNow = new System.Windows.Forms.Button();
+            this.VeggieCollectionImage = new System.Windows.Forms.PictureBox();
+            this.VeggieCollectionLabel = new System.Windows.Forms.Label();
+            this.PepperoniCollectionValue = new System.Windows.Forms.Label();
+            this.PepperoniCollectionBuyNow = new System.Windows.Forms.Button();
+            this.PepperoniCollectionImage = new System.Windows.Forms.PictureBox();
+            this.PepperoniCollectionLabel = new System.Windows.Forms.Label();
+            this.HawaiianCollectionValue = new System.Windows.Forms.Label();
+            this.HawaiianCollectionBuyNow = new System.Windows.Forms.Button();
+            this.HawaiianCollectionImage = new System.Windows.Forms.PictureBox();
+            this.HawaiianCollectionLabel = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.VeggieCollectionImage)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PepperoniCollectionImage)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.HawaiianCollectionImage)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
-            // label1
+            // VeggieCollectionValue
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Elephant", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(199)))), ((int)(((byte)(44)))));
-            this.label1.Location = new System.Drawing.Point(22, 208);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(80, 41);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "$15";
+            this.VeggieCollectionValue.AutoSize = true;
+            this.VeggieCollectionValue.Font = new System.Drawing.Font("Elephant", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.VeggieCollectionValue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(199)))), ((int)(((byte)(44)))));
+            this.VeggieCollectionValue.Location = new System.Drawing.Point(22, 208);
+            this.VeggieCollectionValue.Name = "VeggieCollectionValue";
+            this.VeggieCollectionValue.Size = new System.Drawing.Size(80, 41);
+            this.VeggieCollectionValue.TabIndex = 2;
+            this.VeggieCollectionValue.Text = "$15";
             // 
-            // button1
+            // VeggieCollectionBuyNow
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(199)))), ((int)(((byte)(44)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(13, 267);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(175, 35);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Buy Now";
-            this.button1.UseVisualStyleBackColor = false;
+            this.VeggieCollectionBuyNow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(199)))), ((int)(((byte)(44)))));
+            this.VeggieCollectionBuyNow.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.VeggieCollectionBuyNow.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.VeggieCollectionBuyNow.ForeColor = System.Drawing.Color.White;
+            this.VeggieCollectionBuyNow.Location = new System.Drawing.Point(13, 267);
+            this.VeggieCollectionBuyNow.Name = "VeggieCollectionBuyNow";
+            this.VeggieCollectionBuyNow.Size = new System.Drawing.Size(175, 35);
+            this.VeggieCollectionBuyNow.TabIndex = 3;
+            this.VeggieCollectionBuyNow.Text = "Buy Now";
+            this.VeggieCollectionBuyNow.UseVisualStyleBackColor = false;
+            this.VeggieCollectionBuyNow.Click += new System.EventHandler(this.VeggieCollectionBuyNow_Click);
             // 
-            // pictureBox1
+            // VeggieCollectionImage
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(13, 34);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(175, 155);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
+            this.VeggieCollectionImage.Image = ((System.Drawing.Image)(resources.GetObject("VeggieCollectionImage.Image")));
+            this.VeggieCollectionImage.Location = new System.Drawing.Point(13, 34);
+            this.VeggieCollectionImage.Name = "VeggieCollectionImage";
+            this.VeggieCollectionImage.Size = new System.Drawing.Size(175, 155);
+            this.VeggieCollectionImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.VeggieCollectionImage.TabIndex = 1;
+            this.VeggieCollectionImage.TabStop = false;
             // 
-            // label2
+            // VeggieCollectionLabel
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(13, 13);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(48, 20);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Pizza";
+            this.VeggieCollectionLabel.AutoSize = true;
+            this.VeggieCollectionLabel.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.VeggieCollectionLabel.Location = new System.Drawing.Point(13, 13);
+            this.VeggieCollectionLabel.Name = "VeggieCollectionLabel";
+            this.VeggieCollectionLabel.Size = new System.Drawing.Size(103, 18);
+            this.VeggieCollectionLabel.TabIndex = 0;
+            this.VeggieCollectionLabel.Text = "Veggie Pizza";
             // 
-            // label3
+            // PepperoniCollectionValue
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Elephant", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(199)))), ((int)(((byte)(44)))));
-            this.label3.Location = new System.Drawing.Point(22, 208);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(87, 41);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "$23";
+            this.PepperoniCollectionValue.AutoSize = true;
+            this.PepperoniCollectionValue.Font = new System.Drawing.Font("Elephant", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.PepperoniCollectionValue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(199)))), ((int)(((byte)(44)))));
+            this.PepperoniCollectionValue.Location = new System.Drawing.Point(22, 208);
+            this.PepperoniCollectionValue.Name = "PepperoniCollectionValue";
+            this.PepperoniCollectionValue.Size = new System.Drawing.Size(87, 41);
+            this.PepperoniCollectionValue.TabIndex = 2;
+            this.PepperoniCollectionValue.Text = "$23";
             // 
-            // button2
+            // PepperoniCollectionBuyNow
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(199)))), ((int)(((byte)(44)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(13, 267);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(175, 35);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Buy Now";
-            this.button2.UseVisualStyleBackColor = false;
+            this.PepperoniCollectionBuyNow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(199)))), ((int)(((byte)(44)))));
+            this.PepperoniCollectionBuyNow.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.PepperoniCollectionBuyNow.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.PepperoniCollectionBuyNow.ForeColor = System.Drawing.Color.White;
+            this.PepperoniCollectionBuyNow.Location = new System.Drawing.Point(13, 267);
+            this.PepperoniCollectionBuyNow.Name = "PepperoniCollectionBuyNow";
+            this.PepperoniCollectionBuyNow.Size = new System.Drawing.Size(175, 35);
+            this.PepperoniCollectionBuyNow.TabIndex = 3;
+            this.PepperoniCollectionBuyNow.Text = "Buy Now";
+            this.PepperoniCollectionBuyNow.UseVisualStyleBackColor = false;
+            this.PepperoniCollectionBuyNow.Click += new System.EventHandler(this.PepperoniCollectionBuyNow_Click);
             // 
-            // pictureBox2
+            // PepperoniCollectionImage
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(13, 34);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(175, 155);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
+            this.PepperoniCollectionImage.Image = ((System.Drawing.Image)(resources.GetObject("PepperoniCollectionImage.Image")));
+            this.PepperoniCollectionImage.Location = new System.Drawing.Point(13, 34);
+            this.PepperoniCollectionImage.Name = "PepperoniCollectionImage";
+            this.PepperoniCollectionImage.Size = new System.Drawing.Size(175, 155);
+            this.PepperoniCollectionImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PepperoniCollectionImage.TabIndex = 1;
+            this.PepperoniCollectionImage.TabStop = false;
             // 
-            // label4
+            // PepperoniCollectionLabel
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(13, 13);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(115, 20);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Special Taste";
+            this.PepperoniCollectionLabel.AutoSize = true;
+            this.PepperoniCollectionLabel.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.PepperoniCollectionLabel.Location = new System.Drawing.Point(13, 13);
+            this.PepperoniCollectionLabel.Name = "PepperoniCollectionLabel";
+            this.PepperoniCollectionLabel.Size = new System.Drawing.Size(124, 18);
+            this.PepperoniCollectionLabel.TabIndex = 0;
+            this.PepperoniCollectionLabel.Text = "Pepperoni Pizza";
             // 
-            // label5
+            // HawaiianCollectionValue
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Elephant", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(199)))), ((int)(((byte)(44)))));
-            this.label5.Location = new System.Drawing.Point(22, 208);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(84, 41);
-            this.label5.TabIndex = 2;
-            this.label5.Text = "$27";
+            this.HawaiianCollectionValue.AutoSize = true;
+            this.HawaiianCollectionValue.Font = new System.Drawing.Font("Elephant", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.HawaiianCollectionValue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(199)))), ((int)(((byte)(44)))));
+            this.HawaiianCollectionValue.Location = new System.Drawing.Point(22, 208);
+            this.HawaiianCollectionValue.Name = "HawaiianCollectionValue";
+            this.HawaiianCollectionValue.Size = new System.Drawing.Size(84, 41);
+            this.HawaiianCollectionValue.TabIndex = 2;
+            this.HawaiianCollectionValue.Text = "$27";
             // 
-            // button3
+            // HawaiianCollectionBuyNow
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(199)))), ((int)(((byte)(44)))));
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(13, 267);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(175, 35);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "Buy Now";
-            this.button3.UseVisualStyleBackColor = false;
+            this.HawaiianCollectionBuyNow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(199)))), ((int)(((byte)(44)))));
+            this.HawaiianCollectionBuyNow.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.HawaiianCollectionBuyNow.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.HawaiianCollectionBuyNow.ForeColor = System.Drawing.Color.White;
+            this.HawaiianCollectionBuyNow.Location = new System.Drawing.Point(13, 267);
+            this.HawaiianCollectionBuyNow.Name = "HawaiianCollectionBuyNow";
+            this.HawaiianCollectionBuyNow.Size = new System.Drawing.Size(175, 35);
+            this.HawaiianCollectionBuyNow.TabIndex = 3;
+            this.HawaiianCollectionBuyNow.Text = "Buy Now";
+            this.HawaiianCollectionBuyNow.UseVisualStyleBackColor = false;
+            this.HawaiianCollectionBuyNow.Click += new System.EventHandler(this.HawaiianCollectionBuyNow_Click);
             // 
-            // pictureBox3
+            // HawaiianCollectionImage
             // 
-            this.pictureBox3.Location = new System.Drawing.Point(13, 34);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(175, 155);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 1;
-            this.pictureBox3.TabStop = false;
+            this.HawaiianCollectionImage.Image = ((System.Drawing.Image)(resources.GetObject("HawaiianCollectionImage.Image")));
+            this.HawaiianCollectionImage.Location = new System.Drawing.Point(13, 34);
+            this.HawaiianCollectionImage.Name = "HawaiianCollectionImage";
+            this.HawaiianCollectionImage.Size = new System.Drawing.Size(175, 155);
+            this.HawaiianCollectionImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.HawaiianCollectionImage.TabIndex = 1;
+            this.HawaiianCollectionImage.TabStop = false;
             // 
-            // label6
+            // HawaiianCollectionLabel
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(13, 13);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(121, 20);
-            this.label6.TabIndex = 0;
-            this.label6.Text = "Dark Premium";
+            this.HawaiianCollectionLabel.AutoSize = true;
+            this.HawaiianCollectionLabel.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.HawaiianCollectionLabel.Location = new System.Drawing.Point(13, 13);
+            this.HawaiianCollectionLabel.Name = "HawaiianCollectionLabel";
+            this.HawaiianCollectionLabel.Size = new System.Drawing.Size(117, 18);
+            this.HawaiianCollectionLabel.TabIndex = 0;
+            this.HawaiianCollectionLabel.Text = "Hawaiian Pizza";
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.VeggieCollectionValue);
+            this.panel1.Controls.Add(this.VeggieCollectionBuyNow);
+            this.panel1.Controls.Add(this.VeggieCollectionImage);
+            this.panel1.Controls.Add(this.VeggieCollectionLabel);
             this.panel1.Location = new System.Drawing.Point(83, 58);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(200, 317);
@@ -195,10 +202,10 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.panel2.Controls.Add(this.label3);
-            this.panel2.Controls.Add(this.button2);
-            this.panel2.Controls.Add(this.pictureBox2);
-            this.panel2.Controls.Add(this.label4);
+            this.panel2.Controls.Add(this.PepperoniCollectionValue);
+            this.panel2.Controls.Add(this.PepperoniCollectionBuyNow);
+            this.panel2.Controls.Add(this.PepperoniCollectionImage);
+            this.panel2.Controls.Add(this.PepperoniCollectionLabel);
             this.panel2.Location = new System.Drawing.Point(345, 58);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(200, 317);
@@ -207,10 +214,10 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.panel3.Controls.Add(this.label5);
-            this.panel3.Controls.Add(this.button3);
-            this.panel3.Controls.Add(this.pictureBox3);
-            this.panel3.Controls.Add(this.label6);
+            this.panel3.Controls.Add(this.HawaiianCollectionValue);
+            this.panel3.Controls.Add(this.HawaiianCollectionBuyNow);
+            this.panel3.Controls.Add(this.HawaiianCollectionImage);
+            this.panel3.Controls.Add(this.HawaiianCollectionLabel);
             this.panel3.Location = new System.Drawing.Point(607, 58);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(200, 317);
@@ -225,9 +232,9 @@
             this.Controls.Add(this.panel1);
             this.Name = "CollectionPizzaControl";
             this.Size = new System.Drawing.Size(890, 433);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.VeggieCollectionImage)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PepperoniCollectionImage)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.HawaiianCollectionImage)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -240,18 +247,18 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label VeggieCollectionValue;
+        private System.Windows.Forms.Button VeggieCollectionBuyNow;
+        private System.Windows.Forms.PictureBox VeggieCollectionImage;
+        private System.Windows.Forms.Label VeggieCollectionLabel;
+        private System.Windows.Forms.Label PepperoniCollectionValue;
+        private System.Windows.Forms.Button PepperoniCollectionBuyNow;
+        private System.Windows.Forms.PictureBox PepperoniCollectionImage;
+        private System.Windows.Forms.Label PepperoniCollectionLabel;
+        private System.Windows.Forms.Label HawaiianCollectionValue;
+        private System.Windows.Forms.Button HawaiianCollectionBuyNow;
+        private System.Windows.Forms.PictureBox HawaiianCollectionImage;
+        private System.Windows.Forms.Label HawaiianCollectionLabel;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
