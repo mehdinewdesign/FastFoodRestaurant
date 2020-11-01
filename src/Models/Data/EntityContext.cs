@@ -13,7 +13,7 @@ namespace FastFoodRestaurant.Models
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             // Remove string on upload for security reasons.
-            optionsBuilder.UseSqlServer("Server=localhost; Database=FastFood; User Id=SA; Password=0_CryptoAnarquismo@)(*&%$#@!;");
+            optionsBuilder.UseSqlServer("");
         }
     }
 }
