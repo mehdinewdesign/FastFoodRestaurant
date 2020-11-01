@@ -11,9 +11,7 @@ namespace FastFoodRestaurant.Models
         public DbSet<Customers> Customers { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
+            => optionsBuilder.UseSqlServer("");
             // Remove string on upload for security reasons.
-            optionsBuilder.UseSqlServer("");
-        }
     }
 }
