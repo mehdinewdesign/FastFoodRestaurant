@@ -7,6 +7,7 @@ using System.Text;
 using System.Windows.Forms;
 using System.Configuration;
 using FastFoodRestaurant.Controllers;
+using System.Threading.Tasks;
 
 namespace FastFoodRestaurant.Views.UserControls
 {
@@ -19,19 +20,19 @@ namespace FastFoodRestaurant.Views.UserControls
             InitializeComponent();
         }
 
-        private void EatControlBurgerBuy_Click(object sender, EventArgs e)
+        private async void EatControlBurgerBuy_Click(object sender, EventArgs e)
         {
-            eatInController.DbEntryEatIn("Burger", 15, 1);
+            await Task.Run(() => eatInController.DbEntryEatIn("Burger", 15, 1));
         }
 
-        private void EatControlPastaBuy_Click(object sender, EventArgs e)
+        private async void EatControlPastaBuy_Click(object sender, EventArgs e)
         {
-            eatInController.DbEntryEatIn("Pasta", 22, 1);
+            await Task.Run(() => eatInController.DbEntryEatIn("Pasta", 22, 1));
         }
 
-        private void EatControlCakeBuy_Click(object sender, EventArgs e)
+        private async void EatControlCakeBuy_Click(object sender, EventArgs e)
         {
-            eatInController.DbEntryEatIn("Cake", 50, 2);
+            await Task.Run(() => eatInController.DbEntryEatIn("Cake", 50, 2));
         }
     }
 }

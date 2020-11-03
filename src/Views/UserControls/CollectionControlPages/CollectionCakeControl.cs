@@ -6,6 +6,7 @@ using System.Data;
 using System.Text;
 using System.Windows.Forms;
 using FastFoodRestaurant.Controllers;
+using System.Threading.Tasks;
 
 namespace FastFoodRestaurant.Views.UserControls.CollectionControlPages
 {
@@ -19,19 +20,19 @@ namespace FastFoodRestaurant.Views.UserControls.CollectionControlPages
             InitializeComponent();
         }
 
-        private void YellowButterCollectionBuyNow_Click(object sender, EventArgs e)
+        private async void YellowButterCollectionBuyNow_Click(object sender, EventArgs e)
         {
-            collectionController.DbEntryCollectionControl("Yellow Butter Cake", 25, 3);
+            await Task.Run(() => collectionController.DbEntryCollectionControl("Yellow Butter Cake", 25, 3));
         }
 
-        private void PoundCollectionBuyNow_Click(object sender, EventArgs e)
+        private async void PoundCollectionBuyNow_Click(object sender, EventArgs e)
         {
-            collectionController.DbEntryCollectionControl("Pound Cake", 30, 3);
+            await Task.Run(() => collectionController.DbEntryCollectionControl("Pound Cake", 30, 3));
         }
 
-        private void RedVelvetCollectionBuyNow_Click(object sender, EventArgs e)
+        private async void RedVelvetCollectionBuyNow_Click(object sender, EventArgs e)
         {
-            collectionController.DbEntryCollectionControl("Red Velvet Cake", 27, 3);
+            await Task.Run(() => collectionController.DbEntryCollectionControl("Red Velvet Cake", 27, 3));
         }
     }
 }

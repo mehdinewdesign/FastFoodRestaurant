@@ -6,6 +6,7 @@ using System.Data;
 using System.Text;
 using System.Windows.Forms;
 using FastFoodRestaurant.Controllers;
+using System.Threading.Tasks;
 
 namespace FastFoodRestaurant.Views.UserControls.CollectionControlPages
 {
@@ -18,19 +19,19 @@ namespace FastFoodRestaurant.Views.UserControls.CollectionControlPages
             InitializeComponent();
         }
 
-        private void PizzaCollectionsBuyNow_Click(object sender, EventArgs e)
+        private async void PizzaCollectionsBuyNow_Click(object sender, EventArgs e)
         {
-            collectionController.DbEntryCollectionControl("Pizza", 15, 1);
+            await Task.Run(() => collectionController.DbEntryCollectionControl("Pizza", 15, 1));
         }
 
-        private void LasagnaCollectionsBuyNow_Click(object sender, EventArgs e)
+        private async void LasagnaCollectionsBuyNow_Click(object sender, EventArgs e)
         {
-            collectionController.DbEntryCollectionControl("Lasagna", 20, 1);
+            await Task.Run(() => collectionController.DbEntryCollectionControl("Lasagna", 20, 1));
         }
 
-        private void SpaghettiBuyNow_Click(object sender, EventArgs e)
+        private async void SpaghettiBuyNow_Click(object sender, EventArgs e)
         {
-            collectionController.DbEntryCollectionControl("Spaghetti", 23, 1);
+            await Task.Run(() => collectionController.DbEntryCollectionControl("Spaghetti", 23, 1));
         }
     }
 }
