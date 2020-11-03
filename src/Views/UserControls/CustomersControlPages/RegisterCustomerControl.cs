@@ -12,7 +12,7 @@ namespace FastFoodRestaurant.Views.UserControls.CustomersControlPages
 {
     public partial class RegisterCustomerControl : UserControl
     {
-        CollectionController collectionController = new CollectionController();
+        UserControlController collectionController = new UserControlController();
         // RegisterCustomerController registerController = new RegisterCustomerController();
         public RegisterCustomerControl()
         {

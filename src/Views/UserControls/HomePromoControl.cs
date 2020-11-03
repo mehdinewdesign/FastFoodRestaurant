@@ -14,7 +14,7 @@ namespace FastFoodRestaurant.Views
     {
 
         #region Object Controllers
-        HomePromoControlController homepromoController = new HomePromoControlController();
+        UserControlController userControlController = new UserControlController();
         #endregion
 
         public HomePromoControl()
@@ -24,7 +24,7 @@ namespace FastFoodRestaurant.Views
 
         private async void HomePromoControlOrderNow_Click(object sender, EventArgs e)
         {
-            await Task.Run(() => homepromoController.DbEntryRecordRegister("Burger", 19, 1));
+            await Task.Run(() => userControlController.InsertProductsIntoDatabase("Burger", 19, 1));
         }
     }
 }

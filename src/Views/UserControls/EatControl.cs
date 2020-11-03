@@ -13,8 +13,8 @@ namespace FastFoodRestaurant.Views.UserControls
 {
     public partial class EatControl : UserControl
     {
-        EatInController eatInController = new EatInController();
-        
+        UserControlController usercollectionController = new UserControlController();
+
         public EatControl()
         {
             InitializeComponent();
@@ -22,17 +22,17 @@ namespace FastFoodRestaurant.Views.UserControls
 
         private async void EatControlBurgerBuy_Click(object sender, EventArgs e)
         {
-            await Task.Run(() => eatInController.DbEntryEatIn("Burger", 15, 1));
+            await Task.Run(() => usercollectionController.InsertProductsIntoDatabase("Burger", 15, 1));
         }
 
         private async void EatControlPastaBuy_Click(object sender, EventArgs e)
         {
-            await Task.Run(() => eatInController.DbEntryEatIn("Pasta", 22, 1));
+            await Task.Run(() => usercollectionController.InsertProductsIntoDatabase("Pasta", 22, 1));
         }
 
         private async void EatControlCakeBuy_Click(object sender, EventArgs e)
         {
-            await Task.Run(() => eatInController.DbEntryEatIn("Cake", 50, 2));
+            await Task.Run(() => usercollectionController.InsertProductsIntoDatabase("Cake", 50, 2));
         }
     }
 }

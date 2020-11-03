@@ -10,7 +10,7 @@ namespace FastFoodRestaurant
     {
         // Initialize Controllers.
         MainViewController mainController = new MainViewController();
-        CollectionController collectionController = new CollectionController();
+        UserControlController collectionController = new UserControlController();
         
         public MainView()
         {

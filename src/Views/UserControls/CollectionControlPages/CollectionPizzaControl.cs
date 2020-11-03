@@ -12,7 +12,7 @@ namespace FastFoodRestaurant.Views.UserControls.CollectionControlPages
 {
     public partial class CollectionPizzaControl : UserControl
     {
-        CollectionController collectionController = new CollectionController();
+        UserControlController usercollectionController = new UserControlController();
 
         public CollectionPizzaControl()
         {
@@ -21,17 +21,17 @@ namespace FastFoodRestaurant.Views.UserControls.CollectionControlPages
 
         private async void VeggieCollectionBuyNow_Click(object sender, EventArgs e)
         {
-            await Task.Run(() => collectionController.DbEntryCollectionControl("Veggie Pizza", 15, 1));
+            await Task.Run(() => usercollectionController.InsertProductsIntoDatabase("Veggie Pizza", 15, 1));
         }
 
         private async void PepperoniCollectionBuyNow_Click(object sender, EventArgs e)
         {
-            await Task.Run(() => collectionController.DbEntryCollectionControl("Pepperoni Pizza", 23, 1));
+            await Task.Run(() => usercollectionController.InsertProductsIntoDatabase("Pepperoni Pizza", 23, 1));
         }
 
         private async void HawaiianCollectionBuyNow_Click(object sender, EventArgs e)
         {
-            await Task.Run(() => collectionController.DbEntryCollectionControl("Hawaiian Pizza", 27, 1));
+            await Task.Run(() => usercollectionController.InsertProductsIntoDatabase("Hawaiian Pizza", 27, 1));
         }
     }
 }

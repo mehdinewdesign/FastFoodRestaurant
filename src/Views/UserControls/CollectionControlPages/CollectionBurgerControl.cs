@@ -14,7 +14,7 @@ namespace FastFoodRestaurant.Views.UserControls.CollectionControlPages
 
     public partial class CollectionBurgerControl : UserControl
     {
-        CollectionController collectionController = new CollectionController();
+        UserControlController userControlController = new UserControlController();
         
         public CollectionBurgerControl()
         {
@@ -23,17 +23,17 @@ namespace FastFoodRestaurant.Views.UserControls.CollectionControlPages
 
         private async void TraditionalBurgerBuyNow_Click(object sender, EventArgs e)
         {
-            await Task.Run(() => collectionController.DbEntryCollectionControl("Traditional Burger", 15, 1));
+            await Task.Run(() => userControlController.InsertProductsIntoDatabase("Traditional Burger", 15, 1));
         }
 
         private async void SpecialTasteBurgerBuyNow_Click(object sender, EventArgs e)
         {
-            await Task.Run(() => collectionController.DbEntryCollectionControl("Special Taste", 23, 1));
+            await Task.Run(() => userControlController.InsertProductsIntoDatabase("Special Taste", 23, 1));
         }
 
         private async void DarkBurgerBuyNow_Click(object sender, EventArgs e)
         {
-            await Task.Run(() => collectionController.DbEntryCollectionControl("Dark Burger", 27, 1));
+            await Task.Run(() => userControlController.InsertProductsIntoDatabase("Dark Burger", 27, 1));
         }
     }
 }

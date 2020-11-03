@@ -29,136 +29,137 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TakeAwayControl));
-            this.label1 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.PieceCakePictureBox = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
+            this.PieceOfCakePriceLabel = new System.Windows.Forms.Label();
+            this.PieceOfCakeBuyNowButton = new System.Windows.Forms.Button();
+            this.PieceOfCakeImage = new System.Windows.Forms.PictureBox();
+            this.PieceOfCakeLabel = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label4 = new System.Windows.Forms.Label();
+            this.PizzaSlicePriceLabel = new System.Windows.Forms.Label();
+            this.PizzaSliceBuyNowButton = new System.Windows.Forms.Button();
+            this.PizzaSliceImage = new System.Windows.Forms.PictureBox();
+            this.PizzaSliceLabel = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.label6 = new System.Windows.Forms.Label();
+            this.ChickenDrumstickBuyNowButton = new System.Windows.Forms.Button();
+            this.ChickenDrumstickImage = new System.Windows.Forms.PictureBox();
+            this.ChickenDrumstickLabel = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            ((System.ComponentModel.ISupportInitialize)(this.PieceCakePictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PieceOfCakeImage)).BeginInit();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PizzaSliceImage)).BeginInit();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChickenDrumstickImage)).BeginInit();
             this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
-            // label1
+            // PieceOfCakePriceLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Elephant", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(199)))), ((int)(((byte)(44)))));
-            this.label1.Location = new System.Drawing.Point(22, 208);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(63, 41);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "$5";
+            this.PieceOfCakePriceLabel.AutoSize = true;
+            this.PieceOfCakePriceLabel.Font = new System.Drawing.Font("Elephant", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.PieceOfCakePriceLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(199)))), ((int)(((byte)(44)))));
+            this.PieceOfCakePriceLabel.Location = new System.Drawing.Point(22, 208);
+            this.PieceOfCakePriceLabel.Name = "PieceOfCakePriceLabel";
+            this.PieceOfCakePriceLabel.Size = new System.Drawing.Size(63, 41);
+            this.PieceOfCakePriceLabel.TabIndex = 2;
+            this.PieceOfCakePriceLabel.Text = "$5";
             // 
-            // button2
+            // PieceOfCakeBuyNowButton
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(199)))), ((int)(((byte)(44)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(13, 267);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(175, 35);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Buy Now";
-            this.button2.UseVisualStyleBackColor = false;
+            this.PieceOfCakeBuyNowButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(199)))), ((int)(((byte)(44)))));
+            this.PieceOfCakeBuyNowButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.PieceOfCakeBuyNowButton.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.PieceOfCakeBuyNowButton.ForeColor = System.Drawing.Color.White;
+            this.PieceOfCakeBuyNowButton.Location = new System.Drawing.Point(13, 267);
+            this.PieceOfCakeBuyNowButton.Name = "PieceOfCakeBuyNowButton";
+            this.PieceOfCakeBuyNowButton.Size = new System.Drawing.Size(175, 35);
+            this.PieceOfCakeBuyNowButton.TabIndex = 3;
+            this.PieceOfCakeBuyNowButton.Text = "Buy Now";
+            this.PieceOfCakeBuyNowButton.UseVisualStyleBackColor = false;
+            this.PieceOfCakeBuyNowButton.Click += new System.EventHandler(this.PieceOfCakeBuyNowButton_Click);
             // 
-            // PieceCakePictureBox
+            // PieceOfCakeImage
             // 
-            this.PieceCakePictureBox.Image = ((System.Drawing.Image)(resources.GetObject("PieceCakePictureBox.Image")));
-            this.PieceCakePictureBox.Location = new System.Drawing.Point(13, 34);
-            this.PieceCakePictureBox.Name = "PieceCakePictureBox";
-            this.PieceCakePictureBox.Size = new System.Drawing.Size(175, 155);
-            this.PieceCakePictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.PieceCakePictureBox.TabIndex = 1;
-            this.PieceCakePictureBox.TabStop = false;
+            this.PieceOfCakeImage.Image = ((System.Drawing.Image)(resources.GetObject("PieceOfCakeImage.Image")));
+            this.PieceOfCakeImage.Location = new System.Drawing.Point(13, 34);
+            this.PieceOfCakeImage.Name = "PieceOfCakeImage";
+            this.PieceOfCakeImage.Size = new System.Drawing.Size(175, 155);
+            this.PieceOfCakeImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PieceOfCakeImage.TabIndex = 1;
+            this.PieceOfCakeImage.TabStop = false;
             // 
-            // label2
+            // PieceOfCakeLabel
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(13, 13);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(125, 20);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Piece of cake";
+            this.PieceOfCakeLabel.AutoSize = true;
+            this.PieceOfCakeLabel.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.PieceOfCakeLabel.Location = new System.Drawing.Point(13, 13);
+            this.PieceOfCakeLabel.Name = "PieceOfCakeLabel";
+            this.PieceOfCakeLabel.Size = new System.Drawing.Size(111, 18);
+            this.PieceOfCakeLabel.TabIndex = 0;
+            this.PieceOfCakeLabel.Text = "Piece of cake";
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.PieceCakePictureBox);
-            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.PieceOfCakePriceLabel);
+            this.panel1.Controls.Add(this.PieceOfCakeBuyNowButton);
+            this.panel1.Controls.Add(this.PieceOfCakeImage);
+            this.panel1.Controls.Add(this.PieceOfCakeLabel);
             this.panel1.Location = new System.Drawing.Point(81, 48);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(200, 317);
             this.panel1.TabIndex = 0;
             // 
-            // label3
+            // PizzaSlicePriceLabel
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Elephant", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(199)))), ((int)(((byte)(44)))));
-            this.label3.Location = new System.Drawing.Point(22, 208);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(63, 41);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "$8";
+            this.PizzaSlicePriceLabel.AutoSize = true;
+            this.PizzaSlicePriceLabel.Font = new System.Drawing.Font("Elephant", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.PizzaSlicePriceLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(199)))), ((int)(((byte)(44)))));
+            this.PizzaSlicePriceLabel.Location = new System.Drawing.Point(22, 208);
+            this.PizzaSlicePriceLabel.Name = "PizzaSlicePriceLabel";
+            this.PizzaSlicePriceLabel.Size = new System.Drawing.Size(63, 41);
+            this.PizzaSlicePriceLabel.TabIndex = 2;
+            this.PizzaSlicePriceLabel.Text = "$8";
             // 
-            // button1
+            // PizzaSliceBuyNowButton
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(199)))), ((int)(((byte)(44)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(13, 267);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(175, 35);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Buy Now";
-            this.button1.UseVisualStyleBackColor = false;
+            this.PizzaSliceBuyNowButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(199)))), ((int)(((byte)(44)))));
+            this.PizzaSliceBuyNowButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.PizzaSliceBuyNowButton.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.PizzaSliceBuyNowButton.ForeColor = System.Drawing.Color.White;
+            this.PizzaSliceBuyNowButton.Location = new System.Drawing.Point(13, 267);
+            this.PizzaSliceBuyNowButton.Name = "PizzaSliceBuyNowButton";
+            this.PizzaSliceBuyNowButton.Size = new System.Drawing.Size(175, 35);
+            this.PizzaSliceBuyNowButton.TabIndex = 3;
+            this.PizzaSliceBuyNowButton.Text = "Buy Now";
+            this.PizzaSliceBuyNowButton.UseVisualStyleBackColor = false;
             // 
-            // pictureBox1
+            // PizzaSliceImage
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(13, 34);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(175, 155);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
+            this.PizzaSliceImage.Image = ((System.Drawing.Image)(resources.GetObject("PizzaSliceImage.Image")));
+            this.PizzaSliceImage.Location = new System.Drawing.Point(13, 34);
+            this.PizzaSliceImage.Name = "PizzaSliceImage";
+            this.PizzaSliceImage.Size = new System.Drawing.Size(175, 155);
+            this.PizzaSliceImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PizzaSliceImage.TabIndex = 1;
+            this.PizzaSliceImage.TabStop = false;
             // 
-            // label4
+            // PizzaSliceLabel
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(13, 13);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(91, 20);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Pizza Slice";
+            this.PizzaSliceLabel.AutoSize = true;
+            this.PizzaSliceLabel.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.PizzaSliceLabel.Location = new System.Drawing.Point(13, 13);
+            this.PizzaSliceLabel.Name = "PizzaSliceLabel";
+            this.PizzaSliceLabel.Size = new System.Drawing.Size(84, 18);
+            this.PizzaSliceLabel.TabIndex = 0;
+            this.PizzaSliceLabel.Text = "Pizza Slice";
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.panel2.Controls.Add(this.label3);
-            this.panel2.Controls.Add(this.button1);
-            this.panel2.Controls.Add(this.pictureBox1);
-            this.panel2.Controls.Add(this.label4);
+            this.panel2.Controls.Add(this.PizzaSlicePriceLabel);
+            this.panel2.Controls.Add(this.PizzaSliceBuyNowButton);
+            this.panel2.Controls.Add(this.PizzaSliceImage);
+            this.panel2.Controls.Add(this.PizzaSliceLabel);
             this.panel2.Location = new System.Drawing.Point(343, 48);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(200, 317);
@@ -175,46 +176,46 @@
             this.label5.TabIndex = 2;
             this.label5.Text = "$1";
             // 
-            // button3
+            // ChickenDrumstickBuyNowButton
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(199)))), ((int)(((byte)(44)))));
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(13, 267);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(175, 35);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "Buy Now";
-            this.button3.UseVisualStyleBackColor = false;
+            this.ChickenDrumstickBuyNowButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(199)))), ((int)(((byte)(44)))));
+            this.ChickenDrumstickBuyNowButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ChickenDrumstickBuyNowButton.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.ChickenDrumstickBuyNowButton.ForeColor = System.Drawing.Color.White;
+            this.ChickenDrumstickBuyNowButton.Location = new System.Drawing.Point(13, 267);
+            this.ChickenDrumstickBuyNowButton.Name = "ChickenDrumstickBuyNowButton";
+            this.ChickenDrumstickBuyNowButton.Size = new System.Drawing.Size(175, 35);
+            this.ChickenDrumstickBuyNowButton.TabIndex = 3;
+            this.ChickenDrumstickBuyNowButton.Text = "Buy Now";
+            this.ChickenDrumstickBuyNowButton.UseVisualStyleBackColor = false;
             // 
-            // pictureBox2
+            // ChickenDrumstickImage
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(13, 34);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(175, 155);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
+            this.ChickenDrumstickImage.Image = ((System.Drawing.Image)(resources.GetObject("ChickenDrumstickImage.Image")));
+            this.ChickenDrumstickImage.Location = new System.Drawing.Point(13, 34);
+            this.ChickenDrumstickImage.Name = "ChickenDrumstickImage";
+            this.ChickenDrumstickImage.Size = new System.Drawing.Size(175, 155);
+            this.ChickenDrumstickImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ChickenDrumstickImage.TabIndex = 1;
+            this.ChickenDrumstickImage.TabStop = false;
             // 
-            // label6
+            // ChickenDrumstickLabel
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(13, 13);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(161, 20);
-            this.label6.TabIndex = 0;
-            this.label6.Text = "Chicken Drumstick";
+            this.ChickenDrumstickLabel.AutoSize = true;
+            this.ChickenDrumstickLabel.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.ChickenDrumstickLabel.Location = new System.Drawing.Point(13, 13);
+            this.ChickenDrumstickLabel.Name = "ChickenDrumstickLabel";
+            this.ChickenDrumstickLabel.Size = new System.Drawing.Size(147, 18);
+            this.ChickenDrumstickLabel.TabIndex = 0;
+            this.ChickenDrumstickLabel.Text = "Chicken Drumstick";
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.panel3.Controls.Add(this.label5);
-            this.panel3.Controls.Add(this.button3);
-            this.panel3.Controls.Add(this.pictureBox2);
-            this.panel3.Controls.Add(this.label6);
+            this.panel3.Controls.Add(this.ChickenDrumstickBuyNowButton);
+            this.panel3.Controls.Add(this.ChickenDrumstickImage);
+            this.panel3.Controls.Add(this.ChickenDrumstickLabel);
             this.panel3.Location = new System.Drawing.Point(605, 48);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(200, 317);
@@ -229,13 +230,13 @@
             this.Controls.Add(this.panel1);
             this.Name = "TakeAwayControl";
             this.Size = new System.Drawing.Size(890, 433);
-            ((System.ComponentModel.ISupportInitialize)(this.PieceCakePictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PieceOfCakeImage)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PizzaSliceImage)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChickenDrumstickImage)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.ResumeLayout(false);
@@ -243,20 +244,20 @@
         }
 
         #endregion
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.PictureBox PieceCakePictureBox;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label PieceOfCakePriceLabel;
+        private System.Windows.Forms.Button PieceOfCakeBuyNowButton;
+        private System.Windows.Forms.PictureBox PieceOfCakeImage;
+        private System.Windows.Forms.Label PieceOfCakeLabel;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label PizzaSlicePriceLabel;
+        private System.Windows.Forms.Button PizzaSliceBuyNowButton;
+        private System.Windows.Forms.PictureBox PizzaSliceImage;
+        private System.Windows.Forms.Label PizzaSliceLabel;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button ChickenDrumstickBuyNowButton;
+        private System.Windows.Forms.PictureBox ChickenDrumstickImage;
+        private System.Windows.Forms.Label ChickenDrumstickLabel;
         private System.Windows.Forms.Panel panel3;
     }
 }

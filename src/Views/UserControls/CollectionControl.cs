@@ -13,7 +13,7 @@ namespace FastFoodRestaurant.Views.UserControls
     public partial class CollectionControl : UserControl
     {
 
-        CollectionController collectionController = new CollectionController();
+        UserControlController collectionController = new UserControlController();
         public CollectionControl()
         {
             InitializeComponent();
