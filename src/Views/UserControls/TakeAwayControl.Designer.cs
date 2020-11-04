@@ -132,6 +132,7 @@
             this.PizzaSliceBuyNowButton.TabIndex = 3;
             this.PizzaSliceBuyNowButton.Text = "Buy Now";
             this.PizzaSliceBuyNowButton.UseVisualStyleBackColor = false;
+            this.PizzaSliceBuyNowButton.Click += new System.EventHandler(this.PizzaSliceBuyNowButton_Click);
             // 
             // PizzaSliceImage
             // 
@@ -188,6 +189,7 @@
             this.ChickenDrumstickBuyNowButton.TabIndex = 3;
             this.ChickenDrumstickBuyNowButton.Text = "Buy Now";
             this.ChickenDrumstickBuyNowButton.UseVisualStyleBackColor = false;
+            this.ChickenDrumstickBuyNowButton.Click += new System.EventHandler(this.ChickenDrumstickBuyNowButton_Click);
             // 
             // ChickenDrumstickImage
             // 

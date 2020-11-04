@@ -23,5 +23,15 @@ namespace FastFoodRestaurant.Views.UserControls
         {
             await Task.Run(() => userControlController.InsertProductsIntoDatabase("Piece of Cake", 5, 1));
         }
+
+        private async void PizzaSliceBuyNowButton_Click(object sender, EventArgs e)
+        {
+            await Task.Run(() => userControlController.InsertProductsIntoDatabase("Pizza Slice", 8, 1));
+        }
+
+        private async void ChickenDrumstickBuyNowButton_Click(object sender, EventArgs e)
+        {
+            await Task.Run(() => userControlController.InsertProductsIntoDatabase("Chicken Drumstick", 1, 1));
+        }
     }
 }
