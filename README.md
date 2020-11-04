@@ -85,11 +85,11 @@ You can find the diagrams files at project directory <strong> [Assets/Uml](https
 
 ## UX | UI
 
-<strong>Wireframe:</strong>
+<strong>[Wireframe](https://github.com/viniciusmorgado/FastFoodRestaurant/blob/master/src/Assets/Design/WireFrame%20%E2%80%94%20October%2030%2C%2011.51.18%20PM.xd):</strong>
 
 ![interface wireframe](https://github.com/viniciusmorgado/FastFoodRestaurant/blob/master/src/Assets/Design/WireFrames/MainWindow%201920%20%E2%80%93%201.png)
 
-<strong>Mockup:</strong>
+<strong>[Mockup](https://github.com/viniciusmorgado/FastFoodRestaurant/blob/master/src/Assets/Design/Mockup%20%E2%80%94%20October%2031%2C%201.23.13%20PM.xd):</strong>
 
 ![interface mockup](https://github.com/viniciusmorgado/FastFoodRestaurant/blob/master/src/Assets/Design/Mockups/Mockup%201920%20%E2%80%93%201.png)
 
